@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "Under the Thai Civil and Commercial Code, **charging interest on accrued interest (compound interest) is generally prohibited**.\n\n**Section 654** of the Civil and Commercial Code states that a creditor cannot claim interest upon interest unless there is a specific agreement or custom permitting it, or in cases involving current accounts between merchants.\n\nFor a debtor in default on a money debt, the creditor may charge **default interest on the principal amount** under Section 224, but **cannot automatically charge interest on the accrued interest itself** without:\n\n1. A specific agreement allowing compound interest, or\n2. A judicial demand or agreement converting the accrued interest into principal\n\n**Answer: No, it is not permitted** unless one of the statutory exceptions applies.",
+ "timestamp": "2026-08-26"
+}

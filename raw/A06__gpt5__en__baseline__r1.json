@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A06",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Provision: Civil and Commercial Code (CCC) Section 224 (as amended, B.E. 2564) in conjunction with CCC Section 7. It requires a defaulting debtor on a money debt with no agreed rate to pay default interest at the legal interest rate plus 2% per annum (calculated on principal only). The legal interest rate under Section 7 is 3% p.a., so default interest = 5% p.a.\n\nRate: 5% per annum\nAmount: THB 5,000 default interest for one year (100,000 × 5%); total due THB 105,000.",
+ "timestamp": "2026-08-26"
+}

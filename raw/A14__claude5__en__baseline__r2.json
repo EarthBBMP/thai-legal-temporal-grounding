@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "**Legal basis:** Section 7 of the Thai Civil and Commercial Code (CCC) sets the default legal interest rate — i.e., the rate that applies when a debt bears interest but no rate has been fixed by juristic act or specific law.\n\n**History of the rate:**\n- Originally, Section 7 fixed this default rate at a flat **7.5% per annum**.\n- This was changed by the Act Amending the Civil and Commercial Code (No. 20), B.E. 2557 (2021), which took effect on **11 April 2021**. Under the amended Section 7, the default rate became **3% per annum**, but with a mechanism for periodic revision: the rate is to be reviewed and may be adjusted **every three years** by Ministerial Regulation (issued by the Ministry of Finance, based on the average one-year fixed deposit rate of the largest Thai commercial banks plus an average lending-rate premium), subject to a cap that any adjustment cannot exceed plus or minus 2 percentage points from 3% (i.e., the rate can range between 1% and 5%) unless a Royal Decree provides otherwise for extraordinary economic conditions.\n\n**Current status (as of August 2026):**\nThe base statutory default rate under the amended Section 7 is **3% per annum**. The first scheduled three-year review point fell around April 2024. I am **not certain** whether the Ministry of Finance has issued a Ministerial Regulation since then adjusting the rate away from 3%, or whether it confirmed continuation at 3%. You should verify the current applicable percentage against the latest Ministerial Regulation issued under Section 7 (or check for any published notification from the Ministry of Finance/Bank of Thailand covering the 2024–2027 or later period) before relying on a specific figure for a live matter.",
+ "timestamp": "2026-08-26"
+}

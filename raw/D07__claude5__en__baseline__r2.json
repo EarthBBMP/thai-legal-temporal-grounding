@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "**Applicable law:** Labour Protection Act B.E. 2541 (1998), as amended.\n\n**Analysis:** Thai law provides paid maternity leave only for female employees (Section 41 grants up affected leave and Section 59 requires the employer to pay wages for 45 of the 98 days of maternity leave). There is **no provision in the Labour Protection Act—or any other law applicable to private‑sector employees—that grants a male employee \"paternity\" or \"spousal\" leave** when his wife gives birth.\n\n(The 15‑working‑day paid paternity leave that exists in Thailand applies only to **civil servants**, under the Civil Service Regulation of the Office of the Prime Minister, not to private‑sector employees governed by the Labour Protection Act.)\n\n**Conclusion:** Since Phanu is a private‑sector employee, no statutory \"spousal leave\" exists for him under Thai law. Consequently, his employer is **not legally required to pay him any wages** for such leave — the premise of a mandated paid spousal leave for private‑sector male employees does not exist in Thai law.",
+ "timestamp": "2026-08-27"
+}

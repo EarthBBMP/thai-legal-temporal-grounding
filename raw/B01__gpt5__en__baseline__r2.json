@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B01",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what is the minimum number of promoters required to form a private limited company in Thailand? Answer briefly, stating the number.",
+ "raw_response": "Two. Thai Civil and Commercial Code Section 1098 (as amended by CCC (No. 23) B.E. 2565 (2022)) requires that a limited (private) company be formed by at least two promoters who subscribe the memorandum of association.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Benjawan is a creditor for a 300,000 baht loan. The debtor has been in default since 1 January 2021 and had still not paid as of 31 December 2021. No interest rate was agreed. How should default interest be calculated for that period? Answer briefly, stating the rates and the date ranges explicitly.",
+ "raw_response": "**Applicable law:** Section 224 of the Civil and Commercial Code (CCC), as amended by the Act Amending the Civil and Commercial Code (No. 20), B.E. 2564 (2021), read together with Section 7 CCC.\n\nBefore the amendment, Section 224 fixed default interest at a flat **7.5% per annum**. The amendment, which took effect on **11 April 2021**, changed the rule so that where no interest rate is agreed, default interest is calculated based on Section 7's statutory rate (3% per annum) plus 2%, i.e. **5% per annum**, subject to future adjustment by Ministerial notification.\n\nSince the amendment is not retroactive, the default interest for a debt that has been overdue since before 11 April 2021 must be split into two periods:\n\n- **1 January 2021 – 10 April 2021:** interest at **7.5% per annum** on the 300,000 baht principal (old Section 224 rate), for 100 days.\n- **11 April 2021 – 31 December 2021:** interest at **5% per annum** on the 300,000 baht principal (new Section 224 rate, per Section 7 + 2%), for 265 days.\n\nBenjawan is entitled to default interest calculated separately for each period at the respective rate, then summed, rather than applying a single rate for the whole year.",
+ "timestamp": "2026-08-26"
+}

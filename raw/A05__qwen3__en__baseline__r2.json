@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A05",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a money debt on which the debtor is in default and where no other interest rate has been agreed, what annual percentage rate of default interest applies? Answer briefly, stating the number.",
+ "raw_response": "As of August 2026, the annual percentage rate of default interest is 7.5%. This is based on Section 194 of the Thai Civil and Commercial Code, which sets the default interest rate at 7.5% per year when no other rate is agreed upon.",
+ "timestamp": "2026-08-26"
+}

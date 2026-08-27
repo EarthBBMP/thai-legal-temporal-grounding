@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Wichai borrowed 200,000 baht from Prasong with no agreed interest rate, repayable on 1 March 2019. He failed to pay. How much default interest accrued for the period 1 March 2019 to 1 March 2020? Answer briefly, stating the rate and the amount.",
+ "raw_response": "## Applicable Law\n\n**Section 224 of the Thai Civil and Commercial Code (CCC)**, read together with **Section 7 CCC** (as they stood prior to the 2021 amendment, since the default period here falls entirely before the amendment took effect on 11 April 2021).\n\n- **Section 224** provides that if a debtor defaults on a monetary obligation, the creditor is entitled to **default interest** for the period of default, at the rate fixed by the parties (if any), or, in the absence of an agreed rate, at the **statutory rate under Section 7**.\n- **Section 7** (old version) fixed the statutory/legal interest rate at **7.5% per annum**, applicable whenever no interest rate has been agreed between the parties.\n\nSince Wichai and Prasong did not agree on any interest rate for the loan, the default interest that accrues upon Wichai's failure to repay on the due date is governed by these two provisions together, at **7.5% per annum**.\n\n## Calculation\n\n- Principal: 200,000 baht\n- Rate: 7.5% per annum\n- Period: 1 March 2019 – 1 March 2020 (exactly 1 year)\n\n**Default interest = 200,000 × 7.5% × 1 = 15,000 baht**\n\n## Conclusion\n\nUnder **Section 224 juncto (old) Section 7 of the CCC**, Wichai owes **15,000 baht** in default interest for the one-year period, in addition to the principal of 200,000 baht.",
+ "timestamp": "2026-08-26"
+}

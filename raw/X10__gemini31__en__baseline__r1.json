@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X10",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what penalty applies to a person who fails to comply with an order of a labour inspector issued under Section 124 of the Thai Labour Protection Act? Answer briefly, covering both imprisonment and fine.",
+ "raw_response": "**Applicable Provision:**\nSection 151 of the Thai Labour Protection Act B.E. 2541 (1998) (and its subsequent amendments).\n\n**What it Requires:**\nUnder Section 151, any person who fails to comply with an order of a labour inspector issued under Section 124 (which typically orders an employer to pay owed wages, severance, or other statutory payments to an employee) is subject to criminal penalties. \n\n**Penalty:**\n*   **Imprisonment:** Not exceeding 1 year; or\n*   **Fine:** Not exceeding 100,000 Baht; or\n*   **Both.** \n\n*(Note: If the employer brings the case to the Labour Court",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A13",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may the rate under Section 7 of the Thai Civil and Commercial Code be adjusted? If so, by what legal instrument, which agency is responsible for reviewing it, and how often? Answer briefly, covering all three points.",
+ "raw_response": "# Section 7 of the Thai Civil and Commercial Code: Interest Rate Adjustment\n\n**Yes, the rate may be adjusted.**\n\nFollowing the 2021 amendment to Section 7 of the Civil and Commercial Code, the default legal interest rate was set at **3% per annum**, replacing the former fixed rate of 7.5%. However, the law now allows this rate to be changed through subordinate legislation rather than requiring further amendment of the Code itself.\n\nThe three key points are:\n\n1. **Legal instrument**: The rate may be adjusted by a **Royal Decree** (พระราชกฤษฎีกา), issued under the authority granted by Section 7 itself.\n\n2. **Responsible agency**: The **Ministry of Finance** is responsible for reviewing the appropriateness of the rate and proposing any Royal Decree to adjust it, in line with prevailing economic and financial conditions.\n\n3. **Frequency of review**: The law requires that the rate be **reviewed every 3 years** to determine whether adjustment is warranted, ensuring the statutory rate remains reasonably aligned with market interest rate conditions over time.\n\n**As of August 2026**, unless a Royal Decree has been issued to change it, the applicable default rate under Section 7 remains **3% per annum**, subject to periodic review by the Ministry of Finance as outlined above.",
+ "timestamp": "2026-08-26"
+}

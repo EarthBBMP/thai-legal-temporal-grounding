@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "Yes. Under Section 41 of the Labour Protection Act B.E. 2541 (as amended), a female employee who has used her full 98-day maternity leave may take further unpaid leave for childcare.\n\n*   **Duration:** Up to 90 days.\n*   **Circumstances:** The leave must be for the purpose of childcare, taken continuously after her maternity leave ends. This leave is unpaid, and the employee and employer must agree on the leave period in advance.\n*   **Document:** She must produce a medical certificate from a first-class modern medical practitioner attesting to the need for the mother to provide continuous care for the child.",
+ "timestamp": "2026-08-26"
+}

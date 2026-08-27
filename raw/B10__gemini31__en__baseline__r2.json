@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B10",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+ "raw_response": "Under **Section 1236 of the Thai Civil and Commercial Code** (as amended by Act No. 23 B.E. 2565, effective February 2023), there are **two** forms of merger available for private limited companies:\n\n1. **Amalgamation:** Two or more companies merge to form an entirely new company, and the original merging companies lose their juristic person status.\n2. **Absorption:** One merging company survives and retains its juristic person status, while the other merging company or companies lose their juristic person status and cease to exist. \n\nThe law requires that in either form, the surviving or new company assumes all properties, obligations, rights, and liabilities of the merging companies.",
+ "timestamp": "2026-08-26"
+}

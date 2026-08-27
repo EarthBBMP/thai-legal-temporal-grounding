@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a board meeting of a Thai private limited company be held by electronic communication without directors being physically present, and do directors participating that way count toward the quorum? Answer briefly, covering both points.",
+ "raw_response": "**Applicable law:** The Emergency Decree on Electronic Meetings B.E. 2563 (2020) (พระราชกำหนดว่าด้วยการประชุมผ่านสื่ออิเล็กทรอนิกส์ พ.ศ. 2563), as still in force in August 2026, together with the Ministry of Digital Economy and Society's Notification on Security Standards for Electronic Meetings.\n\n**Key points:**\n\n1. **Holding the meeting electronically:** A Thai private limited company's board of directors may hold its meeting entirely through electronic means, with no director physically present at a meeting venue, provided the meeting complies with the security and identity-verification standards prescribed under the Decree and the MDES Notification (e.g., systems enabling participants to be identified, to hear/see each other in real time (or otherwise communicate), and to vote, plus secure data recording/storage). No provision in the Civil and Commercial Code or the company's articles need permit this specifically — the Emergency Decree itself provides the legal basis, unless the company's articles of association expressly prohibit electronic meetings.\n\n2. **Quorum:** Directors who join via such compliant electronic means are legally deemed present at the meeting. They count toward the quorum required under Section 1160 CCC (or the company's articles) and may validly vote, exactly as if they were physically present.",
+ "timestamp": "2026-08-26"
+}

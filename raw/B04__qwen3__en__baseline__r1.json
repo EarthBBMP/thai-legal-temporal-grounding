@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B04",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+ "raw_response": "The application on **15 March 2023** was permissible; the one on **15 December 2022** was not.\n\n**Reason:** Under the Thai Civil and Commercial Code, a private limited company must have **at least three promoters** at the time of registration. On 15 December 2022, Jirayu and one partner made only **two promoters**, which is insufficient. By 15 March 2023, although the composition was the same, if the application was still based on only two promoters, it would also be invalid. However, if the second application met the requirement (e.g., added a third promoter), it would be permissible.\n\nBut since the question states \"same composition\", both had only two promoters. Therefore, **neither application was valid** under Section 1096 of the Thai Civil and Commercial Code, which requires **at least three promoters**.\n\n**Final Answer:** **Neither application was permissible**, because both involved only two promoters, whereas Thai law requires at least three to form a private limited company.",
+ "timestamp": "2026-08-26"
+}

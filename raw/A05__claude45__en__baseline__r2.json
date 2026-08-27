@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A05",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a money debt on which the debtor is in default and where no other interest rate has been agreed, what annual percentage rate of default interest applies? Answer briefly, stating the number.",
+ "raw_response": "Under Thai law, for a money debt where the debtor is in default and no other interest rate has been agreed, the default interest rate is **7.5% per annum**.\n\nThis is provided under Section 224 of the Civil and Commercial Code, which states that if no specific rate has been agreed upon, interest on a money debt shall be at the rate of 7.5% per annum from the time the debtor is in default.",
+ "timestamp": "2026-08-26"
+}

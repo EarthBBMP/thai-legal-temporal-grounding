@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A02",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, under Section 7 of the Thai Civil and Commercial Code as then in force, where interest was payable but no rate had been fixed, what annual percentage rate applied? Answer briefly, stating the number.",
+ "raw_response": "**Section 7 of the Thai Civil and Commercial Code (as in force in June 2019)** applied. It provided that where interest was payable on a debt and no rate had been fixed by juristic act or by law, the applicable rate was **7.5 percent per annum**.",
+ "timestamp": "2026-08-26"
+}

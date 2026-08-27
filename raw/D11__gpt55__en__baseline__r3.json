@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D11",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2025, did the Thai Labour Protection Act as then in force contain a provision requiring state agencies engaging individuals under service-hire arrangements to grant leave rights no less than under the Act? Answer briefly.",
+ "raw_response": "Yes. The applicable provision was **Section 5/1 of the Thai Labour Protection Act B.E. 2541**, as amended.\n\nIt required a **state agency** that hires a **natural person under a service-hire arrangement** to provide that person with **leave rights no less than those prescribed under the Labour Protection Act**. The provision also indicates that this does **not necessarily make the person an employee** of the state agency under the Act.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D12",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Areeya gave birth on 10 March 2024 and wished to take the longest maternity leave permitted at that time. How many days could she take, and did that leave include days taken for prenatal check-ups? Answer briefly, covering both points.",
+ "raw_response": "Under Thai law at the time (as per the Labor Protection Act B.E. 2541), Areeya was entitled to a maximum of **90 days** of maternity leave. This leave included **up to 30 days of prenatal check-up days**, which were counted within the total 90-day period. Therefore, her total leave of 90 days covered both postnatal recovery and prenatal visits.",
+ "timestamp": "2026-08-26"
+}

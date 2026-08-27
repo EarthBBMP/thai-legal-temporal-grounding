@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "Based on Thai law, here are the applicable provisions and requirements:\n\n1.  **Holiday and Leave Rights:** The rights are not granted by the Labour Protection Act, but by specific **Cabinet Resolutions** and the **Regulation of the Office of the Prime Minister on Procurement, B.E. 2560 (2017)**. These provisions require that service-hire contracts with government agencies provide the individual with rights comparable to employees, including:\n    *   At least 13 paid traditional public holidays per year.\n    *   Paid sick leave (typically up to 30 days per year).\n    *   Paid personal/business leave (typically up to 10 days per year).\n    *   Paid maternity leave (98 days).\n\n2.  **Court Jurisdiction:** Disputes arising from these service-hire arrangements, which are considered administrative contracts, fall under the jurisdiction of the **Administrative Court**. This is established by the **Act on the Establishment of Administrative Courts and Administrative Court Procedure, B.E. 2542 (1999)**.",
+ "timestamp": "2026-08-26"
+}

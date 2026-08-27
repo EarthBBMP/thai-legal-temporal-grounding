@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "**No.**\n\nUnder the Civil and Commercial Code provisions in force in October 2021, a private limited company required **at least three promoters** to register the company (Section 1096). Since Piyada and her friend were only two people in total, they did not meet the minimum requirement and could not register a private limited company at that time.\n\n(Note: This requirement was later amended in 2021 by an Act that came into force in December 2021, reducing the minimum to one promoter, but that amendment was not yet in effect in October 2021.)",
+ "timestamp": "2026-08-26"
+}

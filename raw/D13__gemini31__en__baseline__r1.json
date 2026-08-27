@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D13",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employer's work rules state: \"Female employees are entitled to maternity leave of no more than 98 days.\" Is this lawful? Answer only \"lawful\" or \"unlawful\", with a one-sentence reason.",
+ "raw_response": "Lawful, because Section 41 of the Labor Protection Act explicitly provides that a pregnant female employee is entitled to maternity leave of not more than 98 days per pregnancy.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "No.\n\nIn October 2021, the applicable provision was **Section 1097 of the Thai Civil and Commercial Code** as then in force. It required **“three or more persons”** to subscribe their names to the memorandum of association in order to promote and form a private limited company.\n\nBecause Piyada and her friend were only **two persons in total**, they could not lawfully register a Thai private limited company at that time.",
+ "timestamp": "2026-08-26"
+}

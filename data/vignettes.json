@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0",
+  "built": "2026-08-22",
+  "note": "gold = correct answer. anchored = superseded rule given when the current rule was asked (label: repealed). over = current rule given when the historical rule was asked (label: over_applied). absent_numbers / absent_regex must NOT appear for the bucket to match.",
+  "vignettes": [
+    {
+      "id": "A01", "group": "A", "probe_id": "A1", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 7 ถ้าจะต้องเสียดอกเบี้ยแก่กันและมิได้กำหนดอัตราดอกเบี้ยไว้โดยนิติกรรมหรือโดยบทกฎหมายอันชัดแจ้ง ให้ใช้อัตราร้อยละเท่าใดต่อปี ตอบสั้น ๆ โดยระบุตัวเลขให้ชัดเจน",
+      "text_en": "As of August 2026, under Section 7 of the Thai Civil and Commercial Code, where interest is payable but no rate has been fixed by juristic act or by an express provision of law, what annual percentage rate applies? Answer briefly, stating the number explicitly.",
+      "gold_numbers": [3], "anchored_numbers": [7.5], "sections": ["ปพพ ม.7"]
+    },
+    {
+      "id": "A02", "group": "A", "probe_id": "A1", "type": "knowledge", "frame": "pre",
+      "text_th": "เมื่อเดือนมิถุนายน 2562 ตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 7 ที่ใช้บังคับอยู่ในขณะนั้น ถ้าจะต้องเสียดอกเบี้ยแก่กันแต่มิได้กำหนดอัตราไว้ ให้ใช้อัตราร้อยละเท่าใดต่อปี ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "In June 2019, under Section 7 of the Thai Civil and Commercial Code as then in force, where interest was payable but no rate had been fixed, what annual percentage rate applied? Answer briefly, stating the number.",
+      "gold_numbers": [7.5], "over_numbers": [3], "sections": ["ปพพ ม.7"]
+    },
+    {
+      "id": "A03", "group": "A", "probe_id": "A1", "type": "application", "frame": "post",
+      "text_th": "เดือนมกราคม 2569 นายกิตติให้นางสาวอรอนงค์ยืมเงิน 150,000 บาท ทั้งสองตกลงกันว่าให้คิดดอกเบี้ยด้วย แต่ไม่ได้ระบุอัตราไว้ในสัญญา หากนางสาวอรอนงค์ชำระคืนครบตามกำหนดเมื่อครบหนึ่งปีพอดี ต้องชำระดอกเบี้ยกี่บาท ตอบสั้น ๆ โดยระบุอัตราและจำนวนเงิน",
+      "text_en": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+      "gold_numbers": [3, 4500], "anchored_numbers": [7.5, 11250], "sections": ["ปพพ ม.7"]
+    },
+    {
+      "id": "A04", "group": "A", "probe_id": "A1", "type": "multiple_choice", "frame": "post",
+      "text_th": "เดือนกุมภาพันธ์ 2569 นายธนกฤตให้เพื่อนยืมเงิน 80,000 บาท โดยไม่ได้พูดถึงเรื่องดอกเบี้ยเลย และกำหนดคืนภายในหนึ่งปี เพื่อนชำระคืนครบถ้วนตรงตามกำหนด นายธนกฤตมีสิทธิเรียกดอกเบี้ยสำหรับช่วงหนึ่งปีนั้นหรือไม่ ตอบเพียงว่า \"มีสิทธิ\" หรือ \"ไม่มีสิทธิ\" พร้อมเหตุผลหนึ่งประโยค",
+      "text_en": "In February 2026, Thanakrit lent a friend 80,000 baht without any mention of interest, repayable within one year. The friend repaid in full and on time. Is Thanakrit entitled to claim interest for that one-year period? Answer only \"entitled\" or \"not entitled\", with a one-sentence reason.",
+      "gold_regex_th": ["ไม่มีสิทธิ"], "gold_regex_en": ["not entitled|no entitle"],
+      "anchored_regex_th": ["(?<!ไม่)มีสิทธิ"], "anchored_regex_en": ["(?<!not )entitled"],
+      "sections": ["ปพพ ม.7", "ปพพ ม.224"], "note": "แยก ม.7 ออกจาก ม.224"
+    },
+    {
+      "id": "A05", "group": "A", "probe_id": "A2", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 หนี้เงินที่ลูกหนี้ผิดนัดชำระ และไม่มีข้อตกลงเรื่องอัตราดอกเบี้ยเป็นอย่างอื่น ต้องคิดดอกเบี้ยระหว่างเวลาผิดนัดในอัตราร้อยละเท่าใดต่อปี ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, for a money debt on which the debtor is in default and where no other interest rate has been agreed, what annual percentage rate of default interest applies? Answer briefly, stating the number.",
+      "gold_numbers": [5], "anchored_numbers": [7.5], "sections": ["ปพพ ม.224"]
+    },
+    {
+      "id": "A06", "group": "A", "probe_id": "A2", "type": "application", "frame": "post",
+      "text_th": "นายสมชายกู้เงินนางสาวมาลี 100,000 บาท โดยไม่ได้ตกลงเรื่องดอกเบี้ยไว้ กำหนดคืนวันที่ 1 มีนาคม 2569 เมื่อถึงกำหนดนายสมชายไม่ชำระ หากนางสาวมาลีเรียกดอกเบี้ยระหว่างผิดนัดเป็นเวลา 1 ปี จะได้ดอกเบี้ยกี่บาท ตอบสั้น ๆ โดยระบุอัตราและจำนวนเงิน",
+      "text_en": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+      "gold_numbers": [5, 5000], "anchored_numbers": [7.5, 7500], "sections": ["ปพพ ม.224"]
+    },
+    {
+      "id": "A07", "group": "A", "probe_id": "A2", "type": "application", "frame": "pre",
+      "text_th": "นายวิชัยกู้เงินนายประสงค์ 200,000 บาท โดยไม่ได้ตกลงเรื่องดอกเบี้ยไว้ กำหนดคืนวันที่ 1 มีนาคม 2562 เมื่อถึงกำหนดนายวิชัยไม่ชำระ ดอกเบี้ยระหว่างผิดนัดสำหรับช่วงวันที่ 1 มีนาคม 2562 ถึง 1 มีนาคม 2563 เป็นเงินกี่บาท ตอบสั้น ๆ โดยระบุอัตราและจำนวนเงิน",
+      "text_en": "Wichai borrowed 200,000 baht from Prasong with no agreed interest rate, repayable on 1 March 2019. He failed to pay. How much default interest accrued for the period 1 March 2019 to 1 March 2020? Answer briefly, stating the rate and the amount.",
+      "gold_numbers": [7.5, 15000], "over_numbers": [5, 10000], "sections": ["ปพพ ม.224"],
+      "note": "ช่วงเวลาอยู่ก่อน พ.ร.ก. ทั้งหมด ตาม พ.ร.ก. ม.7"
+    },
+    {
+      "id": "A08", "group": "A", "probe_id": "A2", "type": "application", "frame": "straddle",
+      "text_th": "นางสาวเบญจวรรณเป็นเจ้าหนี้เงินกู้ 300,000 บาท ลูกหนี้ผิดนัดตั้งแต่วันที่ 1 มกราคม 2564 และยังไม่ชำระเลยจนถึงวันที่ 31 ธันวาคม 2564 คู่สัญญาไม่ได้ตกลงอัตราดอกเบี้ยไว้ การคิดดอกเบี้ยผิดนัดสำหรับช่วงเวลาดังกล่าวต้องทำอย่างไร ตอบสั้น ๆ โดยระบุอัตราและช่วงวันที่ให้ชัดเจน",
+      "text_en": "Benjawan is a creditor for a 300,000 baht loan. The debtor has been in default since 1 January 2021 and had still not paid as of 31 December 2021. No interest rate was agreed. How should default interest be calculated for that period? Answer briefly, stating the rates and the date ranges explicitly.",
+      "gold_numbers": [7.5, 5],
+      "anchored_numbers": [7.5], "anchored_absent_numbers": [5],
+      "over_numbers": [5], "over_absent_numbers": [7.5],
+      "sections": ["ปพพ ม.224"], "manual_review": true,
+      "note": "คร่อมเส้นแบ่ง 11 เม.ย. 2564 จับได้ทั้งยึดติดและใช้กฎใหม่ย้อนหลัง"
+    },
+    {
+      "id": "A09", "group": "A", "probe_id": "A4", "type": "application", "frame": "post",
+      "text_th": "เดือนพฤษภาคม 2569 นายอนุชาทำสัญญาผ่อนชำระหนี้ 240,000 บาท แบ่งเป็น 24 งวด งวดละ 10,000 บาท เขาผิดนัดไม่ชำระงวดที่ 5 เพียงงวดเดียว ส่วนงวดอื่นชำระตรงเวลาทั้งหมด เจ้าหนี้เรียกดอกเบี้ยระหว่างผิดนัดจากยอดเงินเท่าใด ตอบสั้น ๆ โดยระบุจำนวนเงินและเหตุผลหนึ่งประโยค",
+      "text_en": "In May 2026, Anucha entered an instalment agreement for a 240,000 baht debt payable in 24 instalments of 10,000 baht each. He defaulted on instalment 5 only; all other instalments were paid on time. On what amount may the creditor claim default interest? Answer briefly, stating the amount with a one-sentence reason.",
+      "gold_regex_th": ["งวดที่ผิดนัด|เฉพาะ.{0,30}งวด|เพียงงวด|งวดเดียว|จำนวนเงินที่(?:ผิดนัด|ค้างชำระ)|ยอดที่ผิดนัด|(?:เงินต้น|ต้นเงิน)ของงวด"], "gold_regex_en": ["that instalment|the defaulted instalment|only.{0,80}instal|solely.{0,40}instal|(?:sum|amount).{0,30}in arrears|missed instal|unpaid.{0,25}instal|instal\\w*\\s+only|overdue amount"],
+      "anchored_regex_th": ["ยอดคงเหลือ|ทั้งจำนวน|ทั้งหมด"], "anchored_regex_en": ["outstanding balance|entire|whole"],
+      "anchored_absent_regex_th": ["(?:ไม่ใช่|มิใช่)[^.]{0,25}(?:ยอดคงเหลือ|ต้นเงินทั้งหมด|ทั้งจำนวน|ทั้งหมด)|เว้นแต่[^.]{0,60}(?:ยอดคงเหลือ|ต้นเงินทั้งหมด|ทั้งจำนวน|ทั้งหมด)"],
+      "anchored_absent_regex_en": ["not\\s+(?:\\w+\\s+){0,3}(?:whole|entire|outstanding|total)|(?:whole|entire|outstanding|total)[^.]{0,60}only if|only if[^.]{0,80}(?:whole|entire|outstanding|total)|unless[^.]{0,80}(?:whole|entire|outstanding|total)"],
+      "sections": ["ปพพ ม.224/1"],
+      "excluded_from_analysis": true,
+      "exclusion_reason": "คำตอบตามมาจากตัวเลขในโจทย์เอง โจทย์ระบุว่าผิดนัดงวดที่ 5 เพียงงวดเดียว งวดอื่นชำระตรงเวลาทั้งหมด และไม่มีข้อสัญญาเร่งหนี้ ดังนั้น 10,000 บาท จึงได้จากหลักสัญญาทั่วไปบวกเลขคณิตในโจทย์ โดยไม่ต้องรู้ ม.224/1 หลักฐาน: typhoon25 ตอบถูก 6/6 ในข้อนี้ ทั้งที่ตอบผิด 50 จาก 60 แถวในกลุ่มควบคุม X"
+    },
+    {
+      "id": "A10", "group": "A", "probe_id": "A4", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกหนี้ผ่อนชำระหนี้เงินเป็นงวดและผิดนัดงวดหนึ่ง ตามประมวลกฎหมายแพ่งและพาณิชย์ที่ใช้อยู่ เจ้าหนี้เรียกดอกเบี้ยระหว่างผิดนัดจากฐานใด ตอบสั้น ๆ ให้ชัดเจน",
+      "text_en": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+      "gold_regex_th": ["(?:เงินต้น|ต้นเงิน)ของงวด|งวดที่ผิดนัด|เฉพาะ.{0,30}งวด|เพียงงวด|งวดเดียว|จำนวนเงินที่(?:ผิดนัด|ค้างชำระ)|ยอดที่ผิดนัด"], "gold_regex_en": ["principal (?:amount )?of (?:that|the).{0,25}instal|only.{0,80}instal|overdue instal|instalment that is in default|instal\\w*\\s+only"],
+      "anchored_regex_th": ["ยอดคงเหลือ|ต้นเงินทั้งหมด|ทั้งจำนวน"], "anchored_regex_en": ["outstanding balance|entire|whole debt"],
+      "anchored_absent_regex_th": ["(?:ไม่ใช่|มิใช่)[^.]{0,25}(?:ยอดคงเหลือ|ต้นเงินทั้งหมด|ทั้งจำนวน|ทั้งหมด)|เว้นแต่[^.]{0,60}(?:ยอดคงเหลือ|ต้นเงินทั้งหมด|ทั้งจำนวน|ทั้งหมด)"],
+      "anchored_absent_regex_en": ["not\\s+(?:\\w+\\s+){0,3}(?:whole|entire|outstanding|total)|(?:whole|entire|outstanding|total)[^.]{0,60}only if|only if[^.]{0,80}(?:whole|entire|outstanding|total)|unless[^.]{0,80}(?:whole|entire|outstanding|total)"],
+      "sections": ["ปพพ ม.224/1"]
+    },
+    {
+      "id": "A11", "group": "A", "probe_id": "A4", "type": "multiple_choice", "frame": "post",
+      "text_th": "เดือนมิถุนายน 2569 สัญญาผ่อนชำระฉบับหนึ่งมีข้อความว่า \"หากผู้กู้ผิดนัดงวดใดงวดหนึ่ง ให้ถือว่าผิดนัดทั้งหมด และผู้ให้กู้มีสิทธิคิดดอกเบี้ยผิดนัดจากยอดหนี้คงเหลือทั้งจำนวน\" ข้อตกลงนี้มีผลทางกฎหมายอย่างไร ตอบเพียงว่า \"สมบูรณ์\" หรือ \"เป็นโมฆะ\" พร้อมเหตุผลหนึ่งประโยค",
+      "text_en": "In June 2026, an instalment contract contains the clause: \"If the borrower defaults on any instalment, the entire debt shall be treated as in default and the lender may charge default interest on the whole outstanding balance.\" What is the legal effect of this clause? Answer only \"valid\" or \"void\", with a one-sentence reason.",
+      "gold_regex_th": ["โมฆะ"], "gold_regex_en": ["void|unenforceable"],
+      "anchored_regex_th": ["(?<!ไม่)สมบูรณ์|ใช้บังคับได้"], "anchored_regex_en": ["(?<!in)valid\\b|enforceable"],
+      "sections": ["ปพพ ม.224/1"]
+    },
+    {
+      "id": "A12", "group": "A", "probe_id": "A4", "type": "application", "frame": "pre",
+      "text_th": "เดือนมิถุนายน 2562 นางสุนีย์ผิดนัดชำระหนี้ผ่อนงวดหนึ่ง สัญญาระบุว่าหากผิดนัดงวดใด ให้เจ้าหนี้คิดดอกเบี้ยผิดนัดจากยอดหนี้คงเหลือทั้งจำนวนได้ ในขณะนั้นข้อตกลงลักษณะนี้เป็นโมฆะตามบทบัญญัติเฉพาะของประมวลกฎหมายแพ่งและพาณิชย์หรือไม่ ตอบสั้น ๆ",
+      "text_en": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+      "gold_regex_th": ["ไม่มีบทบัญญัติ|ยังไม่มี|ไม่เป็นโมฆะ"], "gold_regex_en": ["no\\b(?:\\s+\\S+){0,3}\\s+provision|was not void|not yet|came later|did not exist|not (?:yet )?in force"],
+      "over_regex_th": ["(?<!ไม่)เป็นโมฆะ|224/1"], "over_regex_en": ["was void|224/1|^\\s*Yes\\b"],
+      "sections": ["ปพพ ม.224/1"]
+    },
+    {
+      "id": "A13", "group": "A", "probe_id": "A5", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 อัตราดอกเบี้ยตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 7 สามารถปรับเปลี่ยนได้หรือไม่ ถ้าได้ ต้องทำโดยเครื่องมือทางกฎหมายใด และหน่วยงานใดมีหน้าที่ทบทวน ทบทวนทุกกี่ปี ตอบสั้น ๆ ให้ครบสามประเด็น",
+      "text_en": "As of August 2026, may the rate under Section 7 of the Thai Civil and Commercial Code be adjusted? If so, by what legal instrument, which agency is responsible for reviewing it, and how often? Answer briefly, covering all three points.",
+      "gold_numbers": [3],
+      "gold_regex_th": ["พระราชกฤษฎีกา"], "gold_regex_en": ["royal decree"],
+      "gold_require_all": true,
+      "anchored_regex_th": ["ไม่สามารถ|แก้ไม่ได้|ตายตัว|ต้องแก้.{0,10}พระราชบัญญัติ"], "anchored_regex_en": ["cannot be adjusted|fixed rate|requires an act"],
+      "sections": ["ปพพ ม.7"]
+    },
+    {
+      "id": "A14", "group": "A", "probe_id": "A1", "type": "self_assess", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 อัตราดอกเบี้ยตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 7 ถูกกำหนดไว้ครั้งล่าสุดเมื่อใด และปัจจุบันเป็นร้อยละเท่าใดต่อปี หากไม่แน่ใจว่ามีการปรับเปลี่ยนภายหลังหรือไม่ ให้ระบุความไม่แน่ใจนั้นด้วย ตอบสั้น ๆ",
+      "text_en": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+      "gold_numbers": [3], "anchored_numbers": [7.5], "sections": ["ปพพ ม.7"],
+      "note": "วัด hedging เป็นหลัก"
+    },
+    {
+      "id": "A15", "group": "A", "probe_id": null, "type": "control", "frame": "none",
+      "text_th": "เดือนเมษายน 2569 สัญญากู้เงินฉบับหนึ่งกำหนดอัตราดอกเบี้ยผิดนัดไว้ที่ร้อยละ 12 ต่อปี ซึ่งเป็นอัตราที่เรียกได้โดยชอบด้วยกฎหมาย ลูกหนี้ผิดนัด เจ้าหนี้ต้องคิดดอกเบี้ยผิดนัดในอัตราร้อยละเท่าใดต่อปี ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "In April 2026, a loan contract specifies a default interest rate of 12% per year, a rate the creditor may lawfully charge. The debtor defaults. What annual rate of default interest applies? Answer briefly, stating the number.",
+      "gold_numbers": [12], "wrong_numbers": [5], "sections": ["ปพพ ม.224"],
+      "note": "distractor แยกโมเดลที่ท่องตัวเลข ออกจากโมเดลที่เข้าใจโครงสร้างมาตรา"
+    },
+    {
+      "id": "A16", "group": "A", "probe_id": null, "type": "control", "frame": "none",
+      "text_th": "เดือนมีนาคม 2569 ลูกหนี้ผิดนัดชำระหนี้เงิน เจ้าหนี้ต้องการคิดดอกเบี้ยจากดอกเบี้ยที่ค้างอยู่ในระหว่างผิดนัดด้วย ตามประมวลกฎหมายแพ่งและพาณิชย์ที่ใช้อยู่ปัจจุบัน ทำได้หรือไม่ ตอบสั้น ๆ",
+      "text_en": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+      "gold_regex_th": ["ไม่ได้|ไม่สามารถ|ห้าม"], "gold_regex_en": ["not permitted|prohibited|may not|cannot|must not|barred|not (?:be )?(?:permitted|allowed|charged)|^\\s*No\\b"],
+      "sections": ["ปพพ ม.224"]
+    },
+
+    {
+      "id": "B01", "group": "B", "probe_id": "B1", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 การจัดตั้งบริษัทจำกัดในประเทศไทยต้องมีผู้เริ่มก่อการอย่างน้อยกี่คน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, what is the minimum number of promoters required to form a private limited company in Thailand? Answer briefly, stating the number.",
+      "gold_numbers": [2], "anchored_numbers": [3], "sections": ["ปพพ ม.1097"]
+    },
+    {
+      "id": "B02", "group": "B", "probe_id": "B1", "type": "knowledge", "frame": "pre",
+      "text_th": "เมื่อเดือนมีนาคม 2564 การจัดตั้งบริษัทจำกัดในประเทศไทยต้องมีผู้เริ่มก่อการอย่างน้อยกี่คน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "In March 2021, what was the minimum number of promoters required to form a private limited company in Thailand? Answer briefly, stating the number.",
+      "gold_numbers": [3], "over_numbers": [2], "sections": ["ปพพ ม.1097"]
+    },
+    {
+      "id": "B03", "group": "B", "probe_id": "B1", "type": "application", "frame": "pre",
+      "text_th": "เดือนตุลาคม 2564 นางสาวปิยะดาและเพื่อนอีกหนึ่งคน รวมเป็นสองคน ต้องการจดทะเบียนจัดตั้งบริษัทจำกัด ในขณะนั้นทั้งสองคนดำเนินการได้หรือไม่ ตอบว่าได้หรือไม่ได้ พร้อมเหตุผลสั้น ๆ",
+      "text_en": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+      "gold_regex_th": ["ไม่ได้|ไม่สามารถ"], "gold_regex_en": ["could\\s*not|no,|^\\s*No\\b|not\\s*permitted|insufficient"],
+      "over_regex_th": ["(?<!ไม่)ได้ (?!ไม่)|ทำได้|(?<!ไม่)สามารถ"], "over_regex_en": ["yes|could do so|were able"],
+      "sections": ["ปพพ ม.1097"]
+    },
+    {
+      "id": "B04", "group": "B", "probe_id": "B1", "type": "application", "frame": "straddle",
+      "text_th": "นายจิรายุและหุ้นส่วนอีกหนึ่งคนยื่นคำขอจดทะเบียนจัดตั้งบริษัทจำกัดโดยมีผู้เริ่มก่อการสองคน เมื่อวันที่ 15 ธันวาคม 2565 และยื่นอีกครั้งด้วยองค์ประกอบเดิมเมื่อวันที่ 15 มีนาคม 2566 การยื่นครั้งใดทำได้ ครั้งใดทำไม่ได้ ตอบสั้น ๆ พร้อมระบุเหตุผล",
+      "text_en": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+      "gold_regex_th": ["2565.{0,60}ไม่ได้|ไม่ได้.{0,60}2565"], "gold_regex_en": ["2022.{0,80}not|not.{0,80}2022"],
+      "sections": ["ปพพ ม.1097"], "manual_review": true,
+      "note": "คร่อมเส้นแบ่ง 7 ก.พ. 2566"
+    },
+    {
+      "id": "B05", "group": "B", "probe_id": "B2", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 เมื่อที่ประชุมใหญ่หรือกรรมการของบริษัทจำกัดลงมติให้จ่ายเงินปันผล ต้องดำเนินการจ่ายให้แล้วเสร็จภายในระยะเวลาเท่าใดนับแต่วันลงมติ ตอบสั้น ๆ",
+      "text_en": "As of August 2026, once a general meeting or the directors of a Thai private limited company resolve to pay a dividend, within what period from the resolution must payment be completed? Answer briefly.",
+      "gold_numbers": [1], "gold_regex_th": ["เดือน"], "gold_regex_en": ["month"],
+      "gold_require_all": true,
+      "anchored_regex_th": ["ไม่ได้กำหนด|ไม่มีกำหนด|ไม่มีระยะเวลา"], "anchored_regex_en": ["no.{0,15}period|not specif|no time limit"],
+      "sections": ["ปพพ ม.1201"]
+    },
+    {
+      "id": "B06", "group": "B", "probe_id": "B2", "type": "application", "frame": "post",
+      "text_th": "บริษัทแห่งหนึ่งมีมติที่ประชุมใหญ่ให้จ่ายเงินปันผลเมื่อวันที่ 10 มกราคม 2569 แต่จ่ายจริงวันที่ 20 มีนาคม 2569 การจ่ายล่าช้าเช่นนี้ชอบด้วยประมวลกฎหมายแพ่งและพาณิชย์หรือไม่ ตอบว่าชอบหรือไม่ชอบ พร้อมเหตุผลหนึ่งประโยค",
+      "text_en": "A company's general meeting resolved on 10 January 2026 to pay a dividend, but payment was made on 20 March 2026. Is this delay consistent with the Civil and Commercial Code? Answer compliant or non-compliant, with a one-sentence reason.",
+      "gold_regex_th": ["ไม่ชอบ|ไม่เป็นไปตาม|เกินกำหนด"], "gold_regex_en": ["non-compliant|not compliant|unlawful|breach"],
+      "anchored_regex_th": ["(?<!ไม่)ชอบด้วยกฎหมาย|ไม่ผิด"], "anchored_regex_en": ["(?<!non-)compliant|lawful|permitted"],
+      "sections": ["ปพพ ม.1201"]
+    },
+    {
+      "id": "B07", "group": "B", "probe_id": "B3", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 การประชุมคณะกรรมการของบริษัทจำกัดสามารถดำเนินการโดยการติดต่อสื่อสารด้วยเทคโนโลยีโดยกรรมการไม่ต้องปรากฏตัวในที่ประชุมได้หรือไม่ และกรรมการที่เข้าร่วมด้วยวิธีนั้นนับเป็นองค์ประชุมหรือไม่ ตอบสั้น ๆ ให้ครบสองประเด็น",
+      "text_en": "As of August 2026, may a board meeting of a Thai private limited company be held by electronic communication without directors being physically present, and do directors participating that way count toward the quorum? Answer briefly, covering both points.",
+      "gold_regex_th": ["(?:นับ|ถือ)(?:เป็น|รวม|เข้า)?.{0,20}องค์ประชุม|องค์ประชุม.{0,20}(?:นับ|ได้)"], "gold_regex_en": ["count\\w*\\s+(?:toward|towards|in|as part of|for)?\\s*(?:the\\s+)?quorum|(?:included|counted)\\s+in\\s+(?:the\\s+)?quorum|quorum\\s+(?:count|include)"],
+      "anchored_regex_th": ["ไม่สามารถ|ทำไม่ได้|ไม่มีบทบัญญัติ"], "anchored_regex_en": ["may not|cannot|no provision"],
+      "sections": ["ปพพ ม.1162/1"]
+    },
+    {
+      "id": "B08", "group": "B", "probe_id": "B3", "type": "knowledge", "frame": "pre",
+      "text_th": "เดือนพฤษภาคม 2564 บริษัทแห่งหนึ่งจัดประชุมคณะกรรมการผ่านระบบวิดีโอคอนเฟอเรนซ์ ในขณะนั้นประมวลกฎหมายแพ่งและพาณิชย์มีบทบัญญัติรองรับการประชุมกรรมการผ่านสื่ออิเล็กทรอนิกส์ไว้โดยเฉพาะหรือไม่ ตอบสั้น ๆ",
+      "text_en": "In May 2021, a company held a board meeting by video conference. At that time, did the Thai Civil and Commercial Code contain a specific provision authorising electronic board meetings? Answer briefly.",
+      "gold_regex_th": ["ไม่มี|ยังไม่มี"], "gold_regex_en": ["did not|no (specific )?provision|there was no"],
+      "over_regex_th": ["1162/1|(?<!ไม่)มีบทบัญญัติ"], "over_regex_en": ["1162/1|there was a provision"],
+      "sections": ["ปพพ ม.1162/1"]
+    },
+    {
+      "id": "B09", "group": "B", "probe_id": "B4", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 หากจดทะเบียนหนังสือบริคณห์สนธิไว้แล้วแต่ยังไม่ได้จดทะเบียนจัดตั้งบริษัท หนังสือบริคณห์สนธินั้นจะสิ้นผลเมื่อพ้นระยะเวลาเท่าใด ตอบสั้น ๆ",
+      "text_en": "As of August 2026, where a memorandum of association has been registered but the company has not yet been registered, after what period does the memorandum lapse? Answer briefly.",
+      "gold_numbers": [3], "gold_regex_th": ["ปี"], "gold_regex_en": ["year"],
+      "gold_require_all": true,
+      "anchored_regex_th": ["ไม่สิ้นผล|ไม่มีกำหนด|ไม่มีอายุ"], "anchored_regex_en": ["does not lapse|no.{0,15}period|indefinite"],
+      "sections": ["ปพพ ม.1099"]
+    },
+    {
+      "id": "B10", "group": "B", "probe_id": "B5", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 บริษัทจำกัดสองบริษัทควบรวมกัน มีรูปแบบให้เลือกกี่รูปแบบ และรูปแบบใดบ้าง ตอบสั้น ๆ",
+      "text_en": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+      "gold_numbers": [2],
+      "gold_regex_th": ["คงมีสภาพ|ยังคง.{0,20}นิติบุคคล|คงสภาพ"], "gold_regex_en": ["surviv|remains a (legal|juristic)"],
+      "anchored_regex_th": ["รูปแบบเดียว|เพียงรูปแบบเดียว|หมดสภาพทั้ง"], "anchored_regex_en": ["only one form|single form"],
+      "sections": ["ปพพ ม.1238"],
+      "excluded_from_analysis": true,
+      "exclusion_reason": "คำตอบ 2 รูปแบบเดาได้จากความรู้ M&A สากล โดยไม่ต้องรู้ ม.1238 ของไทย จึงไม่วัดสิ่งที่ตั้งใจวัด นอกจากนี้คำตอบที่ว่า 'บริษัทหนึ่งดูดซับอีกบริษัทหนึ่ง' ก็ตรงกับ ม.1238(2) ที่ให้บริษัทหนึ่งคงสภาพ เพียงใช้ถ้อยคำต่างกัน การบังคับด้วย regex จึงสร้าง false negative"
+    },
+    {
+      "id": "B11", "group": "B", "probe_id": null, "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 การประชุมใหญ่ผู้ถือหุ้นของบริษัทจำกัดจะลงมติในเรื่องใด ๆ ได้ ต้องมีผู้ถือหุ้นหรือผู้รับมอบฉันทะเข้าร่วมประชุมอย่างน้อยกี่คน และถือหุ้นรวมกันไม่น้อยกว่าเท่าใดของทุนบริษัท ตอบสั้น ๆ ให้ครบสองประเด็น",
+      "text_en": "As of August 2026, for a general meeting of shareholders of a Thai private limited company to pass a resolution, how many shareholders or proxies must attend, and what minimum proportion of the company's capital must they hold? Answer briefly, covering both points.",
+      "gold_numbers": [2], "gold_regex_th": ["หนึ่งในสี่|1/4|25|[1๑]\\s*ใน\\s*[4๔]"], "gold_regex_en": ["one[- ]?quarter|1/4|25 ?%"],
+      "gold_require_all": true,
+      "sections": ["ปพพ ม.1178"]
+    },
+    {
+      "id": "B12", "group": "B", "probe_id": null, "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 คำบอกกล่าวเรียกประชุมใหญ่ผู้ถือหุ้นเพื่อลงมติพิเศษ ต้องส่งก่อนวันนัดประชุมไม่น้อยกว่ากี่วัน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, a notice convening a general meeting of shareholders to pass a special resolution must be sent at least how many days before the meeting? Answer briefly, stating the number.",
+      "gold_numbers": [14], "wrong_numbers": [7], "sections": ["ปพพ ม.1175"],
+      "note": "distractor 7 วันคือการประชุมใหญ่ทั่วไป"
+    },
+
+    {
+      "id": "C01", "group": "C", "probe_id": "C1", "type": "multiple_choice", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 บิดาลงโทษบุตรอายุ 8 ขวบด้วยการตีจนเกิดรอยฟกช้ำที่ขา โดยอ้างว่าเพื่อสั่งสอน ตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 1567(2) ที่ใช้บังคับอยู่ปัจจุบัน การกระทำนี้อยู่ในขอบเขตของสิทธิผู้ใช้อำนาจปกครองหรือไม่ ตอบเพียงว่า \"อยู่ในขอบเขต\" หรือ \"ไม่อยู่ในขอบเขต\" พร้อมอ้างถ้อยคำในตัวบทหนึ่งวลี",
+      "text_en": "As of August 2026, a father punishes his 8-year-old child by striking the child, leaving bruises on the leg, claiming it was for discipline. Under Section 1567(2) of the Thai Civil and Commercial Code as currently in force, does this fall within the scope of parental authority? Answer only \"within scope\" or \"outside scope\", quoting one phrase from the provision.",
+      "gold_regex_th": ["ไม่อยู่ในขอบเขต|เกินขอบเขต"], "gold_regex_en": ["outside scope|not within"],
+      "anchored_regex_th": ["(?<!ไม่)อยู่ในขอบเขต"], "anchored_regex_en": ["(?<!not )within scope"],
+      "sections": ["ปพพ ม.1567"],
+      "excluded_from_analysis": true,
+      "exclusion_reason": "การตีเด็กจนเป็นรอยฟกช้ำอยู่นอกขอบเขตอำนาจปกครองทั้งตามบทที่แก้ใหม่และบทเดิม 'ทำโทษบุตรตามสมควร' ข้อนี้จึงแยกสองยุคไม่ได้ หลักฐาน: gemini25 th r1 และ r2 อ้างถ้อยคำที่ถูกยกเลิกตรง ๆ ว่า 'ว่ากล่าวสั่งสอนบุตรตามสมควร' แต่ยังได้ label correct เพราะคำตอบถูกทั้งสองยุค การยึดติดจึงเกิดขึ้นได้โดยที่ label ไม่จับ"
+    },
+    {
+      "id": "C02", "group": "C", "probe_id": "C1", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 1567(2) ใช้ถ้อยคำใดในการกำหนดขอบเขตการทำโทษบุตร ตอบโดยยกถ้อยคำจากตัวบทที่ใช้บังคับอยู่ปัจจุบันมาให้ครบ",
+      "text_en": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+      "gold_regex_th": ["ทารุณกรรม"], "gold_regex_en": ["cruel|torture|abuse"],
+      "anchored_regex_th": ["ตามสมควร"], "anchored_regex_en": ["as appropriate|reasonabl"],
+      "sections": ["ปพพ ม.1567"], "note": "probe ถ้อยคำตรงที่สุดของกลุ่ม C"
+    },
+    {
+      "id": "C03", "group": "C", "probe_id": "C1", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 1567(2) การทำโทษบุตรทำได้เพื่อวัตถุประสงค์ใดบ้าง ตอบสั้น ๆ ให้ครบทุกวัตถุประสงค์ที่ตัวบทระบุ",
+      "text_en": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+      "gold_regex_th": ["พฤติกรรม"], "gold_regex_en": ["(?:modif|correct|adjust|chang)\\w*.{0,40}behaviou?r|behaviou?r"],
+      "anchored_regex_th": ["ว่ากล่าวสั่งสอน|อบรมสั่งสอน|ว่ากล่าวตักเตือน|ตักเตือน"], "anchored_absent_regex_th": ["พฤติกรรม"],
+      "anchored_regex_en": ["admonish|teach|instruct|discipline"], "anchored_absent_regex_en": ["behavi"],
+      "sections": ["ปพพ ม.1567"],
+      "note": "gold ฝั่งไทยจับที่ 'พฤติกรรม' ไม่บังคับคำว่า 'ปรับ' เพราะโมเดลเขียน 'ควบคุมพฤติกรรม' ซึ่งเป็นวัตถุประสงค์เดียวกับที่ฉบับ 2568 เพิ่มเข้ามา ส่วน 'misconduct' ไม่นับเป็น gold เพราะอยู่ในความหมายของ 'ว่ากล่าวสั่งสอน' เดิมอยู่แล้ว จึงไม่ใช่หลักฐานว่ารู้ถ้อยคำใหม่"
+    },
+    {
+      "id": "C04", "group": "C", "probe_id": "C1", "type": "multiple_choice", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 มารดาลงโทษบุตรด้วยการด่าทอและข่มขู่อย่างรุนแรงต่อเนื่องจนบุตรมีอาการหวาดกลัว โดยไม่มีการทำร้ายร่างกาย ตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 1567(2) ที่ใช้บังคับอยู่ปัจจุบัน การกระทำนี้อยู่ในขอบเขตหรือไม่ ตอบเพียงว่า \"อยู่ในขอบเขต\" หรือ \"ไม่อยู่ในขอบเขต\" พร้อมเหตุผลหนึ่งประโยค",
+      "text_en": "As of August 2026, a mother punishes her child by repeated severe verbal abuse and threats, causing the child to become fearful, without any physical harm. Under Section 1567(2) as currently in force, does this fall within scope? Answer only \"within scope\" or \"outside scope\", with a one-sentence reason.",
+      "gold_regex_th": ["ไม่อยู่ในขอบเขต|เกินขอบเขต"], "gold_regex_en": ["outside scope|not within"],
+      "wrong_regex_th": ["(?<!ไม่)อยู่ในขอบเขต"], "wrong_regex_en": ["(?<!not )within scope"],
+      "sections": ["ปพพ ม.1567"], "note": "ทดสอบว่ารู้ว่าตัวบทคุ้มครองจิตใจด้วย"
+    },
+    {
+      "id": "C05", "group": "C", "probe_id": "C1", "type": "knowledge", "frame": "pre",
+      "text_th": "เมื่อเดือนมิถุนายน 2567 ประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 1567(2) ที่ใช้บังคับอยู่ในขณะนั้น กำหนดขอบเขตการทำโทษบุตรไว้ด้วยถ้อยคำใด ตอบโดยยกถ้อยคำมา",
+      "text_en": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+      "gold_regex_th": ["ตามสมควร"], "gold_regex_en": ["as appropriate|reasonabl"],
+      "over_regex_th": ["ทารุณกรรม|ปรับพฤติกรรม"], "over_regex_en": ["cruel|torture|behavi"],
+      "sections": ["ปพพ ม.1567"]
+    },
+    {
+      "id": "C06", "group": "C", "probe_id": null, "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 บิดาลงโทษบุตรอายุ 10 ขวบที่ไม่ทำการบ้าน ด้วยการงดเงินค่าขนมเป็นเวลาหนึ่งสัปดาห์และตักเตือนด้วยวาจา ตามประมวลกฎหมายแพ่งและพาณิชย์ มาตรา 1567(2) ที่ใช้บังคับอยู่ปัจจุบัน การกระทำนี้อยู่ในขอบเขตหรือไม่ ตอบเพียงว่า \"อยู่ในขอบเขต\" หรือ \"ไม่อยู่ในขอบเขต\"",
+      "text_en": "As of August 2026, a father punishes his 10-year-old for not doing homework by withholding pocket money for a week and giving a verbal warning. Under Section 1567(2) as currently in force, does this fall within scope? Answer only \"within scope\" or \"outside scope\".",
+      "gold_regex_th": ["(?<!ไม่)อยู่ในขอบเขต"], "gold_regex_en": ["(?<!not )within scope"],
+      "wrong_regex_th": ["ไม่อยู่ในขอบเขต"], "wrong_regex_en": ["outside scope"],
+      "sections": ["ปพพ ม.1567"], "note": "จับการใช้กฎใหม่เข้มเกินไป"
+    },
+
+    {
+      "id": "D01", "group": "D", "probe_id": "D1D2", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างหญิงมีครรภ์ในกิจการเอกชนของไทย มีสิทธิลาเพื่อคลอดบุตรครรภ์หนึ่งได้ไม่เกินกี่วัน และนายจ้างต้องจ่ายค่าจ้างในวันลาดังกล่าวไม่เกินกี่วัน ตอบสั้น ๆ โดยระบุตัวเลขทั้งสองจำนวน",
+      "text_en": "As of August 2026, how many days of maternity leave per pregnancy is a pregnant employee in the Thai private sector entitled to, and for how many of those days must the employer pay wages? Answer briefly, stating both numbers.",
+      "gold_numbers": [120, 60], "anchored_numbers": [98, 45],
+      "anchored_prior_numbers": [90, 45],
+      "sections": ["คร ม.41", "คร ม.59"]
+    },
+    {
+      "id": "D02", "group": "D", "probe_id": "D1D2", "type": "knowledge", "frame": "pre",
+      "text_th": "เมื่อเดือนมีนาคม 2566 ลูกจ้างหญิงมีครรภ์ในกิจการเอกชนของไทย มีสิทธิลาคลอดได้ไม่เกินกี่วัน และนายจ้างต้องจ่ายค่าจ้างไม่เกินกี่วัน ตอบสั้น ๆ โดยระบุตัวเลขทั้งสองจำนวน",
+      "text_en": "In March 2023, how many days of maternity leave was a pregnant employee in the Thai private sector entitled to, and for how many days was the employer required to pay wages? Answer briefly, stating both numbers.",
+      "gold_numbers": [98, 45], "over_numbers": [120, 60],
+      "anchored_prior_numbers": [90, 45],
+      "sections": ["คร ม.41", "คร ม.59"]
+    },
+    {
+      "id": "D03", "group": "D", "probe_id": "D2", "type": "application", "frame": "post",
+      "text_th": "นางสาวกมลชนกเป็นลูกจ้างบริษัทเอกชน ได้รับค่าจ้างวันละ 600 บาท เธอคลอดบุตรเมื่อเดือนพฤษภาคม 2569 และใช้สิทธิลาคลอดเต็มจำนวนที่กฎหมายกำหนด นายจ้างต้องจ่ายค่าจ้างระหว่างลาคลอดเป็นเงินกี่บาท ตอบสั้น ๆ โดยระบุจำนวนวันและจำนวนเงิน",
+      "text_en": "Kamonchanok is a private-sector employee earning 600 baht per day. She gave birth in May 2026 and took the full statutory maternity leave. How much must her employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+      "gold_numbers": [60, 36000], "anchored_numbers": [45, 27000], "sections": ["คร ม.59"]
+    },
+    {
+      "id": "D04", "group": "D", "probe_id": "D2", "type": "application", "frame": "pre",
+      "text_th": "นางสาวศิริพรเป็นลูกจ้างบริษัทเอกชน ได้รับค่าจ้างวันละ 500 บาท เธอคลอดบุตรเมื่อเดือนกันยายน 2566 และใช้สิทธิลาคลอดเต็มจำนวนตามกฎหมายที่ใช้บังคับในขณะนั้น นายจ้างต้องจ่ายค่าจ้างระหว่างลาคลอดเป็นเงินกี่บาท ตอบสั้น ๆ โดยระบุจำนวนวันและจำนวนเงิน",
+      "text_en": "Siriporn is a private-sector employee earning 500 baht per day. She gave birth in September 2023 and took the full statutory maternity leave under the law then in force. How much was her employer required to pay during the leave? Answer briefly, stating the number of days and the amount.",
+      "gold_numbers": [45, 22500], "over_numbers": [60, 30000], "sections": ["คร ม.59"]
+    },
+    {
+      "id": "D05", "group": "D", "probe_id": "D4", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างมีสิทธิลาเพื่อช่วยเหลือคู่สมรสซึ่งคลอดบุตรได้หรือไม่ ถ้าได้ ได้ไม่เกินกี่วัน และต้องใช้สิทธิภายในกี่วันนับแต่วันคลอดบุตร ตอบสั้น ๆ ให้ครบสามประเด็น",
+      "text_en": "As of August 2026, is an employee entitled to leave to assist a spouse who has given birth? If so, for how many days, and within how many days of the birth must the right be exercised? Answer briefly, covering all three points.",
+      "gold_numbers": [15, 90],
+      "anchored_regex_th": ["ไม่มีสิทธิ|ไม่มีบทบัญญัติ|ไม่ได้กำหนด"], "anchored_regex_en": ["not entitled|no.{0,15}provision|no such"],
+      "sections": ["คร ม.41/1"]
+    },
+    {
+      "id": "D06", "group": "D", "probe_id": "D4", "type": "knowledge", "frame": "pre",
+      "text_th": "เมื่อเดือนมิถุนายน 2568 พระราชบัญญัติคุ้มครองแรงงานที่ใช้บังคับอยู่ในขณะนั้น ให้สิทธิลูกจ้างลาเพื่อช่วยเหลือคู่สมรสซึ่งคลอดบุตรหรือไม่ ตอบสั้น ๆ",
+      "text_en": "In June 2025, did the Thai Labour Protection Act as then in force give employees the right to leave to assist a spouse who had given birth? Answer briefly.",
+      "gold_regex_th": ["ไม่มี|ยังไม่มี|ไม่ได้ให้"], "gold_regex_en": ["did not|no such right|there was no"],
+      "over_regex_th": ["41/1|(?<!ไม่)มีสิทธิ"], "over_regex_en": ["41/1|yes.{0,20}entitled"],
+      "sections": ["คร ม.41/1"]
+    },
+    {
+      "id": "D07", "group": "D", "probe_id": "D4D6", "type": "application", "frame": "post",
+      "text_th": "นายภาณุเป็นลูกจ้างบริษัทเอกชน ได้รับค่าจ้างวันละ 700 บาท ภริยาคลอดบุตรเมื่อวันที่ 1 เมษายน 2569 เขาใช้สิทธิลาเพื่อช่วยเหลือคู่สมรสเต็มจำนวนที่กฎหมายกำหนด นายจ้างต้องจ่ายค่าจ้างระหว่างลาเป็นเงินกี่บาท ตอบสั้น ๆ โดยระบุจำนวนวันและจำนวนเงิน",
+      "text_en": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+      "gold_numbers": [15, 10500], "wrong_numbers": [5250], "sections": ["คร ม.41/1", "คร ม.59/2"],
+      "note": "จ่ายเต็มจำนวน ไม่ใช่ร้อยละ 50"
+    },
+    {
+      "id": "D08", "group": "D", "probe_id": "D3", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างหญิงที่ใช้สิทธิลาคลอดบุตรครบแล้ว มีสิทธิลาต่อเนื่องเพื่อเลี้ยงดูบุตรได้อีกหรือไม่ ถ้าได้ ได้ไม่เกินกี่วัน ในกรณีใดบ้าง และต้องแสดงเอกสารใด ตอบสั้น ๆ ให้ครบทุกประเด็น",
+      "text_en": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+      "gold_numbers": [15], "gold_regex_th": ["ใบรับรองแพทย์"], "gold_regex_en": ["medical certificate"],
+      "gold_require_all": true,
+      "anchored_regex_th": ["ไม่มีสิทธิ|ไม่มีบทบัญญัติ"], "anchored_regex_en": ["not entitled|no such"],
+      "sections": ["คร ม.41"]
+    },
+    {
+      "id": "D09", "group": "D", "probe_id": "D3D5", "type": "application", "frame": "post",
+      "text_th": "นางสาวธนพรเป็นลูกจ้างบริษัทเอกชน ได้รับค่าจ้างวันละ 800 บาท เธอใช้สิทธิลาคลอดครบแล้วเมื่อเดือนพฤษภาคม 2569 และบุตรมีภาวะความพิการ เธอจึงใช้สิทธิลาต่อเนื่องเพื่อเลี้ยงดูบุตรเต็มจำนวนโดยมีใบรับรองแพทย์ นายจ้างต้องจ่ายค่าจ้างสำหรับวันลาส่วนนี้เป็นเงินกี่บาท ตอบสั้น ๆ โดยระบุอัตราและจำนวนเงิน",
+      "text_en": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+      "gold_numbers": [50, 6000], "wrong_numbers": [12000], "sections": ["คร ม.41", "คร ม.59/1"],
+      "note": "แยกอัตราร้อยละ 50 ออกจากค่าจ้างเต็มของ ม.59/2"
+    },
+    {
+      "id": "D10", "group": "D", "probe_id": "D7", "type": "knowledge", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 หน่วยงานราชการหรือรัฐวิสาหกิจที่จ้างบุคคลธรรมดาในลักษณะจ้างเหมาบริการ ต้องให้สิทธิเรื่องวันหยุดและวันลาแก่บุคคลนั้นอย่างไร และข้อพิพาทเรื่องนี้อยู่ในเขตอำนาจศาลใด ตอบสั้น ๆ ให้ครบสองประเด็น",
+      "text_en": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+      "gold_regex_th": ["ศาลแรงงาน"], "gold_regex_en": ["labou?r court"],
+      "anchored_regex_th": ["ไม่อยู่ภายใต้|ไม่ใช่สัญญาจ้างแรงงาน|ไม่ได้รับความคุ้มครอง"], "anchored_regex_en": ["not (subject|covered)|does not apply"],
+      "sections": ["คร ม.4/1"]
+    },
+    {
+      "id": "D11", "group": "D", "probe_id": "D7", "type": "knowledge", "frame": "pre",
+      "text_th": "เมื่อเดือนมกราคม 2568 พระราชบัญญัติคุ้มครองแรงงานที่ใช้บังคับอยู่ในขณะนั้น มีบทบัญญัติกำหนดให้หน่วยงานของรัฐที่จ้างเหมาบริการบุคคลธรรมดาต้องให้สิทธิวันลาไม่น้อยกว่ากฎหมายคุ้มครองแรงงานหรือไม่ ตอบสั้น ๆ",
+      "text_en": "In January 2025, did the Thai Labour Protection Act as then in force contain a provision requiring state agencies engaging individuals under service-hire arrangements to grant leave rights no less than under the Act? Answer briefly.",
+      "gold_regex_th": ["ไม่มี|ยังไม่มี"], "gold_regex_en": ["did not|no such provision|there was no"],
+      "over_regex_th": ["4/1|(?<!ไม่)มีบทบัญญัติ"], "over_regex_en": ["4/1|yes.{0,20}provision"],
+      "sections": ["คร ม.4/1"]
+    },
+    {
+      "id": "D12", "group": "D", "probe_id": "D1", "type": "application", "frame": "pre",
+      "text_th": "นางสาวอารียาคลอดบุตรเมื่อวันที่ 10 มีนาคม 2567 และต้องการลาคลอดให้ยาวที่สุดเท่าที่กฎหมายในขณะนั้นอนุญาต เธอลาได้กี่วัน และวันลานี้รวมวันลาเพื่อตรวจครรภ์ก่อนคลอดหรือไม่ ตอบสั้น ๆ ให้ครบสองประเด็น",
+      "text_en": "Areeya gave birth on 10 March 2024 and wished to take the longest maternity leave permitted at that time. How many days could she take, and did that leave include days taken for prenatal check-ups? Answer briefly, covering both points.",
+      "gold_numbers": [98], "gold_regex_th": ["ตรวจครรภ์"], "gold_regex_en": ["prenatal|antenatal|check-?up"],
+      "gold_require_all": true,
+      "over_numbers": [120], "anchored_prior_numbers": [90], "sections": ["คร ม.41"]
+    },
+    {
+      "id": "D13", "group": "D", "probe_id": "D1", "type": "multiple_choice", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 นายจ้างรายหนึ่งกำหนดในข้อบังคับการทำงานว่า \"ลูกจ้างหญิงมีสิทธิลาคลอดบุตรได้ไม่เกิน 98 วัน\" ข้อบังคับนี้ชอบด้วยกฎหมายหรือไม่ ตอบเพียงว่า \"ชอบ\" หรือ \"ไม่ชอบ\" พร้อมเหตุผลหนึ่งประโยค",
+      "text_en": "As of August 2026, an employer's work rules state: \"Female employees are entitled to maternity leave of no more than 98 days.\" Is this lawful? Answer only \"lawful\" or \"unlawful\", with a one-sentence reason.",
+      "gold_regex_th": ["ไม่ชอบ|ขัดต่อกฎหมาย|ต่ำกว่าที่กฎหมาย"], "gold_regex_en": ["unlawful|not lawful|below the statutory"],
+      "anchored_regex_th": ["(?<!ไม่)ชอบด้วยกฎหมาย|ถูกต้อง"], "anchored_regex_en": ["(?<!un)lawful\\b|compliant"],
+      "sections": ["คร ม.41"], "note": "จับการยึดติดแม้โมเดลไม่ระบุตัวเลขเอง"
+    },
+    {
+      "id": "D14", "group": "D", "probe_id": "D3", "type": "multiple_choice", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างชายคนหนึ่งขอลา 15 วันเพื่อดูแลบุตรแรกเกิดที่มีภาวะความพิการ โดยยื่นใบรับรองแพทย์ ตามพระราชบัญญัติคุ้มครองแรงงานที่ใช้บังคับอยู่ปัจจุบัน สิทธิลาต่อเนื่องเพื่อเลี้ยงดูบุตรตามมาตรา 41 วรรคสี่ ใช้ได้กับลูกจ้างรายนี้หรือไม่ ตอบสั้น ๆ พร้อมเหตุผลหนึ่งประโยค",
+      "text_en": "As of August 2026, a male employee requests 15 days' leave to care for a newborn with a disability, submitting a medical certificate. Under the Labour Protection Act as currently in force, does the continuous child-care leave under Section 41 paragraph four apply to him? Answer briefly with a one-sentence reason.",
+      "gold_regex_th": ["ไม่ได้|ใช้ไม่ได้|เฉพาะลูกจ้างหญิง|ไม่ใช้บังคับ"], "gold_regex_en": ["does not apply|not available|female employees only"],
+      "wrong_regex_th": ["(?<!ไม่)ใช้ได้|(?<!ไม่)ได้รับสิทธิ"], "wrong_regex_en": ["(?<!does not )appl(y|ies)|yes, he"],
+      "sections": ["คร ม.41", "คร ม.41/1"]
+    },
+    {
+      "id": "D15", "group": "D", "probe_id": "D1D2", "type": "self_assess", "frame": "post",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 จำนวนวันลาคลอดและจำนวนวันที่นายจ้างต้องจ่ายค่าจ้าง ถูกกำหนดไว้ครั้งล่าสุดโดยกฎหมายฉบับใด และมีผลบังคับใช้เมื่อใด หากไม่แน่ใจว่ามีการแก้ไขภายหลังหรือไม่ ให้ระบุความไม่แน่ใจนั้นด้วย ตอบสั้น ๆ",
+      "text_en": "As of August 2026, which statute most recently set the number of maternity leave days and the number of paid days, and when did it take effect? If you are not certain whether it has since been amended, say so. Answer briefly.",
+      "gold_regex_th": ["ฉบับที่ 9|ฉบับที่ ๙|2568"], "gold_regex_en": ["No\\. ?9|2025"],
+      "sections": ["คร ม.41", "คร ม.59"], "note": "วัด hedging เป็นหลัก"
+    },
+    {
+      "id": "D16", "group": "D", "probe_id": "D1D2", "type": "application", "frame": "pair",
+      "text_th": "นางสาวกนกวรรณคลอดบุตรวันที่ 1 ตุลาคม 2568 และนางสาวขวัญฤทัยคลอดบุตรวันที่ 1 พฤษภาคม 2569 ทั้งสองเป็นลูกจ้างบริษัทเอกชนและใช้สิทธิลาคลอดเต็มจำนวนตามกฎหมายที่ใช้บังคับในขณะที่ตนคลอด แต่ละคนมีสิทธิลาได้กี่วัน และนายจ้างต้องจ่ายค่าจ้างให้แต่ละคนกี่วัน ตอบสั้น ๆ โดยระบุตัวเลขของทั้งสองคน",
+      "text_en": "Kanokwan gave birth on 1 October 2025 and Kwanruethai gave birth on 1 May 2026. Both are private-sector employees who took the full maternity leave available under the law in force at the time of their birth. How many days of leave was each entitled to, and for how many days must the employer pay each of them? Answer briefly, stating the numbers for both.",
+      "gold_numbers": [98, 45, 120, 60],
+      "anchored_numbers": [98, 45], "anchored_absent_numbers": [120],
+      "anchored_prior_numbers": [90, 45], "anchored_prior_absent_numbers": [98, 120],
+      "over_numbers": [120, 60], "over_absent_numbers": [98],
+      "sections": ["คร ม.41", "คร ม.59"], "manual_review": true,
+      "note": "คู่เทียบข้ามเส้นแบ่ง โดยไม่แตะวันที่กำกวม"
+    },
+
+    {
+      "id": "X01", "group": "X", "probe_id": "X1", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 นายจ้างไม่จ่ายค่าชดเชยแก่ลูกจ้างภายในเวลาที่กำหนด ตามพระราชบัญญัติคุ้มครองแรงงาน นายจ้างต้องเสียดอกเบี้ยให้แก่ลูกจ้างในระหว่างเวลาผิดนัดในอัตราร้อยละเท่าใดต่อปี ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, where an employer fails to pay statutory severance within the prescribed time, at what annual percentage rate must the employer pay default interest to the employee under the Thai Labour Protection Act? Answer briefly, stating the number.",
+      "gold_numbers": [15], "sections": ["คร ม.9"]
+    },
+    {
+      "id": "X02", "group": "X", "probe_id": "X2", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างมีสิทธิลาเพื่อกิจธุระอันจำเป็นได้ปีละไม่น้อยกว่ากี่วันทำงาน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, how many working days of leave for necessary personal business is an employee entitled to per year, at minimum? Answer briefly, stating the number.",
+      "gold_numbers": [3], "sections": ["คร ม.34"]
+    },
+    {
+      "id": "X03", "group": "X", "probe_id": "X3", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 นายจ้างต้องจ่ายค่าจ้างสำหรับวันลาเพื่อกิจธุระอันจำเป็น ปีหนึ่งไม่เกินกี่วันทำงาน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, for how many working days per year must an employer pay wages for leave taken for necessary personal business? Answer briefly, stating the number.",
+      "gold_numbers": [3], "sections": ["คร ม.57/1"]
+    },
+    {
+      "id": "X04", "group": "X", "probe_id": "X4", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 นายจ้างจำเป็นต้องหยุดกิจการชั่วคราวด้วยเหตุที่มิใช่เหตุสุดวิสัย ต้องจ่ายเงินให้ลูกจ้างไม่น้อยกว่าร้อยละเท่าใดของค่าจ้างในวันทำงานที่ลูกจ้างได้รับก่อนหยุดกิจการ ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, where an employer must temporarily suspend operations for a reason other than force majeure, what minimum percentage of the employee's prior working-day wage must be paid? Answer briefly, stating the number.",
+      "gold_numbers": [75], "sections": ["คร ม.75"]
+    },
+    {
+      "id": "X05", "group": "X", "probe_id": "X5", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างซึ่งทำงานติดต่อกันครบสิบปีแต่ไม่ครบยี่สิบปี มีสิทธิได้รับค่าชดเชยไม่น้อยกว่าค่าจ้างอัตราสุดท้ายกี่วัน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, an employee who has worked continuously for at least ten but fewer than twenty years is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+      "gold_numbers": [300], "sections": ["คร ม.118(5)"]
+    },
+    {
+      "id": "D17", "group": "D", "probe_id": "X6", "type": "knowledge", "frame": "post",
+      "legacy_ids": ["X06"],
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ลูกจ้างซึ่งทำงานติดต่อกันครบยี่สิบปีขึ้นไป มีสิทธิได้รับค่าชดเชยไม่น้อยกว่าค่าจ้างอัตราสุดท้ายกี่วัน ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, an employee who has worked continuously for twenty years or more is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+      "gold_numbers": [400], "anchored_numbers": [300], "sections": ["คร ม.118(6)"],
+      "note": "เดิมคือ X06 ในกลุ่มควบคุม ย้ายออกเพราะ ม.118(6) ถูกเพิ่มโดยฉบับที่ 7 พ.ศ. 2562 ก่อนหน้านั้นผู้ทำงาน 20 ปีขึ้นไปได้ 300 วันตาม ม.118(5) จึงเป็นกฎที่เปลี่ยน ไม่ใช่กฎที่คงเดิม"
+    },
+    {
+      "id": "X07", "group": "X", "probe_id": "X7", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ในกรณีที่นายจ้างเลิกจ้างลูกจ้าง นายจ้างต้องจ่ายค่าจ้างและเงินที่มีหน้าที่ต้องจ่ายตามพระราชบัญญัติคุ้มครองแรงงานให้แก่ลูกจ้างภายในกี่วันนับแต่วันที่เลิกจ้าง ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, where an employer terminates an employee, within how many days of termination must wages and other statutory payments be made? Answer briefly, stating the number.",
+      "gold_numbers": [3], "sections": ["คร ม.70"]
+    },
+    {
+      "id": "X08", "group": "X", "probe_id": "X8", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 นายจ้างซึ่งประสงค์จะย้ายสถานประกอบกิจการไปตั้ง ณ สถานที่ใหม่ ต้องปิดประกาศแจ้งให้ลูกจ้างทราบล่วงหน้าติดต่อกันเป็นเวลาไม่น้อยกว่ากี่วันก่อนวันย้าย ตอบสั้น ๆ โดยระบุตัวเลข",
+      "text_en": "As of August 2026, an employer intending to relocate its place of business must post notice to employees continuously for at least how many days before the move? Answer briefly, stating the number.",
+      "gold_numbers": [30], "sections": ["คร ม.120"]
+    },
+    {
+      "id": "X09", "group": "X", "probe_id": "X9", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ในกรณีที่มีการเปลี่ยนแปลงตัวนายจ้าง หรือนายจ้างซึ่งเป็นนิติบุคคลควบกับนิติบุคคลอื่น จนมีผลให้ลูกจ้างไปเป็นลูกจ้างของนายจ้างใหม่ ต้องได้รับสิ่งใดจากลูกจ้างคนนั้น ตอบสั้น ๆ",
+      "text_en": "As of August 2026, where there is a change of employer or a merger of the employer with another juristic person such that an employee becomes the employee of a new employer, what must be obtained from that employee? Answer briefly.",
+      "gold_regex_th": ["ความยินยอม"], "gold_regex_en": ["consent"], "sections": ["คร ม.13"]
+    },
+    {
+      "id": "X10", "group": "X", "probe_id": "X10", "type": "control", "frame": "none",
+      "text_th": "ปัจจุบันเดือนสิงหาคม 2569 ผู้ใดไม่ปฏิบัติตามคำสั่งของพนักงานตรวจแรงงานที่สั่งตามมาตรา 124 แห่งพระราชบัญญัติคุ้มครองแรงงาน ต้องระวางโทษเท่าใด ตอบสั้น ๆ ให้ครบทั้งโทษจำคุกและโทษปรับ",
+      "text_en": "As of August 2026, what penalty applies to a person who fails to comply with an order of a labour inspector issued under Section 124 of the Thai Labour Protection Act? Answer briefly, covering both imprisonment and fine.",
+      "gold_numbers": [1, 20000], "sections": ["คร ม.151"]
+    }
+  ]
+}

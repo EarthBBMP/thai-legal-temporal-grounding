@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B09",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a memorandum of association has been registered but the company has not yet been registered, after what period does the memorandum lapse? Answer briefly.",
+ "raw_response": "**Applicable provision:** Section 1111/1 of the Thai Civil and Commercial Code (as inserted by the Act Amending the Civil and Commercial Code (No. 18), B.E. 2551 (2008)).\n\n**Requirement:** If the promoters register the Memorandum of Association but fail to proceed to register the company itself **within three years** from the date the Memorandum of Association was registered, the Memorandum of Association automatically **becomes void (lapses)**. The promoters would then need to start the incorporation process afresh, including re-registering a new memorandum, if they still wish to form the company.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B05",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, once a general meeting or the directors of a Thai private limited company resolve to pay a dividend, within what period from the resolution must payment be completed? Answer briefly.",
+ "raw_response": "Thai Civil and Commercial Code, Section 1201: Dividend (including interim dividend) payments must be made within one month from the date of the resolution of the general meeting or of the directors, as the case may be.",
+ "timestamp": "2026-08-26"
+}

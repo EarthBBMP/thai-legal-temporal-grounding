@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "**No.**\n\nUnder Thailand's Civil and Commercial Code (Section 1097) as it stood in October 2021, the formation of a private limited company (บริษัทจำกัด) required a minimum of **three promoters/persons**. The amendment reducing this minimum to two persons (under the Act Amending the Civil and Commercial Code (No. 23), B.E. 2565) did not come into force until **7 February 2023**.\n\nTherefore, in October 2021, Piyada and her one friend — only two people — could **not** lawfully register a private limited company, as the law at that time still required at least three persons to act as promoters/shareholders.",
+ "timestamp": "2026-08-26"
+}

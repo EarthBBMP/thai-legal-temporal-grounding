@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B04",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+ "raw_response": "The application on 15 March 2023 was permissible; the one on 15 December 2022 was not.\n\nReason: Under Section 1149 of the Thai Civil and Commercial Code, a private limited company must have at least two promoters. However, if an application for registration is rejected or withdrawn, a new application may be filed only after a minimum period of three months has passed from the date of the previous application. Since both applications were submitted within less than three months (15 December 2022 to 15 March 2023), the first application was invalid due to non-compliance with this waiting period. The second application, made after more than three months, complies with the requirement and is therefore permissible.",
+ "timestamp": "2026-08-26"
+}

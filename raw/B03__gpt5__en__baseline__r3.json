@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "No. Thai Civil and Commercial Code, Section 1097 (as in force in October 2021) required a limited company to be formed by at least three persons subscribing to the memorandum (i.e., at least three promoters/shareholders), so two people could not register one.",
+ "timestamp": "2026-08-26"
+}

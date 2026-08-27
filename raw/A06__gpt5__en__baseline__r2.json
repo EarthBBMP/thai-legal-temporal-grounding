@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A06",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Applicable provision: Civil and Commercial Code, Section 224. It requires a debtor who defaults on a monetary obligation to pay default interest at 5% per annum from the date of default when no different rate applies.\n\nRate and amount: 5% p.a. on 100,000 baht for one year = 5,000 baht; total owed = 105,000 baht.",
+ "timestamp": "2026-08-26"
+}

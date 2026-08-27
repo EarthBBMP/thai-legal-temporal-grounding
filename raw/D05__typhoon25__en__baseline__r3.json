@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D05",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, is an employee entitled to leave to assist a spouse who has given birth? If so, for how many days, and within how many days of the birth must the right be exercised? Answer briefly, covering all three points.",
+ "raw_response": "Yes, as of August 2026, an employee in Thailand is entitled to leave to assist a spouse who has given birth. The employee is entitled to 3 days of paternity leave. This leave must be taken within 30 days of the birth.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a board meeting of a Thai private limited company be held by electronic communication without directors being physically present, and do directors participating that way count toward the quorum? Answer briefly, covering both points.",
+ "raw_response": "**Applicable law:** The Emergency Decree on Electronic Meetings B.E. 2563 (2020) (พระราชกำหนดว่าด้วยการประชุมผ่านสื่ออิเล็กทรอนิกส์ พ.ศ. 2563), read together with the Ministerial Regulation on Security Standards for Electronic Meetings B.E. 2563.\n\n**Key points:**\n\n1. **Holding the meeting electronically:** Yes. A board of directors' meeting of a Thai limited company may be held entirely through electronic means, with no director physically present at a meeting venue, provided the electronic system complies with the security standards prescribed by the Ministerial Regulation (e.g., participant identification/authentication, ability to state opinions and vote, and secure recording of the meeting). The company's articles of association do not need to expressly authorize this—the Emergency Decree applies by default unless the law governing that type of meeting specifically requires physical attendance (which does not apply to ordinary board meetings under the Civil and Commercial Code).\n\n2. **Quorum:** Directors joining via the compliant electronic system are counted as \"present\" for quorum purposes under Section 5 of the Emergency Decree, on the same basis as directors physically present. Thus a board meeting conducted wholly electronically, with all directors attending online, can validly satisfy the quorum requirement under the company's articles/Civil and Commercial Code.",
+ "timestamp": "2026-08-26"
+}

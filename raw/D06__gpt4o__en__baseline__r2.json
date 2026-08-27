@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D06",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2025, did the Thai Labour Protection Act as then in force give employees the right to leave to assist a spouse who had given birth? Answer briefly.",
+ "raw_response": "As of my knowledge cutoff in October 2023, Section 33/1 of the Thai Labour Protection Act (amended in 2019) grants employees the right to take up to 3 days of paid leave to assist their lawful spouse who has given birth. If this provision remains unchanged by June 2025, it would still apply.",
+ "timestamp": "2026-08-26"
+}

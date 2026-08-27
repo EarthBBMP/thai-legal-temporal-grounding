@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D07",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "Under Thailand’s Labour Protection Act (as amended), ss. 41/1 and 59/1, a private-sector employee is entitled to up to **15 working days** of spousal childbirth leave, paid at the employee’s normal wage.\n\nPhanu’s pay: **15 days × 700 baht = 10,500 baht**.\n\nSo the employer must pay **10,500 baht for 15 working days**.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A03",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable provision:** Section 7 of the Thai Civil and Commercial Code (as amended, effective 11 April 2021).\n\n**Rule:** Where a debt bears interest but the parties have not fixed the rate, and no other law specifically applies, Section 7 supplies a default statutory rate of **3% per annum** (subject to adjustment by Royal Decree every three years, but this is the current rate).\n\n**Calculation:** 150,000 baht × 3% × 1 year = **4,500 baht** in interest due upon repayment.",
+ "timestamp": "2026-08-26"
+}

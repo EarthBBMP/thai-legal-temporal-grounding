@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C01",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a father punishes his 8-year-old child by striking the child, leaving bruises on the leg, claiming it was for discipline. Under Section 1567(2) of the Thai Civil and Commercial Code as currently in force, does this fall within the scope of parental authority? Answer only \"within scope\" or \"outside scope\", quoting one phrase from the provision.",
+ "raw_response": "**Outside scope**\n\nSection 1567(2) of the Thai Civil and Commercial Code provides that parental authority includes the right to discipline the child **\"in a reasonable manner\"**.\n\nStriking a child and leaving bruises on the leg exceeds reasonable discipline and falls outside the scope of lawful parental authority.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D16",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Kanokwan gave birth on 1 October 2025 and Kwanruethai gave birth on 1 May 2026. Both are private-sector employees who took the full maternity leave available under the law in force at the time of their birth. How many days of leave was each entitled to, and for how many days must the employer pay each of them? Answer briefly, stating the numbers for both.",
+ "raw_response": "Under current Thai labor law, the applicable provisions are **Sections 41 and 59 of the Labor Protection Act B.E. 2541** (as amended by the Labor Protection Act No. 7 B.E. 2562 in 2019). \n\n*   **What the law requires:** \n    *   **Section 41** entitles a pregnant female employee in the private sector to a maximum of **98 days** of maternity leave per pregnancy (inclusive of holidays and leave taken for prenatal care). \n    *   **Section 59** requires the employer to pay the employee her regular wages during the maternity leave for a period not exceeding **45 days**. *(Note: The Social Security Fund covers a portion of the remaining days, but the employer's legal obligation is capped at 45 days).*\n\nAssuming no new legislative amendments take effect before these future dates, the entitlements for both women are identical:\n\n*   **Kanokwan (October 2025):** 98 days of leave; 45 days paid by the employer.\n*   **Kwanruethai (May 2026):** 98 days of leave; 45 days paid by the employer.",
+ "timestamp": "2026-08-27"
+}

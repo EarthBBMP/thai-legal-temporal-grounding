@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X04",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where an employer must temporarily suspend operations for a reason other than force majeure, what minimum percentage of the employee's prior working-day wage must be paid? Answer briefly, stating the number.",
+ "raw_response": "**Applicable provision:** Section 75 of the Thai Labour Protection Act, B.E. 2541 (1998), as amended.\n\n**Requirement:** Where an employer needs to temporarily suspend all or part of its business operations for a reason other than force majeure, and it is necessary to suspend the employment of some or all employees, the employer must notify the labour inspector and affected employees in advance of the suspension date, and must pay the employee **not less than 75%** of the wages the employee received for a normal working day prior to the suspension, for the entire suspension period.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B11",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a general meeting of shareholders of a Thai private limited company to pass a resolution, how many shareholders or proxies must attend, and what minimum proportion of the company's capital must they hold? Answer briefly, covering both points.",
+ "raw_response": "**Applicable provision:** Section 1178 of the Thai Civil and Commercial Code (CCC), which governs the quorum for a general meeting of shareholders of a private limited company (บริษัทจำกัด).\n\n**Requirements:**\n1. **Number of attendees:** At least **two shareholders** (or their proxies) must be present.\n2. **Capital held:** Those attending must collectively hold **not less than one-fourth (25%)** of the company's total registered capital (unless the company's articles of association prescribe a higher quorum requirement).\n\nIf this quorum is not met, the law provides for the meeting to be adjourned and reconvened, with different quorum rules potentially applying at the second meeting (per Section 1178, second paragraph, no quorum requirement applies at the adjourned meeting unless the articles state otherwise).\n\nThis remains the governing rule as of August 2026, absent any amendment to the CCC's company law provisions.",
+ "timestamp": "2026-08-26"
+}

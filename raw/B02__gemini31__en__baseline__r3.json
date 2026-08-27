@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B02",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2021, what was the minimum number of promoters required to form a private limited company in Thailand? Answer briefly, stating the number.",
+ "raw_response": "Under Section 1097 of the Thai Civil and Commercial Code, the minimum number of promoters required to form a private limited company in March 2021 was **3**. \n\n*(Note: This requirement was later reduced to 2 promoters by an amendment that took effect in February 2023).*",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X04",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where an employer must temporarily suspend operations for a reason other than force majeure, what minimum percentage of the employee's prior working-day wage must be paid? Answer briefly, stating the number.",
+ "raw_response": "As of August 2026, under Thai labor law, if an employer suspends operations for a reason other than force majeure, the employer must pay at least **75%** of the employee's prior working-day wage. This is based on the Notification of the Ministry of Labour on Conditions of Suspension of Work B.E. 2563 (2020), which remains in effect.",
+ "timestamp": "2026-08-26"
+}

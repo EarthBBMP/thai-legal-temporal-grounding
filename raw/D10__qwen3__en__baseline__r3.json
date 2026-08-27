@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "As of August 2026, when a Thai government agency or state enterprise engages an individual under a service-hire arrangement (typically governed by the Civil and Commercial Code rather than labor law), the individual is generally not entitled to statutory holidays or leave under the Labor Protection Act. However, any holiday or leave rights must be as agreed in the service contract. If the arrangement is deemed an employment relationship by the court, the individual may be entitled to minimum leave under the Labor Protection Act, B.E. 2541 (1998), including 13 public holidays and 6–30 days of annual leave depending on tenure.\n\nDisputes concerning service-hire arrangements are under the jurisdiction of the Civil Court, unless classified as an employment relationship, in which case the Labor Court has jurisdiction.",
+ "timestamp": "2026-08-26"
+}

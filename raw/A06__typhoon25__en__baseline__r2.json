@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A06",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai Civil and Commercial Code Section 579, if no interest rate is agreed upon, default interest is 7.5% per annum.\n\nInterest for one year on 100,000 baht at 7.5% is:  \n100,000 × 0.075 = 7,500 baht.\n\nAmount owed: 107,500 baht (principal + default interest).",
+ "timestamp": "2026-08-26"
+}

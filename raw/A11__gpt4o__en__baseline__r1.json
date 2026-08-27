@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A11",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2026, an instalment contract contains the clause: \"If the borrower defaults on any instalment, the entire debt shall be treated as in default and the lender may charge default interest on the whole outstanding balance.\" What is the legal effect of this clause? Answer only \"valid\" or \"void\", with a one-sentence reason.",
+ "raw_response": "Void. Under Section 397 of the Thai Civil and Commercial Code, a penalty clause that allows the lender to treat the entire debt as in default and charge default interest on the whole balance upon a single instalment default is considered excessive and unenforceable.",
+ "timestamp": "2026-08-26"
+}

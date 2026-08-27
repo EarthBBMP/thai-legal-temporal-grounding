@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B04",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+ "raw_response": "Under **Section 1097 of the Thai Civil and Commercial Code**, a private limited company must have at least three promoters to register the company. \n\n- The application on **15 December 2022** with only two promoters was **not permissible**, as it did not meet the legal requirement of having at least three promoters.\n- The application on **15 March 2023** with the same composition (two promoters) was also **not permissible** for the same reason.\n\nBoth applications failed to comply with the minimum requirement of three promoters under Thai law.",
+ "timestamp": "2026-08-26"
+}

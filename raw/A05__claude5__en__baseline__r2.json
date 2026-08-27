@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a money debt on which the debtor is in default and where no other interest rate has been agreed, what annual percentage rate of default interest applies? Answer briefly, stating the number.",
+ "raw_response": "**Applicable law:** Sections 7 and 224 of the Thai Civil and Commercial Code (as amended by the Act Amending the Civil and Commercial Code (No. 20), B.E. 2564 (2021), effective 11 April 2021).\n\n**Rule:**\n- Section 7 sets the general statutory interest rate at **3% per annum**, subject to revision by Ministerial Regulation every three years (the rate has remained unchanged since 2021, so it still applies as of August 2026).\n- Section 224 provides that a debtor in default on a money debt must pay default interest at the Section 7 rate **plus an additional 2% per annum**, unless the creditor can prove greater damage or a different rate was validly agreed.\n\n**Answer:** **5% per annum** (3% base rate + 2% default surcharge).",
+ "timestamp": "2026-08-26"
+}

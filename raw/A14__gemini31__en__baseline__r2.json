@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "**Provision:** Section 7 of the Thai Civil and Commercial Code. \n\n**What it requires:** This section establishes the statutory default interest rate applicable to monetary obligations when no specific rate is fixed by contract or another provision of law. It also requires the Ministry of Finance to review this rate every three years to ensure it aligns with current economic conditions.\n\n**When it was last set and current rate:** The rate was last set on **April 11, 2021** (via the Emergency Decree Amending the Civil and Commercial Code B.E. 2564), which reduced the statutory rate from 7.5% to **3% per year**. \n\n**Uncertainty caveat:** Because Section 7 requires the Ministry of Finance to review the rate every three years, a review was due in April 2024. I am not certain whether the rate has since been adjusted by Royal Decree between 2024 and August 2026.",
+ "timestamp": "2026-08-26"
+}

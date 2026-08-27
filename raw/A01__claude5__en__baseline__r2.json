@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A01",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 7 of the Thai Civil and Commercial Code, where interest is payable but no rate has been fixed by juristic act or by an express provision of law, what annual percentage rate applies? Answer briefly, stating the number explicitly.",
+ "raw_response": "**Applicable provision:** Section 7 of the Thai Civil and Commercial Code (as amended).\n\n**Requirement:** Where interest is payable on a debt—whether under a juristic act (e.g., contract) or under a provision of law—but no rate has been fixed, the interest rate to be applied is **3% per annum**.\n\n(This reflects the amendment to Section 7 that took effect in 2021, which changed the previously long-standing default rate from 7.5% per annum to 3% per annum, with provision for adjustment by Royal Decree every three years — but absent such adjustment, 3% remains the applicable default rate as of August 2026.)",
+ "timestamp": "2026-08-26"
+}

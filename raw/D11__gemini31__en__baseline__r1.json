@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D11",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2025, did the Thai Labour Protection Act as then in force contain a provision requiring state agencies engaging individuals under service-hire arrangements to grant leave rights no less than under the Act? Answer briefly.",
+ "raw_response": "**No**, the Thai Labour Protection Act did not contain such a provision. \n\n* **Applicable Provision:** Section 4 of the Labour Protection Act B.E. 2541 (1998).\n* **What it states/requires:** Section 4 explicitly exempts central, provincial, and local government administrations (state agencies) from the application of the Act. Furthermore, the Act's protections apply only to \"employees\" under an employment contract. Individuals engaged under \"service-hire\" (hire of work) arrangements are classified as independent contractors under the Thai Civil and Commercial Code, not employees. Therefore, the Act does not govern state agencies, nor does it mandate them to grant statutory leave rights to service-hire contractors.",
+ "timestamp": "2026-08-27"
+}

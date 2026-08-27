@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "Based on Thai law, here is the legal position regarding service-hire arrangements (often referred to as *Jang Mao Borikan*) with government agencies or state enterprises:\n\n**1. Applicable Provision and Leave/Holiday Rights**\n*   **Applicable Provision:** **Section 587 of the Civil and Commercial Code (CCC)**, which governs \"Hire of Work\" contracts. The Labor Protection Act B.E. 2541 (1998) and the State Enterprise Labor Relations Act do *not* apply because a service-hire arrangement does not create an employer-employee relationship. \n*   **What it requires:** The government agency or state enterprise is **not legally required to provide any statutory holidays, sick leave, or annual leave**. The individual is classified as an independent contractor rather than an employee. Any time off, leave, or holiday benefits exist only if they are explicitly negotiated and written into the specific contract.\n\n**2. Court Jurisdiction**\n*   **Jurisdiction:** Disputes arising from these contracts fall under the jurisdiction of the **Civil Court** (Courts of Justice). \n*   *Reasoning:* The Committee on Jurisdiction of Courts in Thailand has consistently ruled that standard government service-hire contracts are private civil contracts (Hire of Work). Because there is no employment relationship, the **Labor Court** has no jurisdiction. Furthermore, because the contract does not involve the exercise of administrative power or the granting of a public concession, the **Administrative Court** does not have jurisdiction.",
+ "timestamp": "2026-08-27"
+}

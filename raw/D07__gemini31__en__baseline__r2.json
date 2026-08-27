@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D07",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "Under the **Thai Labor Protection Act (LPA)**, there is no provision that grants statutory paternity or spousal leave to private-sector employees (unlike government officials). \n\nBecause the law does not require private employers to provide this specific type of leave, the employer is not legally obligated to pay wages for it. \n\n* **Number of days:** 0 days\n* **Amount:** 0 baht\n\n*(Note: While there is no statutory \"spousal leave,\" Phanu could choose to use his statutory **personal business leave** under **Section 34** of the LPA. The law requires employers to provide at least 3 days of paid personal business leave per year. If he uses this leave, the employer must pay for those 3 days, which would amount to 2,100 baht.)*",
+ "timestamp": "2026-08-27"
+}

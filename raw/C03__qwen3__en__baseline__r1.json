@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "As of August 2026, Section 1567(2) of the Thai Civil and Commercial Code does not authorize the punishment of a child for any purpose. Instead, it emphasizes the duty of parents to care for, supervise, and educate their children in a manner that promotes their welfare, development, and moral conduct. The provision does not permit punishment; it focuses on parental responsibilities in nurturing the child. Therefore, there are no purposes listed in the provision for which a child may be punished.",
+ "timestamp": "2026-08-26"
+}

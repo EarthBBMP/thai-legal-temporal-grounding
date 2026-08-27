@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, is an employee entitled to leave to assist a spouse who has given birth? If so, for how many days, and within how many days of the birth must the right be exercised? Answer briefly, covering all three points.",
+ "raw_response": "**Applicable provision:** Regulation of the Office of the Prime Minister on Government Official Leave, B.E. 2555 (2012) (\"ระเบียบสำนักนายกรัฐมนตรีว่าด้วยการลาของข้าราชการ พ.ศ. 2555\"), which governs leave for civil servants/government employees and remains in force as of August 2026.\n\n**What it requires:**\n1. **Entitlement:** Yes — a male government official/employee is entitled to take leave in order to assist his wife (legally married) who has given birth to a child.\n2. **Duration:** Up to **15 working days** (consecutive or not, at the employee's discretion, but not exceeding 15 working days in total).\n3. **Time limit for exercising the right:** The leave must be taken within **90 days** from the date the child is born.\n\nIf the child’s birth falls outside a lawful marriage or the employee is not the child's father, the entitlement does not apply. (Note: this right is expressly provided for government officials; the private-sector Labor Protection Act does not contain an equivalent statutory paternity-leave provision as of August 2026.)",
+ "timestamp": "2026-08-27"
+}

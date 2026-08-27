@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B10",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+ "raw_response": "Two. Under the Civil and Commercial Code, section 1238/1 (as amended by the Act Amending the CCC (No. 23) B.E. 2565 (2022)), a merger between limited companies must take one of two forms:\n- Amalgamation: the companies combine to form a new company and the originals are dissolved.\n- Merger by absorption: one company survives and the other is dissolved, with universal succession to the survivor.",
+ "timestamp": "2026-08-26"
+}

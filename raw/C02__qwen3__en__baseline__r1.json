@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "As of August 2026, Section 1567(2) of the Thai Civil and Commercial Code does not exist. There is no provision numbered \"Section 1567(2)\" in the Thai Civil and Commercial Code.\n\nHowever, the relevant provision concerning parental authority and discipline of children is found in **Section 1567** of the Thai Civil and Commercial Code. As currently in force, Section 1567 states:\n\n> \"The father and mother shall have the right and duty to care for the child, to bring up and educate the child, to determine the child’s place of residence, and to discipline the child in a manner appropriate to the child’s age and development, provided that the disciplinary measures shall not involve violence or humiliation.\"\n\nThis provision emphasizes that parental discipline must be appropriate to the child’s age and development and explicitly prohibits violence or humiliating treatment. It reflects Thailand’s alignment with child protection principles, including those under the Convention on the Rights of the Child.\n\nNote: Thailand has been moving toward greater child protection, and in recent years, legal interpretations and related laws (such as the Child Protection Act and amendments to the Penal Code) have reinforced the prohibition of corporal punishment. However, the exact wording above is from Section 1567 of the Civil and Commercial Code as currently in force.",
+ "timestamp": "2026-08-26"
+}

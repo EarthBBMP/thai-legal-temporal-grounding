@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A04",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In February 2026, Thanakrit lent a friend 80,000 baht without any mention of interest, repayable within one year. The friend repaid in full and on time. Is Thanakrit entitled to claim interest for that one-year period? Answer only \"entitled\" or \"not entitled\", with a one-sentence reason.",
+ "raw_response": "Not entitled.\n\nUnder Section 654 of the Thai Civil and Commercial Code, a loan without stipulated interest does not entitle the lender to claim interest unless the borrower defaults on repayment.",
+ "timestamp": "2026-08-26"
+}

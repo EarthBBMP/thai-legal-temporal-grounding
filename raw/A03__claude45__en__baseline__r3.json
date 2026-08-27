@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A03",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai law, when parties agree that interest is payable but fail to specify the rate, **Section 654 of the Civil and Commercial Code** applies.\n\n**Applicable rate:** 7.5% per annum (the legal rate for commercial obligations when no rate is specified)\n\n**Calculation:**\n150,000 baht × 7.5% × 1 year = **11,250 baht**\n\n**Total interest due: 11,250 baht**",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "As of August 2026, Section 1567(2) of the Thai Civil and Commercial Code (as amended) provides the following wording:\n\n\"การลงโทษเด็ก ต้องไม่เกินกว่าสิ่งที่เหมาะสมกับวัย และต้องไม่เป็นอันตรายต่อร่างกายหรือจิตใจของเด็ก\"\n\nIn English, this translates to:\n\n\"Punishment of a child must not exceed what is appropriate for the child’s age, and must not endanger the child’s body or mind.\"\n\nThis provision establishes the legal limits on disciplining children, emphasizing proportionality and protection from physical or psychological harm.",
+ "timestamp": "2026-08-26"
+}

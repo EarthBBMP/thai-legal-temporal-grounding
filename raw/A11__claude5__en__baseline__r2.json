@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A11",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2026, an instalment contract contains the clause: \"If the borrower defaults on any instalment, the entire debt shall be treated as in default and the lender may charge default interest on the whole outstanding balance.\" What is the legal effect of this clause? Answer only \"valid\" or \"void\", with a one-sentence reason.",
+ "raw_response": "**Void.**\n\nUnder Section 224/1 of the Thai Civil and Commercial Code (as amended by the Civil and Commercial Code Amendment Act (No. 21), B.E. 2564 (2021)), where debt is repayable by instalments, default interest may be charged only on the overdue instalment amount actually in arrears, not on the entire outstanding balance, so a clause purporting to impose default interest on the whole debt upon a single missed instalment is void to that extent.",
+ "timestamp": "2026-08-26"
+}

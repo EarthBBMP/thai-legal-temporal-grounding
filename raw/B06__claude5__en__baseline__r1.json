@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B06",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "A company's general meeting resolved on 10 January 2026 to pay a dividend, but payment was made on 20 March 2026. Is this delay consistent with the Civil and Commercial Code? Answer compliant or non-compliant, with a one-sentence reason.",
+ "raw_response": "**Non-compliant.**\n\nUnder Section 1201 of the Thai Civil and Commercial Code, a company must pay a resolved dividend within one month from the date of the resolution (i.e., by 10 February 2026), so payment on 20 March 2026 exceeds this statutory deadline.",
+ "timestamp": "2026-08-26"
+}

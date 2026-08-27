@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D07",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "Under Thai labor law, specifically **Section 57 of the Labour Protection Act B.E. 2541 (1998)**, a male employee is entitled to **paternity leave when his wife gives birth**.\n\n**Entitlement:** 3 working days of paid paternity leave\n\n**Payment requirement:** The employer must pay **full wages** during this leave period.\n\n**Calculation for Phanu:**\n- 3 days × 700 baht/day = **2,100 baht**\n\n**Answer:** The employer must pay Phanu wages for **3 days**, totaling **2,100 baht**.",
+ "timestamp": "2026-08-26"
+}

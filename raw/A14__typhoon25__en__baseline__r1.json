@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "Section 7 of the Thai Civil and Commercial Code sets the legal interest rate at 7.5% per annum. As of August 2026, this rate has not been officially adjusted by the Thai government or relevant authorities, so it remains at 7.5%. The last official setting was in 2019, when the rate was established under Royal Decree No. 384/2562 (2019).",
+ "timestamp": "2026-08-26"
+}

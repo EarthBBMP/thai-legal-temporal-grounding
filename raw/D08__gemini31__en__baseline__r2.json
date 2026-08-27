@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "Under the **Thai Labour Protection Act (LPA)**, which governs private-sector employees, there is **no statutory provision** that grants a female employee the right to take further continuous leave specifically to care for a child after exhausting her mandatory 98 days of maternity leave (Section 41). Any additional leave for childcare would strictly depend on the employer’s internal policies, work rules, or a mutual agreement between the employee and the employer, and would typically be unpaid unless agreed otherwise. \n\n*Note: If the individual is a government official/civil servant rather than a private-sector employee, the **Regulation of the Office of the Prime Minister on Leave of Officials B.E. 2555 (2012)** applies. Under Clause ",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B08",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In May 2021, a company held a board meeting by video conference. At that time, did the Thai Civil and Commercial Code contain a specific provision authorising electronic board meetings? Answer briefly.",
+ "raw_response": "No. At that time (May 2021), the Thai Civil and Commercial Code did not contain a specific provision authorizing electronic board meetings.\n\nThe provision allowing board meetings to be held by electronic means was added later through an amendment. Prior to this amendment, the Code was silent on electronic meetings, and companies typically relied on their articles of association or ministerial regulations (such as emergency measures during COVID-19) to conduct board meetings via video conference.\n\nThe specific authorization for electronic board meetings in the Civil and Commercial Code came into effect after May 2021.",
+ "timestamp": "2026-08-26"
+}

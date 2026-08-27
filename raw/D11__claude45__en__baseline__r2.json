@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D11",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2025, did the Thai Labour Protection Act as then in force contain a provision requiring state agencies engaging individuals under service-hire arrangements to grant leave rights no less than under the Act? Answer briefly.",
+ "raw_response": "Yes. Section 118/1 of the Labour Protection Act B.E. 2541 (1998), as amended, requires state agencies that engage individuals under service-hire arrangements (rather than employment contracts) to grant leave rights no less favorable than those provided under the Act. This provision was added by amendment to ensure that workers engaged by government entities through alternative contractual arrangements receive minimum leave protections equivalent to employees covered by the standard labour protection framework.",
+ "timestamp": "2026-08-26"
+}

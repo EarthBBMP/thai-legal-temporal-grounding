@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D14",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a male employee requests 15 days' leave to care for a newborn with a disability, submitting a medical certificate. Under the Labour Protection Act as currently in force, does the continuous child-care leave under Section 41 paragraph four apply to him? Answer briefly with a one-sentence reason.",
+ "raw_response": "No, under Section 41 paragraph four of the Labour Protection Act, B.E. 2541, the continuous child-care leave of up to 15 days applies only to the mother of the child, not the father, regardless of the child’s health condition.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,4 @@
+# Collection and parsing use only the Python standard library.
+# These two are needed for the figure in analyze.py.
+matplotlib>=3.7
+numpy>=1.24

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "Under the Thai Labour Protection Act B.E. 2541 (1998), as amended, individuals engaged under a service-hire arrangement by a Thai government agency or state enterprise are entitled to paid annual leave (minimum 6 days per year after one year of service) and public holidays (as prescribed by the Ministry of Labour). For disputes arising from such arrangements, jurisdiction lies with the Labour Relations Board under the Department of Labour Protection and Welfare, not the civil courts.",
+ "timestamp": "2026-08-26"
+}

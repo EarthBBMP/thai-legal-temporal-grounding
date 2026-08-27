@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B04",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+ "raw_response": "**Applicable law:** Section 1097 of the Civil and Commercial Code (CCC), as amended by the Act Amending the Civil and Commercial Code (No. 23) B.E. 2565 (2022).\n\n**Content of the amendment:** Originally, Section 1097 required a private limited company to have **at least three promoters**. The amendment reduced this minimum to **at least two promoters**, and this change came into force on **7 February 2023**.\n\n**Application of the facts:**\n\n- **15 December 2022 application (2 promoters) – NOT permissible.** At this date, the old law was still in force, requiring a minimum of three promoters. An application with only two promoters did not meet the statutory requirement and could not be registered.\n\n- **15 March 2023 application (2 promoters) – Permissible.** By this date, the amendment had already taken effect (since 7 February 2023), so the minimum requirement of two promoters was satisfied. This application complied with the law and could be validly registered.\n\n**Conclusion:** The December application failed because it was submitted before the law reducing the minimum number of promoters took effect, while the March application succeeded because it was submitted after the amended Section 1097 CCC came into force.",
+ "timestamp": "2026-08-26"
+}

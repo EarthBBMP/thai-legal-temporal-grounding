@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B08",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In May 2021, a company held a board meeting by video conference. At that time, did the Thai Civil and Commercial Code contain a specific provision authorising electronic board meetings? Answer briefly.",
+ "raw_response": "No, as of May 2021, the Thai Civil and Commercial Code did not contain a specific provision authorising electronic board meetings.",
+ "timestamp": "2026-08-26"
+}

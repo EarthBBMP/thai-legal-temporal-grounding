@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A06",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under the Thai Civil and Commercial Code, section 224 applies: a money debt in default bears default interest at the legal rate under section 7 plus 2% per year.\n\n- Legal rate under section 7: 3% p.a.  \n- Default rate: 3% + 2% = 5% p.a.  \n- Default interest for one year on 100,000 baht: 100,000 × 5% = 5,000 baht  \n\nAmount owed after one year: 105,000 baht.",
+ "timestamp": "2026-08-26"
+}

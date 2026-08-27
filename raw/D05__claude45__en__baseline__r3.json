@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D05",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, is an employee entitled to leave to assist a spouse who has given birth? If so, for how many days, and within how many days of the birth must the right be exercised? Answer briefly, covering all three points.",
+ "raw_response": "Based on Thai labor law provisions:\n\n**Yes**, an employee is entitled to leave to assist a spouse who has given birth.\n\n**Duration**: The employee is entitled to **not less than 6 working days** of leave with pay.\n\n**Time limit**: This right must be exercised **within 60 days from the date of birth** of the child.\n\nThis entitlement is provided under the Labor Protection Act, which requires employers to grant such leave to male employees to support their spouse during the postpartum period.",
+ "timestamp": "2026-08-26"
+}

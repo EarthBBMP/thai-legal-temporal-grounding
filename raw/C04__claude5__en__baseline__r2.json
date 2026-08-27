@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C04",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a mother punishes her child by repeated severe verbal abuse and threats, causing the child to become fearful, without any physical harm. Under Section 1567(2) as currently in force, does this fall within scope? Answer only \"within scope\" or \"outside scope\", with a one-sentence reason.",
+ "raw_response": "**Within scope.**\n\nThe amended Section 1567(2) of the Thai Civil and Commercial Code, in force as of 2026, prohibits parents from disciplining a child in a manner that constitutes physical or mental abuse or causes harm to the child's body or mind, and repeated severe verbal abuse and threats causing fear constitute mental/psychological harm even absent physical injury, thus falling within the provision's scope.",
+ "timestamp": "2026-08-26"
+}

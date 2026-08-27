@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D14",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a male employee requests 15 days' leave to care for a newborn with a disability, submitting a medical certificate. Under the Labour Protection Act as currently in force, does the continuous child-care leave under Section 41 paragraph four apply to him? Answer briefly with a one-sentence reason.",
+ "raw_response": "No, because Section 41 paragraph four of the Labour Protection Act only applies to female employees, and male employees are not entitled to continuous child-care leave under this provision, regardless of the child's disability or the submission of a medical certificate.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B05",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, once a general meeting or the directors of a Thai private limited company resolve to pay a dividend, within what period from the resolution must payment be completed? Answer briefly.",
+ "raw_response": "As of August 2026, under Thai law, once a dividend is approved by a general meeting or the directors of a private limited company, the payment must be made within six months from the date of the resolution. This is in accordance with Section 119 of the Thai Civil and Commercial Code.",
+ "timestamp": "2026-08-26"
+}

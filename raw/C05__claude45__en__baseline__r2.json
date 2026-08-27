@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "According to Section 1567(2) of the Thai Civil and Commercial Code as in force in June 2024, the provision stated:\n\n**\"The parent may punish the child to a reasonable extent for disciplinary purposes.\"**\n\nThis wording established that:\n1. Parents have the authority to punish their child\n2. The punishment must be **reasonable in extent**\n3. The purpose must be **disciplinary** (for the child's correction/education)\n\nThe key limiting phrase is **\"to a reasonable extent\"** (ในประมาณที่สมควร in Thai), which sets the legal boundary on parental disciplinary authority and prohibits excessive or unreasonable punishment.",
+ "timestamp": "2026-08-26"
+}

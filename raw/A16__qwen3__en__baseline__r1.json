@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "No, under the Thai Civil and Commercial Code, charging interest on accrued interest (compound interest) during the default period is not permitted unless there is an explicit agreement between the parties and the interest rate does not exceed the legal limit. According to Section 7 and Section 196, interest may only be charged on the principal amount unless otherwise agreed, and Section 197 limits the rate of interest on arrears. Compound interest is generally not allowed unless specifically permitted by law or contract within legal limits.",
+ "timestamp": "2026-08-26"
+}

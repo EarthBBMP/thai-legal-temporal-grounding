@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "Yes, such a clause was void under **Section 224 of the Thai Civil and Commercial Code**. At that time, Section 224 prohibited the charging of default interest on the entire outstanding balance unless the entire debt became due and payable. Default interest could only be charged on the overdue instalment, not the entire outstanding balance.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B06",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "A company's general meeting resolved on 10 January 2026 to pay a dividend, but payment was made on 20 March 2026. Is this delay consistent with the Civil and Commercial Code? Answer compliant or non-compliant, with a one-sentence reason.",
+ "raw_response": "- Applicable provision: Thai Civil and Commercial Code Section 1201, which requires that a dividend resolved by the general meeting (or by directors for an interim dividend) be paid within one month of the resolution.\n- Non-compliant — because Section 1201 CCC requires payment within one month after the 10 January 2026 resolution, but it was made on 20 March 2026 (over two months later).",
+ "timestamp": "2026-08-26"
+}

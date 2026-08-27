@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X09",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where there is a change of employer or a merger of the employer with another juristic person such that an employee becomes the employee of a new employer, what must be obtained from that employee? Answer briefly.",
+ "raw_response": "**Applicable provision:** Section 13 of Thailand's Labour Protection Act B.E. 2541 (1998), as amended.\n\n**Requirement:** When there is a change of employer or a merger of the employer with another juristic person, resulting in an employee becoming an employee of the new employer, the **consent of the employee** must be obtained before the transfer can take effect. \n\nIf the employee consents, the new employer must assume all rights and duties that the former employer had toward the employee, ensuring continuity of employment benefits, seniority, and entitlements as if there had been no interruption in employment.",
+ "timestamp": "2026-08-27"
+}

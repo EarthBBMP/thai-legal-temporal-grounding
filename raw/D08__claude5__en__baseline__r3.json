@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "# Thai Labor Law: Extended Leave After Maternity Leave\n\n**Applicable Provision:** Section 41/1 of the Labour Protection Act (as amended by the Labour Protection Act (No. 8), B.E. 2568 (2025)), which took effect and applies as of August 2026.\n\n## Requirements\n\n**Yes**, a female employee who has used her full maternity leave (98 days) under Section 41 may take further continuous leave to care for her child.\n\n### Duration\n- **Up to 15 additional days**\n\n### Circumstances\n- The employee must have a **medical certificate/doctor's opinion indicating that the child requires care by the mother beyond the standard maternity leave period** (e.g., the child has a health condition, was born prematurely, or otherwise needs continuous parental care).\n- This leave is taken **immediately following** the exhaustion of the 98-day maternity leave — it must be continuous, not taken at a later, separate time.\n\n### Required Document\n- A **medical certificate from a physician** confirming the necessity for the mother to continue caring for the child (i.e., a doctor's certificate stating that the child's condition requires the mother's continued care).\n\n### Additional Notes\n- This extended leave is treated as **leave without pay from the employer** (the employer is not obligated to pay wages for these extra days, though this may depend on employer policy or applicable social security benefits).\n- The employee retains her employment protections during this leave — she cannot be dismissed for taking this leave.",
+ "timestamp": "2026-08-27"
+}

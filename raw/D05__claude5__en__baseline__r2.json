@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, is an employee entitled to leave to assist a spouse who has given birth? If so, for how many days, and within how many days of the birth must the right be exercised? Answer briefly, covering all three points.",
+ "raw_response": "**Yes.** Under the Labour Protection Act B.E. 2541, as amended (the amendment adding paternity/spousal‑care leave, which is due to be in force by 2026), a male employee is entitled to leave in order to assist his wife who has given birth.\n\n- **Provision:** Section 47/2 (newly inserted) of the Labour Protection Act B.E. 2541 (as amended).\n- **Duration:** 15 working days, with the employer required to pay wages for this leave.\n- **Time limit for exercising the right:** The leave must be taken within 30 days from the date the child is born.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X02",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, how many working days of leave for necessary personal business is an employee entitled to per year, at minimum? Answer briefly, stating the number.",
+ "raw_response": "15 days",
+ "timestamp": "2026-08-26"
+}

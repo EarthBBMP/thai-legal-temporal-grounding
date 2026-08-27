@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "No. Civil and Commercial Code, Section 224 (as amended) applies. It requires that, upon default on a money debt, default interest is calculated only on the unpaid principal and interest may not be charged on accrued interest. Accrued interest can bear interest only if it has been unpaid for at least one year and is capitalized by a new agreement made after it fell due or by bringing an action or an equivalent judicial demand.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A09",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In May 2026, Anucha entered an instalment agreement for a 240,000 baht debt payable in 24 instalments of 10,000 baht each. He defaulted on instalment 5 only; all other instalments were paid on time. On what amount may the creditor claim default interest? Answer briefly, stating the amount with a one-sentence reason.",
+ "raw_response": "Under Section 224/1 of the Thai Civil and Commercial Code, a creditor may claim default interest only on the principal of the instalment for which the debtor is in default.\n\nThe creditor may claim default interest on **10,000 baht**, as this is the principal amount of the single instalment that was not paid on time.",
+ "timestamp": "2026-08-26"
+}

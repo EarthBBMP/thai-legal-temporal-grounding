@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A03",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under the Thai Civil and Commercial Code, section 7 applies: where interest is payable but no rate is fixed, the statutory rate is 3% per annum.\n\nSo for 150,000 baht for exactly one year:\n\n150,000 × 3% = 4,500 baht\n\nInterest due: 4,500 baht.",
+ "timestamp": "2026-08-26"
+}

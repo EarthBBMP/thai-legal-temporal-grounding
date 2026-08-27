@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B09",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a memorandum of association has been registered but the company has not yet been registered, after what period does the memorandum lapse? Answer briefly.",
+ "raw_response": "Three years from the date the memorandum was registered.\n\nProvision: Thai Civil and Commercial Code (Limited Companies), Section 1100 — it provides that if the company is not registered within three years from the registration of the memorandum, the memorandum lapses.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X05",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employee who has worked continuously for at least ten but fewer than twenty years is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+ "raw_response": "Section 118 of Thailand’s Labour Protection Act: **at least 300 days** of the employee’s final wage rate.",
+ "timestamp": "2026-08-26"
+}

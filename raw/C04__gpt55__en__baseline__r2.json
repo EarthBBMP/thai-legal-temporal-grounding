@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C04",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a mother punishes her child by repeated severe verbal abuse and threats, causing the child to become fearful, without any physical harm. Under Section 1567(2) as currently in force, does this fall within scope? Answer only \"within scope\" or \"outside scope\", with a one-sentence reason.",
+ "raw_response": "within scope — Section 1567(2) permits discipline only if it does not harm the child’s body or mind, and repeated severe verbal abuse and threats causing fear are mental harm even without physical injury.",
+ "timestamp": "2026-08-26"
+}

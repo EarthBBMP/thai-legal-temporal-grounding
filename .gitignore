@@ -1,0 +1,30 @@
+# Secrets — API keys live in the environment, never in the tree
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Gazette PDFs are cited in sources/README.md, not redistributed
+sources/*.pdf
+
+# Scratch output
+out/*_dump.txt
+out/openrouter_models.txt
+
+# Claude Code project config
+.claude/

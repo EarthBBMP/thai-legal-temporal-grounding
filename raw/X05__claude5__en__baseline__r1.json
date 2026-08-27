@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employee who has worked continuously for at least ten but fewer than twenty years is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+ "raw_response": "**300 days**\n\nThis is based on Thailand's Labour Protection Act, B.E. 2541 (1998), as amended (particularly by the Labour Protection Act (No. 7), B.E. 2562 (2019)). Under Section 118, an employee who has worked continuously for a period of ten years but less than twenty years is entitled to severance pay of not less than **300 days** at the final wage rate, in the event of termination without cause justifying dismissal without severance.",
+ "timestamp": "2026-08-27"
+}

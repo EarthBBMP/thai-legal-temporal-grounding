@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "No, under Section 574 of the Thai Civil and Commercial Code, interest on overdue principal may be charged, but compound interest (i.e., charging interest on accrued interest) is not permitted unless expressly agreed upon in writing by both parties.",
+ "timestamp": "2026-08-26"
+}

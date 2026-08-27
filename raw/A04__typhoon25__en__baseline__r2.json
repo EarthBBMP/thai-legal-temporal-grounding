@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A04",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In February 2026, Thanakrit lent a friend 80,000 baht without any mention of interest, repayable within one year. The friend repaid in full and on time. Is Thanakrit entitled to claim interest for that one-year period? Answer only \"entitled\" or \"not entitled\", with a one-sentence reason.",
+ "raw_response": "Not entitled, because under Thai Civil and Commercial Code Section 547, no interest is payable on a loan unless expressly agreed upon in writing.",
+ "timestamp": "2026-08-26"
+}

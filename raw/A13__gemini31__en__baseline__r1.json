@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A13",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may the rate under Section 7 of the Thai Civil and Commercial Code be adjusted? If so, by what legal instrument, which agency is responsible for reviewing it, and how often? Answer briefly, covering all three points.",
+ "raw_response": "Based on **Section 7 of the Thai Civil and Commercial Code** (as amended in 2021), the statutory interest rate may indeed be adjusted. \n\nThe provision requires the following:\n*   **Legal Instrument:** The rate may be adjusted by the enactment of a **Royal Decree**.\n*   **Responsible Agency:** The **Ministry of Finance** is responsible for reviewing the rate to ensure it reflects the economic conditions of the country.\n*   **Frequency:** The Ministry must conduct this review **every three years**.",
+ "timestamp": "2026-08-26"
+}

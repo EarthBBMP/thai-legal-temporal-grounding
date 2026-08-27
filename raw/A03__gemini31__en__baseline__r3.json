@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A03",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under **Section 7 of the Thai Civil and Commercial Code (CCC)**, if a contract stipulates that a money debt bears interest but does not specify the rate, the law requires the application of the statutory interest rate, which is currently **3% per year** (as amended in 2021). \n\nSince Ornanong repaid the loan on time, no default interest applies. \n\n* **Rate:** 3% per year\n* **Interest Amount Due:** 4,500 baht (150,000 baht × 3% for one year)",
+ "timestamp": "2026-08-26"
+}

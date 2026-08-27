@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "Based on Thai labor law provisions regarding maternity and childcare leave:\n\n**Yes, a female employee may take further continuous leave after exhausting maternity leave.**\n\n**Key details:**\n\n1. **Duration**: Up to **90 days** of additional leave without pay\n\n2. **Circumstances/Conditions**:\n   - Must be taken **immediately following** the expiration of maternity leave (continuous)\n   - Purpose: To care for the child\n   - The employee must notify the employer in advance\n\n3. **Required Document**: \n   - A **medical certificate** from a licensed physician certifying that the child requires the mother's care\n\n**Legal basis**: This is provided under Section 41 of the Labour Protection Act B.E. 2541 (1998), as amended, which allows female employees to take unpaid leave for childcare purposes following maternity leave, subject to producing appropriate medical documentation.\n\nThis leave is in addition to the standard 98 days of maternity leave (45 days paid, 53 days unpaid for employees with at least 180 days of service).",
+ "timestamp": "2026-08-26"
+}

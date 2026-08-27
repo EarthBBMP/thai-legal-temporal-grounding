@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D17",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employee who has worked continuously for twenty years or more is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+ "raw_response": "Under Section 118 of the Thai Labor Protection Act, an employer is required to pay severance based on the employee's length of continuous service. For an employee who has worked continuously for twenty years or more, the provision requires severance pay of at least **400 days** of their final wage rate.",
+ "timestamp": "2026-08-27"
+}

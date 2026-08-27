@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "Yes, such a clause was void under **Section 654 of the Civil and Commercial Code**.\n\nSection 654 specifically provides that any stipulation allowing a creditor to charge default interest on the entire outstanding balance (rather than just the overdue instalment) is **void**. \n\nThe provision requires that default interest may only be charged on the **amount in default**, not on the full remaining debt. This protects debtors from disproportionate penalty clauses that would make the entire loan balance subject to higher interest rates due to a single missed payment.\n\nTherefore, in June 2019, the contractual clause permitting default interest on the entire outstanding balance would have been unenforceable, and the creditor could only charge default interest on the specific instalment that Sunee failed to pay.",
+ "timestamp": "2026-08-26"
+}

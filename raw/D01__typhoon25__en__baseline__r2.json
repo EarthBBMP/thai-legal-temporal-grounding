@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D01",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, how many days of maternity leave per pregnancy is a pregnant employee in the Thai private sector entitled to, and for how many of those days must the employer pay wages? Answer briefly, stating both numbers.",
+ "raw_response": "As of August 2026, a pregnant employee in the Thai private sector is entitled to 90 days of maternity leave per pregnancy, and the employer must pay wages for 45 of those days.",
+ "timestamp": "2026-08-26"
+}

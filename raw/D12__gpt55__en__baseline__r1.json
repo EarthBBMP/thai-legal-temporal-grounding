@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D12",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Areeya gave birth on 10 March 2024 and wished to take the longest maternity leave permitted at that time. How many days could she take, and did that leave include days taken for prenatal check-ups? Answer briefly, covering both points.",
+ "raw_response": "Under Thailand’s **Labour Protection Act B.E. 2541, section 41** (as amended), Areeya could take **up to 98 days of maternity leave per pregnancy** in March 2024.\n\nYes. That **98-day total includes days taken for prenatal check-ups/examinations before delivery**; they are not additional leave days.",
+ "timestamp": "2026-08-26"
+}

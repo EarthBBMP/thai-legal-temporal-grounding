@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B11",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a general meeting of shareholders of a Thai private limited company to pass a resolution, how many shareholders or proxies must attend, and what minimum proportion of the company's capital must they hold? Answer briefly, covering both points.",
+ "raw_response": "As of August 2026, under Section 1178 of the Thai Civil and Commercial Code, for a general meeting of shareholders of a Thai private limited company to pass a resolution, at least 25% of the company's capital must be represented by the shareholders or proxies attending the meeting. Additionally, at least two shareholders or proxies must be present.",
+ "timestamp": "2026-08-26"
+}

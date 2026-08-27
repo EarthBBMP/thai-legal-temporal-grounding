@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "In June 2024, the provision governing the punishment of a child by a person with parental power is **Section 1567(2) of the Thai Civil and Commercial Code**.\n\nThis provision requires that any punishment be reasonable and for the purpose of discipline. The specific wording used to define this limit is:\n\n> \"...punish the child in a reasonable manner for disciplinary purposes.\"",
+ "timestamp": "2026-08-26"
+}

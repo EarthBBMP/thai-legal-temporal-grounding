@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X02",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, how many working days of leave for necessary personal business is an employee entitled to per year, at minimum? Answer briefly, stating the number.",
+ "raw_response": "Under Thai labor law, an employee is entitled to a minimum of **3 working days** of personal leave per year for necessary personal business.\n\nThis is provided under Section 30 of the Labour Protection Act B.E. 2541 (1998), as amended, which states that an employee who has worked for at least one year is entitled to not less than three working days of leave with pay per year for necessary personal business.",
+ "timestamp": "2026-08-26"
+}

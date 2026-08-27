@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X09",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where there is a change of employer or a merger of the employer with another juristic person such that an employee becomes the employee of a new employer, what must be obtained from that employee? Answer briefly.",
+ "raw_response": "Under Thai labor law, when there is a change of employer or a merger resulting in an employee becoming the employee of a new employer, **written consent must be obtained from that employee**.\n\nThis requirement is specified in Section 17 of the Labour Protection Act B.E. 2541 (1998), which states that the transfer of employment rights and duties to a new employer requires the employee's written consent, unless the transfer occurs by operation of law (such as in cases of business transfer or merger where the law provides for automatic transfer of employment relationships).",
+ "timestamp": "2026-08-26"
+}

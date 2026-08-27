@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "The applicable provision is **Section 1567(2) of the Thai Civil and Commercial Code**. As currently in force, it allows a person exercising parental power to discipline a child only within stated limits.\n\n**Section 1567(2)** reads, in full:\n\n> “(2) to admonish or punish the child as appropriate for the purpose of educating, instructing or modifying the child’s behaviour; provided that this must not be done by maltreatment or by any method involving violence against the body or mind of the child.”\n\nThis is a translation of the current Thai text; the legally authoritative text is the Thai-language version.",
+ "timestamp": "2026-08-26"
+}

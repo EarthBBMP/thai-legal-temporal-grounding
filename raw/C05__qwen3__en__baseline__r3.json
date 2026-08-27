@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "As of June 2024, Section 1567(2) of the Thai Civil and Commercial Code, as then in force, stated the following regarding the limits of punishing a child:\n\n> \"The person having parental authority may punish the child, but only to the extent that is necessary for discipline and education, and must not inflict bodily harm or seriously affect the child’s dignity.\"\n\nThis provision allowed parents or guardians to administer disciplinary measures within reasonable bounds, emphasizing that punishment must not cause physical injury or significantly impair the child's dignity.",
+ "timestamp": "2026-08-26"
+}

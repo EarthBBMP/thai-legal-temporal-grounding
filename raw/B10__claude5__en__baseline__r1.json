@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B10",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+ "raw_response": "## Applicable Law\n\nThe relevant provision is **Section 1238 of the Thai Civil and Commercial Code (CCC)**, as amended by the **Act Amending the Civil and Commercial Code (No. 23), B.E. 2565 (2022)**, which came into force on **7 February 2023**. As of August 2026, this amended provision remains in effect.\n\n## Number and Types of Merger\n\nUnder the amended Section 1238, there are **two forms of merger** available to private limited companies:\n\n1. **Merger by formation of a new company (Amalgamation)**\n   Both merging companies are dissolved, and a **new juristic person** is created to succeed to all their rights, obligations, assets, and liabilities.\n\n2. **Merger by absorption**\n   One of the merging companies **survives** as the continuing legal entity, while the other company is **dissolved and absorbed into it**. The surviving company continues to exist under its own registration, taking on the rights, obligations, assets, and liabilities of the absorbed company.\n\n## Background/Significance\n\nBefore the 2023 amendment, Thai law only recognized the **first form (amalgamation)**—requiring the formation of an entirely new company upon merger, even if commercially unnecessary. The amendment introduced the **absorption-type merger** as a second option, aligning Thai law more closely with international merger practices and providing companies with greater flexibility (e.g., avoiding the need to re-register licenses, permits, or contracts under a new entity).",
+ "timestamp": "2026-08-26"
+}

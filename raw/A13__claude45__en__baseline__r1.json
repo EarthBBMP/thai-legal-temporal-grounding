@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A13",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may the rate under Section 7 of the Thai Civil and Commercial Code be adjusted? If so, by what legal instrument, which agency is responsible for reviewing it, and how often? Answer briefly, covering all three points.",
+ "raw_response": "Based on Section 7 of the Thai Civil and Commercial Code:\n\n**Yes, the rate may be adjusted.**\n\nThe provision specifies:\n\n1. **Legal instrument**: By **Royal Decree**\n\n2. **Responsible agency**: The **Ministry of Finance** is responsible for reviewing the appropriateness of the rate\n\n3. **Review frequency**: **At least once every five years**\n\nSection 7 establishes the legal interest rate at 5% per annum but explicitly provides that this rate may be changed by Royal Decree, with the Ministry of Finance tasked to conduct periodic reviews to ensure the rate remains appropriate to economic conditions.",
+ "timestamp": "2026-08-26"
+}

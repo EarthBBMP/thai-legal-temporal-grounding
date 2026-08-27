@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai law, there is no provision for separate, paid \"child-care leave\" immediately following maternity leave. The employer's payment obligation is for the maternity leave period itself.\n\n**Applicable Provision:** Section 59 of the Labour Protection Act B.E. 2541 (1998).\n\n**Requirement:** The law requires an employer to pay wages to an employee during maternity leave for a maximum of 45 days at their regular wage rate.\n\n*   **Rate:** 800 baht per day.\n*   **Amount:** 36,000 baht (800 baht x 45 days).\n\nAny leave taken after the 98-day maternity period is not covered by this provision and would be considered unpaid leave, unless the employer has a more generous internal policy.",
+ "timestamp": "2026-08-26"
+}

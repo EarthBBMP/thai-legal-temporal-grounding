@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "I don't have access to the current Thai Civil and Commercial Code as of August 2026, as my knowledge was last updated in April 2024. I cannot provide the specific wording of Section 1567(2) as it exists in August 2026, nor can I confirm whether any amendments have been made to this provision between April 2024 and August 2026.\n\nAs of my last update in April 2024, Section 1567 of the Thai Civil and Commercial Code dealt with parental powers and the discipline of children, but I cannot quote the exact current wording you've requested or confirm it remains unchanged.\n\nTo obtain the accurate and current text of Section 1567(2) as of August 2026, I recommend:\n\n1. Consulting the official Thai Government Gazette (ราชกิจจานุเบกษา)\n2. Checking the official database maintained by the Office of the Council of State\n3. Consulting with a Thai legal practitioner who has access to updated legal databases\n\nI apologize that I cannot provide the specific quotation you requested for this future date beyond my knowledge cutoff.",
+ "timestamp": "2026-08-26"
+}

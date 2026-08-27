@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "**No.** In June 2019, such a clause was not void under the Civil and Commercial Code (CCC). \n\nThe specific provision that addresses this issue is **Section 224/1** of the CCC. It requires that when a debtor defaults on an instalment payment, the creditor may only calculate default interest on the principal amount of the specific defaulted instalment(s)—not the entire outstanding balance—and expressly states that any agreement to the contrary is void. \n\nHowever, Section 224/1 was introduced by the Emergency Decree Amending the Civil and Commercial Code B.E. 2564 (2021) and only came into effect on **April 11, 2021**. Therefore, this provision did not exist and did not apply at the time of the default in June 2019.",
+ "timestamp": "2026-08-26"
+}

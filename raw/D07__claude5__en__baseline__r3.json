@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "**Short answer: none – Thai private‑sector labour law does not grant a paid \"spousal/paternity leave\" to male employees, so the employer has no statutory obligation to pay any wages for such leave.**\n\n**Relevant law and reasoning**\n\n- The Labour Protection Act B.E. 2541 (1998), as amended, is the law governing private‑sector employment in Thailand. It provides:\n  - **Section 41** – Maternity leave of up to **98 days** for a **female** employee who gives birth, and\n  - **Section 59** – The employer must pay the employee's normal wages for **45 days** of that maternity leave (the remaining days may be covered by the Social Security Fund, not the employer).\n\n- These provisions apply only to the **female employee who gives birth**, not to her husband. The Labour Protection Act contains **no provision granting paid \"paternity\" or \"spousal\" leave to a male private‑sector employee** whose wife gives birth.\n\n- The 15‑working‑day paid leave for a spouse's childbirth exists **only for civil servants**, under the Office of the Civil Service Commission regulations (ระเบียบสำนักนายกรัฐมนตรีว่าด้วยการลาของข้าราชการ), which do **not** extend to private‑sector employees.\n\n**Conclusion**\n\nSince Phanu is a private-sector employee, there is no statutory \"spousal leave\" entitlement under the Labour Protection Act. Unless his employment contract, company regulation, or a collective agreement provides such leave voluntarily, the employer is **not legally required to pay any wages** for the leave he took following his wife's childbirth.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "**Applicable provision:** Section 1567(2) of the Civil and Commercial Code of Thailand (ประมวลกฎหมายแพ่งและพาณิชย์ มาตรา ๑๕๖๗ (๒)), which enumerated the rights of a person exercising parental power (ผู้ใช้อำนาจปกครอง) over a minor child.\n\n**Wording in force as of June 2024 (before the later 2024 amendment that removed this clause):**\n\nThai text:\n> \"(๒) ทำโทษบุตรตามสมควรเพื่อว่ากล่าวสั่งสอน\"\n\nOfficial English rendering:\n> \"(2) to punish the child in a reasonable manner for disciplinary purposes.\"\n\n**What it required/limited:** This provision granted a parent (or person exercising parental power) the right to punish (ทำโทษ) the child, but only \"ตามสมควร\" — i.e., in a manner that was \"reasonable\" or \"appropriate\" — and only \"เพื่อว่ากล่าวสั่งสอน,\" meaning for the purpose of admonishing or instructing/disciplining the child. Thus the punishment had to be proportionate and educational/corrective in nature, not punishment inflicted arbitrarily, excessively, or for purposes unrelated to the child's upbringing. This was the statutory basis, prior to the later legislative reform, permitting parents a limited right of corporal or other reasonable punishment for disciplinary ends.",
+ "timestamp": "2026-08-27"
+}

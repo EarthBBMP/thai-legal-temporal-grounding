@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A10",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+ "raw_response": "## Applicable Provision\n\n**Section 224, paragraph two, of the Civil and Commercial Code**, as amended by the *Act Amending the Civil and Commercial Code (No. 21), B.E. 2564 (2021)* (in force since 11 April 2021 and still in force as of August 2026).\n\n## What It Requires\n\nFor a money debt that is to be repaid by instalments, if the debtor defaults on one instalment, **the creditor may claim default interest only on the amount of the principal of that particular overdue instalment** — not on the entire remaining principal or outstanding balance of the loan.\n\nThis means:\n\n- The **base for calculating default interest is limited to the defaulted instalment's principal portion**, computed from the due date of that instalment until payment.\n- The creditor **cannot** treat the whole outstanding debt as immediately due and charge default interest on the full remaining balance merely because one instalment was missed, **unless** the debt has been validly accelerated (e.g., under a properly exercised acceleration clause consistent with the law) so that the entire debt becomes due and payable.\n- The applicable **rate** of such default interest is governed by Section 224, paragraph one (as amended), i.e., the rate under Section 7 (currently 3% per annum, subject to Ministry of Finance adjustment) **plus an additional 2% per annum**, unless a higher contractual rate not exceeding this ceiling applies.\n\n**In short:** Default interest is charged on the unpaid instalment's principal only, at the Section 7 rate + 2%, unless the whole debt has been lawfully accelerated.",
+ "timestamp": "2026-08-26"
+}

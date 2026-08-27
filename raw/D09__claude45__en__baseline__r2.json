@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai labor law, specifically the **Labor Protection Act B.E. 2541 (1998)**, Section 41:\n\n**Applicable Provision:** An employee who has completed maternity leave and whose child has a disability (certified by a medical certificate) is entitled to take child-care leave for **not exceeding 60 days**.\n\n**Payment Requirement:** The employer must pay **not less than 50% of wages** for the child-care leave period.\n\n**Calculation:**\n- Daily wage: 800 baht\n- Payment rate: 50% of 800 = **400 baht per day**\n- Maximum leave days: 60 days\n- **Total amount: 400 × 60 = 24,000 baht**\n\nThe employer must pay Thanaporn **24,000 baht** for her 60-day child-care leave at the rate of **400 baht per day (50% of her regular wage)**.",
+ "timestamp": "2026-08-26"
+}

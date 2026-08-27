@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "# Holiday and Leave Rights for Service-Hire Arrangements with Thai Government Entities (August 2026)\n\n## Applicable Law\n\n**Labour Protection Act B.E. 2541 (1998), as amended by Act (No. 7) B.E. 2562 (2019)**\n\n## Holiday and Leave Requirements\n\nUnder **Section 31/1** (added by the 2019 amendment), when a government agency or state enterprise engages an individual under a **service-hire arrangement** (สัญญาจ้างทำของ), it must provide:\n\n1. **Public holidays** - At least 13 traditional holidays per year\n2. **Annual leave** - At least 6 working days per year for those working at least one year\n3. **Sick leave** - At least 30 days per year with full pay\n\nThese rights apply regardless of whether the relationship is formally classified as employment or service hire.\n\n## Jurisdiction\n\n**Section 31/2** specifies that disputes arising from Section 31/1 fall under the jurisdiction of the **Labour Court** (ศาลแรงงาน), not ordinary civil courts.\n\nThis ensures that individuals engaged under service-hire arrangements by government entities receive similar protections to regular employees and have access to the specialized Labour Court system for dispute resolution.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "Under Section 1567(2) of the Thai Civil and Commercial Code, a person exercising parental power has the right to punish a child in a reasonable manner. \n\nBased on the exact Thai legal text (\"เพื่อว่ากล่าวสั่งสอน\"), the provision states that a child may be punished for the following purposes:\n1. **Admonition** (or reprimanding / *ว่ากล่าว*)\n2. **Instruction** (or teaching / *สั่งสอน*)\n\n*(Note: In many official English translations of the Code, these two terms are collectively translated simply as \"for disciplinary purposes.\" Furthermore, while there are ongoing legislative efforts in Thailand to amend this section to explicitly ban corporal/physical punishment, the stated legal purposes for correcting a child remain admonition and instruction.)*",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A10",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+ "raw_response": "Under Section 537 of the Thai Civil and Commercial Code, the creditor may claim default interest at a rate of 7.5% per annum on the overdue instalment, calculated from the due date of that instalment until full payment is made.",
+ "timestamp": "2026-08-26"
+}

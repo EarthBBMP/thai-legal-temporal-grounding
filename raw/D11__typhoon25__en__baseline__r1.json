@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D11",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2025, did the Thai Labour Protection Act as then in force contain a provision requiring state agencies engaging individuals under service-hire arrangements to grant leave rights no less than under the Act? Answer briefly.",
+ "raw_response": "Yes, Section 17 of the Thai Labour Protection Act B.E. 2541 (1998), as amended, requires state agencies engaging individuals under service-hire arrangements to grant leave rights no less favorable than those provided under the Act.",
+ "timestamp": "2026-08-26"
+}

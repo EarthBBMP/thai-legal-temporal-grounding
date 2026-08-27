@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "Under Thai law, the answer depends on whether the female employee works in the private sector or is a government official. There are no new statutory amendments scheduled to change this specifically by August 2026.\n\n**1. Private Sector Employees (Under the Labor Protection Act B.E. 2541)**\n*   **Provision:** Sections 34 and 41 of the Labor Protection Act.\n*   **Right to further leave:** **No statutory right.** The law grants a maximum of 98 days for maternity leave (Section 41). There is no specific statutory provision allowing further continuous leave specifically \"to care for a child.\" \n*   **Alternative:** She may only use her statutory personal business leave (minimum 3 working days/",
+ "timestamp": "2026-08-27"
+}

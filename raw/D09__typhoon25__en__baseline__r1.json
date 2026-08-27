@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai labor law, during continuous child-care leave for a child with a disability, the employer must pay 50% of the employee’s daily wage.\n\nThanaporn earns 800 baht per day, so her employer must pay:  \n50% × 800 = **400 baht per day**.\n\nThe total payment depends on the number of leave days taken, but the rate is **400 baht per day**.",
+ "timestamp": "2026-08-26"
+}

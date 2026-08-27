@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A10",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+ "raw_response": "As of August 2026, under the Thai Civil and Commercial Code as currently in force, if a debtor defaults on one instalment of a money debt payable in instalments, the creditor may claim default interest on that overdue instalment based on Section 751 of the Civil and Commercial Code.\n\nThe basis for claiming default interest is the overdue amount of the specific instalment, from the date it became due until it is paid, at the statutory rate of 7.5% per annum, unless a different rate is agreed upon or specified by law. The right to claim interest arises automatically upon default without the need for a demand or court judgment, under Section 750.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X10",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what penalty applies to a person who fails to comply with an order of a labour inspector issued under Section 124 of the Thai Labour Protection Act? Answer briefly, covering both imprisonment and fine.",
+ "raw_response": "Under **Section 147** of the Thai Labour Protection Act, B.E. 2541 (1998), a person who fails to comply with an order of a labour inspector issued under Section 124 is subject to:\n\n*   **Imprisonment:** for a term not exceeding one year; or\n*   **Fine:** not exceeding twenty thousand baht (THB 20,000); or\n*   **Both** imprisonment and a fine.",
+ "timestamp": "2026-08-26"
+}

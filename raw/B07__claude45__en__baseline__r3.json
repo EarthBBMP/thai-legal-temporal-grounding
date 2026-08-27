@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B07",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a board meeting of a Thai private limited company be held by electronic communication without directors being physically present, and do directors participating that way count toward the quorum? Answer briefly, covering both points.",
+ "raw_response": "Under Thai law, as of August 2026, **yes** on both points:\n\n1. **Electronic meetings are permitted**: Section 1203/1 of the Civil and Commercial Code (added by amendment) allows board meetings of private limited companies to be held by electronic means without physical presence.\n\n2. **Quorum counting**: Directors participating via electronic communication **do count toward the quorum**, provided the electronic system allows all participants to communicate with each other simultaneously and the meeting complies with the requirements in the company's articles of association or regulations.\n\n**Key requirement**: The articles of association must not prohibit electronic meetings, and the electronic method used must enable real-time audio or audio-visual communication among all participants.",
+ "timestamp": "2026-08-26"
+}

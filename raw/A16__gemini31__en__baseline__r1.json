@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "**No, it is not permitted.** \n\n**Applicable Provision:** Section 224/1 of the Civil and Commercial Code (as amended in 2021). \n\n**What it requires:** The provision explicitly prohibits a creditor from charging interest on interest (compound interest) that has accrued during the period of default.",
+ "timestamp": "2026-08-26"
+}

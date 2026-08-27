@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D15",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, which statute most recently set the number of maternity leave days and the number of paid days, and when did it take effect? If you are not certain whether it has since been amended, say so. Answer briefly.",
+ "raw_response": "As of the current law, which would be applicable in August 2026 barring any future amendments, the statute is the **Labour Protection Act (No. 8) B.E. 2565 (2022)**.\n\nThis act, which took effect on **April 8, 2022**, amended the original Labour Protection Act to require the following:\n\n*   **Total Maternity Leave:** **98 days**\n*   **Paid Days (by the employer):** **45 days**\n\nIt is not possible to be certain that this law will not be amended or superseded by new legislation before August 2026.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B12",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a notice convening a general meeting of shareholders to pass a special resolution must be sent at least how many days before the meeting? Answer briefly, stating the number.",
+ "raw_response": "**Applicable provision:** Section 1175 of the Thai Civil and Commercial Code (CCC), which governs the calling of a general meeting of shareholders of a limited company.\n\n**Requirement:** Under Section 1175, notice of a general meeting must ordinarily be sent at least **7 days** before the meeting. However, where the meeting is called to consider a **special resolution**, the notice must be sent at least **14 days** before the meeting.\n\n**Answer: 14 days.**",
+ "timestamp": "2026-08-26"
+}

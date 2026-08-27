@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D05",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, is an employee entitled to leave to assist a spouse who has given birth? If so, for how many days, and within how many days of the birth must the right be exercised? Answer briefly, covering all three points.",
+ "raw_response": "Based on currently enacted Thai law applicable through August 2026, the entitlement to paternity leave depends on whether the employee is in the private or public sector:\n\n**1. Private Sector Employees**\n*   **Provision:** The **Labor Protection Act B.E. 2541 (1998)** (and its amendments).\n*   **Requirement:** The Act does **not** entitle private-sector employees to statutory paternity leave (leave to assist a spouse who has given birth). Any such leave is strictly at the employer's discretion based on company policy. \n\n**2. Public Sector Officials/Employees**\n*   **Provision:** Clause 22 of the **Regulation of the Office of the Prime Minister on Leave of Absence of Government Officials B.E. 2555 (2012)**.\n*   **Requirement:** Male government officials/employees **are entitled** to leave to assist a lawful spouse who has given birth.\n*   **How many days:** Up to **15 consecutive working days**.\n*   **Within how many days:** The leave must be exercised within **90 days** from the date of the birth. *(Note: If the leave is taken after 30 days from the birth, it requires special approval from a higher-ranking commander).*",
+ "timestamp": "2026-08-27"
+}

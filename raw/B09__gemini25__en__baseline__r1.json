@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B09",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a memorandum of association has been registered but the company has not yet been registered, after what period does the memorandum lapse? Answer briefly.",
+ "raw_response": "Under Section 1099 of the Thai Civil and Commercial Code, if the company is not registered within **three years** from the date the memorandum of association was registered, the registration of the memorandum becomes void.",
+ "timestamp": "2026-08-26"
+}

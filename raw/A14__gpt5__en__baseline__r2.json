@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "- Applicable provision: Section 7 of the Thai Civil and Commercial Code (as amended by the Act Amending the CCC (No. 20), B.E. 2564 (2021)). It requires that, where no other rate is fixed by law or agreement, the legal interest rate is 3% per annum, and empowers the Minister of Finance to reset this rate by notification (typically every three years).\n\n- Last set and current rate: The last setting I can confirm took effect on 11 April 2021 at 3% per annum. I am not certain whether the Ministry of Finance has adjusted it since then.",
+ "timestamp": "2026-08-26"
+}

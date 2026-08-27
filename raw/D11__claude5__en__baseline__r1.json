@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D11",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2025, did the Thai Labour Protection Act as then in force contain a provision requiring state agencies engaging individuals under service-hire arrangements to grant leave rights no less than under the Act? Answer briefly.",
+ "raw_response": "**No.** As of January 2025, the Thai Labour Protection Act B.E. 2541 (1998), as amended, did **not** contain such a provision.\n\n**Relevant provision: Section 4**\n\nSection 4 of the Labour Protection Act explicitly **excludes** central government administration, provincial administration, local administration, and state enterprises (under the law on state enterprise labour relations) from the scope of the Act. This means:\n\n- Central/provincial/local government agencies are not \"employers\" under the LPA, and\n- Persons engaged by such agencies are not \"employees\" for purposes of the LPA.\n\nConsequently, the LPA itself imposes **no obligation** on state agencies to extend leave entitlements (annual leave, sick leave, etc.) to individuals engaged under service-hire (จ้างเหมาบริการ) or other non-employment contractual arrangements, since such agencies fall outside the Act's coverage altogether.\n\n**Where such requirements actually come from**\n\nTo the extent Thai government agencies provide leave benefits to service-contract personnel comparable to LPA standards, this stems from **separate administrative instruments**, such as:\n- Cabinet resolutions on the engagement of personnel under service contracts (jâang mao borikan), and\n- Internal regulations or guidelines issued by the Office of the Civil Service Commission (OCSC) or individual ministries,\n\nrather than from any provision within the Labour Protection Act itself.",
+ "timestamp": "2026-08-27"
+}

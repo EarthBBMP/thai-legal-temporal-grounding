@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Wichai borrowed 200,000 baht from Prasong with no agreed interest rate, repayable on 1 March 2019. He failed to pay. How much default interest accrued for the period 1 March 2019 to 1 March 2020? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable law:** Section 224 of the Thai Civil and Commercial Code (as it stood before the 2021 amendment), which provides that where no interest rate has been agreed, the default (legal) interest rate on a debt in default is **7.5% per annum**.\n\n**Calculation:**\n- Principal: 200,000 baht\n- Rate: 7.5% per annum\n- Period: 1 March 2019 – 1 March 2020 (1 year)\n\n200,000 × 7.5% × 1 = **15,000 baht**\n\n**Answer:** The default interest accrued is **15,000 baht**, calculated at the statutory rate of 7.5% per annum under Section 224 CCC (the rate applicable at that time, before the 2021 amendment reduced it to 5%).",
+ "timestamp": "2026-08-26"
+}

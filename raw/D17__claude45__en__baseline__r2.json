@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D17",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employee who has worked continuously for twenty years or more is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+ "raw_response": "Under Thai law, an employee who has worked continuously for twenty years or more is entitled to severance pay of at least **400 days** of their final wage rate.\n\nThis is provided under Section 118 of the Labour Protection Act B.E. 2541 (1998), as amended.",
+ "timestamp": "2026-08-26"
+}

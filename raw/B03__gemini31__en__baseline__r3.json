@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "**No.**\n\n**Applicable Provision:** Section 1097 of the Thai Civil and Commercial Code (as it was in force in October 2021).\n\n**What it requires:** Under the law in effect at that time, the provision required a minimum of **three** persons (promoters) to subscribe their names to a memorandum of association in order to promote and register a private limited company. \n\n**Brief Reason:** Because Piyada and her friend were only two people, they fell short of the three-person minimum required by the law in October 2021. \n\n*(Note: The Thai government subsequently amended Section 1097 to reduce the minimum number of promoters from three to two, but this amendment did not come into effect until February 7, 2023).*",
+ "timestamp": "2026-08-26"
+}

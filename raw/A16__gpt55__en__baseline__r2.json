@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "No. The applicable provision is **Civil and Commercial Code section 224**. It provides that a money debt bears default interest at the statutory default rate, but **interest during default must not be charged on accrued interest**. So the creditor may charge default interest on the principal debt, not compound/default interest on the interest arrears.",
+ "timestamp": "2026-08-26"
+}

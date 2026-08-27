@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable law:** Labor Protection Act B.E. 2541 (as amended), Section 59 (maternity leave) and Section 57 (sick leave).\n\n**Analysis:**\n\n- Section 59 requires the employer to pay full wages for only **45 days** of the 98‑day maternity leave (800 baht × 45 = **36,000 baht**), which by the facts has already been completed and paid in May 2026.\n- The additional leave taken afterward — to continuously care for a child with a disability, supported by a medical certificate — is **not** a category of paid leave recognized under the Labor Protection Act. Section 57 paid sick leave (up to 30 days/year) applies only to the **employee's own illness**, not to leave taken to care for a child, even a disabled one.\n\n**Conclusion:** For the child‑care leave days (beyond the 45 paid maternity days), the employer is **not legally required to pay any wage** — it is treated as unpaid leave under the Act, unless a more favorable work rule, employment contract, or collective agreement provides otherwise. Statutory payment obligation for those additional days = **0 baht**.",
+ "timestamp": "2026-08-27"
+}

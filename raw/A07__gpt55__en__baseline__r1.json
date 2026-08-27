@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A07",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Wichai borrowed 200,000 baht from Prasong with no agreed interest rate, repayable on 1 March 2019. He failed to pay. How much default interest accrued for the period 1 March 2019 to 1 March 2020? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under the Thai Civil and Commercial Code, **section 224 as in force in 2019–2020** applied: a debtor in default on a money debt owed **default interest at 7.5% per annum**.\n\nCalculation: **200,000 × 7.5% × 1 year = 15,000 baht**.\n\nSo, default interest accrued from **1 March 2019 to 1 March 2020** was **15,000 baht**.",
+ "timestamp": "2026-08-26"
+}

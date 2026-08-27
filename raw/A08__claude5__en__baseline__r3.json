@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Benjawan is a creditor for a 300,000 baht loan. The debtor has been in default since 1 January 2021 and had still not paid as of 31 December 2021. No interest rate was agreed. How should default interest be calculated for that period? Answer briefly, stating the rates and the date ranges explicitly.",
+ "raw_response": "**Applicable law:** Section 224 of the Civil and Commercial Code (CCC), which governs default interest on a money debt when no interest rate has been agreed by the parties. This section refers to the statutory rate under Section 7 CCC.\n\n**Complication:** Section 7 and Section 224 CCC were amended by the Emergency Decree Amending the Civil and Commercial Code (No. 20), B.E. 2564, which took effect on **11 April 2021**. This changed the default statutory interest rate.\n\n**Calculation for the period 1 January 2021 – 31 December 2021:**\n\n1. **1 January 2021 – 10 April 2021** (pre-amendment law):\n - Section 224 (old version) provided that default interest = the rate under Section 7 (old version) = **7.5% per annum**.\n\n2. **11 April 2021 – 31 December 2021** (post-amendment law):\n - Section 7 (new version) sets the general statutory rate at 3% per annum (subject to periodic adjustment by royal decree, but remaining 3% since no adjustment has been made).\n - Section 224 (new version) sets default interest at the Section 7 rate **plus 2%**, i.e., **5% per annum**.\n\n**Summary:**\n- 1 Jan 2021 – 10 Apr 2021: interest at **7.5% p.a.** on 300,000 baht.\n- 11 Apr 2021 – 31 Dec 2021: interest at **5% p.a.** on 300,000 baht.\n\nThe total default interest owed is the sum of interest calculated separately for each of these two periods, applying the respective rate under Section 224 CCC (in conjunction with Section 7 CCC) as in force during each period.",
+ "timestamp": "2026-08-26"
+}

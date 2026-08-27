@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B10",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+ "raw_response": "As of August 2026, under the Thai Civil and Commercial Code as amended in 2023, there are two forms of merger available for private limited companies.\n\nThe applicable provision is **Section 1238 of the Civil and Commercial Code**.\n\nThe two forms are:\n\n1.  **Amalgamation:** Two or more companies combine to form a completely new company. The original companies are dissolved, and their rights and liabilities are transferred to the newly established entity.\n2.  **Merger (Acquisition Merger):** One or more companies merge into an existing company. The company being merged into is the surviving entity, while the other company (or companies) is dissolved. The surviving company assumes all the rights and liabilities of the dissolved company.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A15",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In April 2026, a loan contract specifies a default interest rate of 12% per year, a rate the creditor may lawfully charge. The debtor defaults. What annual rate of default interest applies? Answer briefly, stating the number.",
+ "raw_response": "Under Thai law, the applicable provision is **Section 654 of the Civil and Commercial Code**.\n\n**Answer: 7.5% per year**\n\n**Explanation:**\nSection 654 provides that when a debtor defaults on a monetary obligation, the creditor is entitled to interest at the rate of **7.5% per annum** from the time of default, regardless of any contractually agreed interest rate for the loan period itself.\n\nThe 12% per year rate specified in the contract applies only during the normal loan period (before default). Once default occurs, the statutory default interest rate of 7.5% per annum automatically applies unless the parties have made a specific, separate agreement regarding the default interest rate that complies with legal limits.",
+ "timestamp": "2026-08-26"
+}

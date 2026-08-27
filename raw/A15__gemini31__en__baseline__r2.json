@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A15",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In April 2026, a loan contract specifies a default interest rate of 12% per year, a rate the creditor may lawfully charge. The debtor defaults. What annual rate of default interest applies? Answer briefly, stating the number.",
+ "raw_response": "Under **Section 224** of the Thai Civil and Commercial Code, the default interest rate on a money debt is generally set at 5% per year (the 3% statutory rate under Section 7 plus a 2% surcharge). However, the provision explicitly requires that if the creditor can lawfully demand a higher interest rate based on a contract or other legitimate grounds, that higher agreed-upon rate shall continue to apply. \n\nSince the contract lawfully specifies a 12% rate, the applicable annual rate of default interest is **12%**.",
+ "timestamp": "2026-08-26"
+}

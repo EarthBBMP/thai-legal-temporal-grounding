@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D15",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, which statute most recently set the number of maternity leave days and the number of paid days, and when did it take effect? If you are not certain whether it has since been amended, say so. Answer briefly.",
+ "raw_response": "Based on currently available information, the most recent statute setting these requirements is the **Labor Protection Act (No. 7) B.E. 2562 (2019)**, which took effect on **May 5, 2019**. \n\nThe applicable provisions are:\n*   **Section 41:** Entitles a pregnant employee to a maximum of **98 days** of maternity leave per pregnancy (which now includes leave taken for prenatal check-ups).\n*   **Section 59:** Requires the employer to pay the employee's regular wages for up to **45 days** of that maternity leave. *(Note: Eligible employees can claim compensation for an additional 45 days from the Social Security Fund).*\n\n**Disclaimer:** Because my knowledge is only current up to early 2024, I am not certain whether these provisions have since been amended as of August 2026.",
+ "timestamp": "2026-08-27"
+}

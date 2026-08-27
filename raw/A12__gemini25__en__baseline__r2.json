@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "Yes, such a clause was considered void under the prevailing interpretation of the Civil and Commercial Code at that time.\n\n**Applicable Provision:** The clause was void for being contrary to law under **Section 150** of the Civil and Commercial Code, based on the principles governing default interest in **Section 224**.\n\n**Requirement:** At that time, Supreme Court precedent established that default interest under Section 224 could only be charged on the principal amount that was actually overdue (i.e., the missed instalment). An agreement to charge default interest on the entire outstanding balance, which included future instalments not yet due, was considered contrary to this principle and therefore void.",
+ "timestamp": "2026-08-26"
+}

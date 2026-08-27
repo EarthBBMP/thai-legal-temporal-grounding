@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D06",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2025, did the Thai Labour Protection Act as then in force give employees the right to leave to assist a spouse who had given birth? Answer briefly.",
+ "raw_response": "**No.** As of June 2025, the Thai Labour Protection Act B.E. 2541 (1998), as amended, did **not** grant a specific statutory right to \"paternity leave\" or leave for an employee to assist a spouse who had given birth.\n\nKey relevant provisions at that time:\n\n- **Section 41** provides leave for a *female employee* for pregnancy/childbirth-related purposes (maternity leave), capped at 98 days, covering prenatal check-ups and delivery.\n- There was **no equivalent provision** for male employees (or the non-birthing spouse) to take leave to assist their spouse during childbirth or the postnatal period.\n\nAny such \"paternity leave\" that existed in Thailand at that time was typically available only to **civil servants** and certain **state enterprise employees**, under separate regulations (e.g., the Office of the Civil Service Commission regulations allowing male civil servants up to 15 days of leave to assist a wife who has given birth). This benefit did not extend to private-sector employees under the Labour Protection Act.\n\nThere had been public discussion and draft proposals to amend the Labour Protection Act to include paternity leave for private-sector workers, but as of June 2025, no such amendment had been enacted into law.",
+ "timestamp": "2026-08-27"
+}

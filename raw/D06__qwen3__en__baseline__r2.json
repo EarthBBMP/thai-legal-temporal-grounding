@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D06",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2025, did the Thai Labour Protection Act as then in force give employees the right to leave to assist a spouse who had given birth? Answer briefly.",
+ "raw_response": "Yes. Under the Thai Labour Protection Act, as in force in June 2025, Section 42 grants male employees the right to take paid leave of up to three days per year to care for a spouse who has given birth.",
+ "timestamp": "2026-08-26"
+}

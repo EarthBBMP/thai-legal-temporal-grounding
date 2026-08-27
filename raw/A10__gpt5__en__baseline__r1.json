@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A10",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+ "raw_response": "Civil and Commercial Code, Section 224 (interest on arrears): If a money debt is payable by instalments and the debtor defaults on an instalment, the creditor may claim default interest only on the unpaid amount of that overdue instalment. Default interest may be charged on the whole outstanding balance only if the creditor validly accelerates the debt under the agreement or the law.",
+ "timestamp": "2026-08-26"
+}

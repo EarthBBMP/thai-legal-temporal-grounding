@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "As of August 2026, the applicable provision is **Section 1567(2) of the Thai Civil and Commercial Code**, as amended. It no longer simply allows a parent to “punish” a child reasonably; it limits parental discipline by prohibiting abusive or harmful methods.\n\nThe current Thai wording of **Section 1567(2)** is:\n\n> “(๒) ว่ากล่าวตักเตือนหรือสั่งสอนบุตรตามสมควรเพื่อการอบรมเลี้ยงดู แต่ต้องไม่กระทำโดยวิธีการทารุณกรรม ทำร้ายร่างกายหรือจิตใจ หรือกระทำโดยมิชอบด้วยวิธีอื่นใด”\n\nIn English, this means in substance:\n\n> “To admonish, caution, or teach the child as appropriate for the purpose of upbringing, but this must not be done by means of cruelty, physical or mental harm, or by any other unlawful method.”\n\nThus, Section 1567(2) permits parental correction or instruction only within those limits: it must be appropriate for upbringing and must not involve cruelty, bodily or mental harm, or other unlawful methods.",
+ "timestamp": "2026-08-26"
+}

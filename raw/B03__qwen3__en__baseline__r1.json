@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "Yes. Under the Thai Civil and Commercial Code as amended before the new law came into effect in November 2015, a private limited company could be registered with a minimum of three shareholders. However, the new law effective November 2015 reduced the required minimum number of shareholders to one. Therefore, by October 2021, Piyada and one friend (two people) could legally register a private limited company, as the law then allowed a minimum of one shareholder and thus permitted two.",
+ "timestamp": "2026-08-26"
+}

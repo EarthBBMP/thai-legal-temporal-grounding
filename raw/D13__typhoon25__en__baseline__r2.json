@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D13",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employer's work rules state: \"Female employees are entitled to maternity leave of no more than 98 days.\" Is this lawful? Answer only \"lawful\" or \"unlawful\", with a one-sentence reason.",
+ "raw_response": "Unlawful, because under Thailand’s Labor Protection Act, female employees are entitled to maternity leave of at least 90 days, and the employer’s rule limiting it to 98 days is below the statutory minimum.",
+ "timestamp": "2026-08-26"
+}

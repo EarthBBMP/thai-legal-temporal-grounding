@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A08",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Benjawan is a creditor for a 300,000 baht loan. The debtor has been in default since 1 January 2021 and had still not paid as of 31 December 2021. No interest rate was agreed. How should default interest be calculated for that period? Answer briefly, stating the rates and the date ranges explicitly.",
+ "raw_response": "Under **Section 224 of the Thai Civil and Commercial Code**, if no interest rate is agreed upon, the default interest rate is **5% per annum** until **10 April 2021**. From **11 April 2021**, the default interest rate is reduced to **3% per annum**, following the amendment to Section 7 of the Civil and Commercial Code.\n\nFor the period in question:\n\n1. **1 January 2021 to 10 April 2021**: Default interest is calculated at **5% per annum**.\n2. **11 April 2021 to 31 December 2021**: Default interest is calculated at **3% per annum**.",
+ "timestamp": "2026-08-26"
+}

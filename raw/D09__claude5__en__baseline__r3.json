@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable provision:** Sections 41 and 59 of the Labour Protection Act B.E. 2541 (as amended).\n\n- Section 41 gives a female employee the right to maternity leave (which under the Act includes leave connected to childbirth and the necessary follow‑up care, up to a total of 98 days including holidays).\n- Section 59 obliges the employer to pay wages for that leave **at the employee's normal daily wage rate, but for no more than 45 days**, regardless of how many days of leave are actually taken (98 days, or extended because the child has a disability and a medical certificate is produced).\n\n**Calculation for Thanaporn:**\n- Daily wage: 800 baht\n- Paid days: 45 days (the statutory maximum under Section 59)\n- Amount employer must pay: 45 × 800 = **36,000 baht**\n\nAny days of leave beyond the 45 paid days (including the additional continuous leave taken because of the child's disability) are **not required to be paid by the employer** under the Labour Protection Act; the employee may instead be entitled to a maternity allowance from the Social Security Fund for part of the unpaid period, but that is a separate benefit, not an employer obligation.",
+ "timestamp": "2026-08-27"
+}

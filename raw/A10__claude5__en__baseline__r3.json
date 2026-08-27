@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A10",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+ "raw_response": "**Applicable provision: Section 224/1 of the Civil and Commercial Code** (inserted by the Act Amending the Civil and Commercial Code (No. 22), B.E. 2564 (2021), in force since 11 April 2021, and still in force as of August 2026).\n\n**What it requires:**\n\n- Where a debt is to be repaid by instalments and the debtor defaults on one instalment, the creditor may claim default interest **only on the amount of that overdue instalment**, not on the total outstanding principal or on instalments not yet due.\n- The creditor may not treat the default as accelerating the whole debt for interest purposes unless the contract contains a valid acceleration clause **and** the statutory conditions for invoking it are satisfied (i.e., the debtor must first be given a reasonable grace period of no less than 30 days to cure the default before the whole debt can be treated as due, per the accompanying reform of Section 193/34 (13) practice and related consumer-protection rules).\n- Absent such a properly triggered acceleration, default interest runs only on the unpaid instalment amount, calculated at the default rate under Section 224 (the statutory default rate, currently 5% per annum unless a lawful contractual rate not exceeding this applies, subject to the Ministerial Regulation adjusting the rate periodically under Section 7).\n\n**In short:** the creditor's claim for default interest must be based on the amount of the missed instalment alone (Section 224/1), not the entire remaining debt, unless a valid and properly invoked acceleration clause brings the whole balance into default.",
+ "timestamp": "2026-08-26"
+}

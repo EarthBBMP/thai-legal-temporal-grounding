@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "As of August 2026, when a Thai government agency or state enterprise engages an individual under a service-hire arrangement, the holiday and leave rights are typically governed by the Civil Service Act and relevant ministerial regulations, not the Labour Protection Act. Such individuals are generally entitled to official public holidays as declared by the government and may receive annual, sick, and other leave as specified in their contract or applicable rules—often aligned with civil service standards.\n\nDisputes arising from service-hire arrangements with government agencies or state enterprises fall under the jurisdiction of the Administrative Courts, not the Labour Court, because these relationships are considered administrative in nature.",
+ "timestamp": "2026-08-26"
+}

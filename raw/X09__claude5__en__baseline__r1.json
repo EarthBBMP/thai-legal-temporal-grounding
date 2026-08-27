@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X09",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where there is a change of employer or a merger of the employer with another juristic person such that an employee becomes the employee of a new employer, what must be obtained from that employee? Answer briefly.",
+ "raw_response": "**Applicable law:** Section 13 of the Labour Protection Act B.E. 2541 (1998), as amended.\n\n**Requirement:** Where an employer that is a juristic person changes its status, is amalgamated, or merges with another juristic person, and as a result an employee becomes the employee of the new (successor) employer, the **employee's consent** to the transfer must be obtained. If the employee consents, all rights and duties existing between the employee and the former employer transfer to the new employer, and the employee's length of service and accrued benefits must be preserved and continued by the new employer.",
+ "timestamp": "2026-08-27"
+}

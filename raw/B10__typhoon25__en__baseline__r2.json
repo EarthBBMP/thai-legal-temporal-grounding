@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B10",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+ "raw_response": "As of August 2026, under the Thai Companies Act B.E. 2535 (1992), as amended, there are two forms of merger available for Thai private limited companies:\n\n1. **Merger by absorption** – One company absorbs another, and the absorbed company ceases to exist.\n2. **Merger by formation of a new company** – Two or more companies merge to form a new company, and the original companies cease to exist.\n\nThese forms apply equally to private limited companies.",
+ "timestamp": "2026-08-26"
+}

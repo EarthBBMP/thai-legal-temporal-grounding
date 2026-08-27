@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A11",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2026, an instalment contract contains the clause: \"If the borrower defaults on any instalment, the entire debt shall be treated as in default and the lender may charge default interest on the whole outstanding balance.\" What is the legal effect of this clause? Answer only \"valid\" or \"void\", with a one-sentence reason.",
+ "raw_response": "Void, because Section 224/1 of the Civil and Commercial Code requires that default interest in instalment contracts be calculated only on the principal of the specific defaulted instalment, expressly rendering any contrary agreement void.",
+ "timestamp": "2026-08-26"
+}

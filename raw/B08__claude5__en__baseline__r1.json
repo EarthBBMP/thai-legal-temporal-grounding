@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In May 2021, a company held a board meeting by video conference. At that time, did the Thai Civil and Commercial Code contain a specific provision authorising electronic board meetings? Answer briefly.",
+ "raw_response": "# Thai Law on Electronic Board Meetings (as of May 2021)\n\n**No, the Civil and Commercial Code (CCC) itself did not contain a specific provision authorizing electronic board meetings.**\n\nThe relevant legal basis instead came from a separate emergency decree:\n\n## Applicable Law\n\n**The Emergency Decree on Electronic Meetings B.E. 2563 (2020)** (พระราชกำหนดว่าด้วยการประชุมผ่านสื่ออิเล็กทรอนิกส์ พ.ศ. 2563), which came into force on **April 19, 2020**.\n\nThis decree was enacted in response to the COVID-19 pandemic to provide legal certainty for meetings conducted via electronic means, including board of directors' meetings, shareholders' meetings, and other meetings required under law (such as the CCC, the Public Limited Companies Act, and other statutes).\n\n## Key Requirements Under the Decree\n\n1. The meeting must use an electronic system that complies with security standards set by the Ministry of Digital Economy and Society (E-Meeting Standards Notification).\n2. The system must allow participants to:\n   - Attend and participate in the meeting\n   - Cast votes (openly or secretly, as applicable)\n3. Attendance via electronic means is legally counted toward quorum, as if the participant were physically present.\n4. Meeting records/minutes must still be prepared and retained as required by law.\n\n## Conclusion\n\nFor a board meeting held in **May 2021**, the legal authority for holding it via video conference derived from the **2020 Emergency Decree**, not from any amendment to the CCC. The CCC's general provisions on board meetings (e.g., Sections 1160–1162 for companies limited by shares) did not themselves contain electronic meeting provisions; the Emergency Decree operated as an overriding special law to validate such meetings during the period it remained in force.",
+ "timestamp": "2026-08-26"
+}

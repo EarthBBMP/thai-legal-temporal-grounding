@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "As of June 2024, Section 1567(2) of the Thai Civil and Commercial Code provided that:\n\n\"A parent or guardian may administer reasonable correction to a child, but not such as would cause serious injury or death.\"\n\nThis wording defined the legal limits on corporal punishment of children under Thai law at that time.",
+ "timestamp": "2026-08-26"
+}

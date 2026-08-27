@@ -1,0 +1,75 @@
+==========================================================================
+TEMPORAL LEGAL GROUNDING — RESULTS
+==========================================================================
+2881 responses · 2881 baseline · 0 mitigation
+models: claude45, claude5, gemini25, gemini31, gpt4o, gpt5, gpt55, qwen3, typhoon25
+excluded from all metrics: A09, B10, C01 (155 responses, still present in labelled.csv)
+  A09: คำตอบตามมาจากตัวเลขในโจทย์เอง โจทย์ระบุว่าผิดนัดงวดที่ 5 เพียงงวดเดียว งวดอื่นชำระตรงเวลาทั้งหมด และไม่มีข้อสัญญาเร่งหนี้ ดังนั้น 10,000 บาท จึงได้จากหลักสัญญาทั่วไปบวกเลขคณิตในโจทย์ โดยไม่ต้องรู้ ม.224/1 หลักฐาน: typhoon25 ตอบถูก 6/6 ในข้อนี้ ทั้งที่ตอบผิด 50 จาก 60 แถวในกลุ่มควบคุม X
+  B10: คำตอบ 2 รูปแบบเดาได้จากความรู้ M&A สากล โดยไม่ต้องรู้ ม.1238 ของไทย จึงไม่วัดสิ่งที่ตั้งใจวัด นอกจากนี้คำตอบที่ว่า 'บริษัทหนึ่งดูดซับอีกบริษัทหนึ่ง' ก็ตรงกับ ม.1238(2) ที่ให้บริษัทหนึ่งคงสภาพ เพียงใช้ถ้อยคำต่างกัน การบังคับด้วย regex จึงสร้าง false negative
+  C01: การตีเด็กจนเป็นรอยฟกช้ำอยู่นอกขอบเขตอำนาจปกครองทั้งตามบทที่แก้ใหม่และบทเดิม 'ทำโทษบุตรตามสมควร' ข้อนี้จึงแยกสองยุคไม่ได้ หลักฐาน: gemini25 th r1 และ r2 อ้างถ้อยคำที่ถูกยกเลิกตรง ๆ ว่า 'ว่ากล่าวสั่งสอนบุตรตามสมควร' แต่ยังได้ label correct เพราะคำตอบถูกทั้งสองยุค การยึดติดจึงเกิดขึ้นได้โดยที่ label ไม่จับ
+
+RSCR — repealed-statute citation rate, post-frame items, baseline
+model         Thai                          English                       
+claude45      17.3% [10.4%–27.4%] (13/75)   40.0% [29.7%–51.3%] (30/75)   
+claude5       10.3% [5.3%–19.0%] (8/78)     13.9% [8.0%–23.2%] (11/79)    
+gemini25      20.8% [13.2%–31.1%] (16/77)   13.3% [7.4%–22.8%] (10/75)    
+gemini31      17.1% [10.3%–27.1%] (13/76)   14.8% [8.7%–24.1%] (12/81)    
+gpt4o         26.8% [17.9%–38.1%] (19/71)   23.1% [15.1%–33.6%] (18/78)   
+gpt5          4.9% [1.3%–16.1%] (2/41)      0.0% [0.0%–8.8%] (0/40)       
+gpt55         7.6% [3.5%–15.6%] (6/79)      14.8% [8.7%–24.1%] (12/81)    
+qwen3         30.7% [21.4%–41.8%] (23/75)   40.8% [30.4%–52.0%] (31/76)   
+typhoon25     21.8% [14.1%–32.2%] (17/78)   27.0% [18.2%–38.1%] (20/74)   
+
+CONTROL accuracy — rules that never changed (groups X, and A15/A16,
+B11/B12, C06). If this is high while RSCR is also high, the failure is
+specific to amended provisions, not general ignorance of Thai law.
+model         Thai                          English                       
+claude45      92.5% [80.1%–97.4%] (37/40)   85.7% [72.2%–93.3%] (36/42)   
+claude5       95.2% [84.2%–98.7%] (40/42)   92.9% [81.0%–97.5%] (39/42)   
+gemini25      100.0% [91.6%–100.0%] (42/42) 92.7% [80.6%–97.5%] (38/41)   
+gemini31      100.0% [91.6%–100.0%] (42/42) 95.2% [84.2%–98.7%] (40/42)   
+gpt4o         75.6% [60.7%–86.2%] (31/41)   90.5% [77.9%–96.2%] (38/42)   
+gpt5          85.7% [48.7%–97.4%] (6/7)     88.9% [56.5%–98.0%] (8/9)     
+gpt55         100.0% [91.6%–100.0%] (42/42) 100.0% [91.6%–100.0%] (42/42) 
+qwen3         65.9% [50.5%–78.4%] (27/41)   64.3% [49.2%–77.0%] (27/42)   
+typhoon25     40.5% [26.3%–56.5%] (15/37)   31.0% [19.1%–46.0%] (13/42)   
+
+OVER-APPLIED — current rule used for facts predating the amendment
+(pre-frame items). A distinct failure from anchoring; report separately.
+claude45      25.0% [13.8%–41.1%] (9/36)    10.0% [3.5%–25.6%] (3/30)     
+claude5       0.0% [0.0%–9.6%] (0/36)       0.0% [0.0%–9.6%] (0/36)       
+gemini25      2.9% [0.5%–14.5%] (1/35)      6.7% [1.8%–21.3%] (2/30)      
+gemini31      0.0% [0.0%–9.6%] (0/36)       0.0% [0.0%–10.4%] (0/33)      
+gpt4o         16.1% [7.1%–32.6%] (5/31)     27.6% [14.7%–45.7%] (8/29)    
+gpt5          5.6% [1.0%–25.8%] (1/18)      11.8% [3.3%–34.3%] (2/17)     
+gpt55         0.0% [0.0%–9.6%] (0/36)       8.3% [2.9%–21.8%] (3/36)      
+qwen3         18.8% [8.9%–35.3%] (6/32)     15.6% [6.9%–31.8%] (5/32)     
+typhoon25     24.2% [12.8%–41.0%] (8/33)    37.9% [22.7%–56.0%] (11/29)   
+
+RSCR BY AMENDMENT AGE — does anchoring fade as an amendment ages?
+group   topic         age         Thai                      English                   
+A       ดอกเบี้ย      5 yr 4 mo   17.0% [12.8%–22.3%] (40/235)21.7% [16.9%–27.3%] (52/240)
+B       บริษัท        3 yr 6 mo   3.7% [1.6%–8.4%] (5/135)  10.4% [6.3%–16.8%] (14/134)
+C       ทำโทษบุตร     17 mo       28.3% [18.5%–40.8%] (17/60)30.8% [19.9%–44.3%] (16/52)
+D       แรงงาน        8 mo        25.0% [19.7%–31.1%] (55/220)26.6% [21.3%–32.6%] (62/233)
+
+KNOWLEDGE vs APPLICATION — a model that can state the rule but not
+apply it is the interesting case.
+knowledge     18.1% [14.4%–22.4%] (65/360)  20.1% [16.3%–24.6%] (72/358)  
+application   26.1% [19.8%–33.6%] (40/153)  29.4% [22.8%–37.1%] (45/153)  
+
+CONFIDENCE — share of WRONG answers with no expression of uncertainty
+  97.7% [96.5%–98.6%] (781/799)
+  group C responses quoting the deleted wording 'ตามสมควร': 30.8% [25.3%–36.9%] (74/240)
+
+HYGIENE  non-deterministic cells at temperature 0: 113/962
+         refusals: 14
+         ambiguous: 167
+         empty (no text returned, excluded from SCORABLE): 0
+         denies the provision exists: 42 post-frame (a factual error), 59 pre-frame (often the correct answer)
+           post-frame denials by model: gemini31 13, claude5 10, gemini25 7, gpt4o 6, qwen3 5, typhoon25 1
+         refusal rate group A: 0.0%
+         refusal rate group B: 0.0%
+         refusal rate group C: 5.8%
+         refusal rate group D: 0.0%
+         refusal rate group X: 0.0%

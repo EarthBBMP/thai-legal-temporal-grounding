@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C06",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a father punishes his 10-year-old for not doing homework by withholding pocket money for a week and giving a verbal warning. Under Section 1567(2) as currently in force, does this fall within scope? Answer only \"within scope\" or \"outside scope\".",
+ "raw_response": "Outside scope.\n\nSection 1567(2) of the Thai Civil and Commercial Code allows parents to punish their child \"in a reasonable manner\" for disciplinary purposes. Withholding pocket money for a week and giving a verbal warning for not doing homework is a reasonable disciplinary measure that falls within the parental authority to educate and discipline a child, and therefore does not constitute prohibited conduct under this provision.",
+ "timestamp": "2026-08-26"
+}

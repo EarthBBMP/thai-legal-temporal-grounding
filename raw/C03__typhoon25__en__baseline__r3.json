@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "Under Section 1567(2) of the Thai Civil and Commercial Code as of August 2026, a child may be punished only for the following purposes:\n\n1. To correct the child’s misconduct.  \n2. To prevent future misconduct.  \n3. To promote the child’s moral development.",
+ "timestamp": "2026-08-26"
+}

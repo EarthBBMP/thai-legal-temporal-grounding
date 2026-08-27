@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "Under Section 1567(2) of the Thai Civil and Commercial Code, a parent (person exercising parental power) may punish a child **for the purpose of disciplining the child's behavior**, provided the punishment is reasonable/appropriate for that purpose.\n\n**Note on context:** Section 1567 was amended by the Act Amending the Civil and Commercial Code (No. 23), B.E. 2565 (2022), which came into force in 2022. This amendment restricted the parental power to punish children, removing broader disciplinary powers previously allowed, and limited punishment to reasonable measures for the purpose of teaching morals (\"การอบรมสั่งสอน\") only — explicitly prohibiting punishment that constitutes violence or cruelty, or which is not proportionate, or which humiliates the child's dignity.\n\nUnder the current (as of August 2026) Section 1567(2), the sole stated purpose is:\n\n- **To discipline/instruct the child for the purpose of upbringing (การอบรมสั่งสอนบุตร)** — i.e., punishment is permitted only insofar as it is a reasonable measure for teaching/molding the child's behavior and moral development, not for any other purpose (such as venting anger or excessive control), and must not amount to violence, cruelty, or an act that violates the child's body or mind or degrades their human dignity.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "# Holiday and Leave Rights Under Thai Service-Hire Arrangements (August 2026)\n\n## Leave Entitlements\n\nUnder **Section 12 of the Labour Protection Act B.E. 2541 (1998)**, as amended, individuals engaged under service-hire arrangements by government agencies or state enterprises are entitled to:\n\n- **Traditional holidays**: At least 13 traditional holidays per year (as designated by Royal Decree or Ministerial Regulation)\n- **Annual leave**: At least 6 working days per year after one year of continuous service\n- **Sick leave**: As needed with appropriate medical certification (typically 30 days per year with full pay)\n- **Personal/business leave**: As may be provided by the employer's regulations\n\n**Note**: These are minimum statutory requirements. Government agencies often provide more generous leave under civil service regulations, though service-hire workers may receive different treatment than permanent civil servants.\n\n## Jurisdiction Over Disputes\n\n**Labour Courts** have jurisdiction over disputes arising from service-hire arrangements under **Section 8 of the Establishment of Labour Courts and Labour Court Procedure Act B.E. 2522 (1979)**, as amended. This applies even when the employer is a government agency or state enterprise, as the relationship is contractual employment rather than civil service appointment.\n\nThe Labour Court system provides specialized adjudication for employment-related disputes, including claims for unpaid leave benefits or wrongful termination.",
+ "timestamp": "2026-08-26"
+}

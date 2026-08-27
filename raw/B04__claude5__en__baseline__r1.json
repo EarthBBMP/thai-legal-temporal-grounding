@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B04",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+ "raw_response": "## Applicable Law\n\n**Section 1097 of the Civil and Commercial Code (CCC)**, as amended by the **Civil and Commercial Code Amendment Act (No. 23) B.E. 2565 (2022)**.\n\n## Key Facts\n\n- **Before amendment**: Section 1097 required a minimum of **three (3) promoters** to register a private limited company.\n- **After amendment**: The amendment reduced the minimum number of promoters to **two (2) persons**. This amendment was published in the Royal Gazette and took effect on **7 February 2023**.\n\n## Analysis\n\n**1) Application on 15 December 2022 (two promoters) — NOT permissible**\n\nAt this date, the old law was still in force, requiring a minimum of three promoters under the original Section 1097. Since Jirayu and his partner constituted only two promoters, this application did not meet the legal requirement and would be rejected by the registrar.\n\n**2) Application on 15 March 2023 (two promoters) — Permissible**\n\nBy this date, the amended Section 1097 (effective 7 February 2023) was already in force, allowing a private limited company to be formed with only two promoters. Therefore, the application with the same two-person composition satisfied the new legal minimum and was valid.\n\n## Conclusion\n\nThe December 2022 application failed because it was filed under the old law requiring three promoters. The March 2023 application succeeded because, by that date, the amended law (requiring only two promoters) had already taken effect.",
+ "timestamp": "2026-08-26"
+}

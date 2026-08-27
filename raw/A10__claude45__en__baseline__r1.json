@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A10",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a debtor repaying a money debt in instalments defaults on one instalment. Under the Civil and Commercial Code as currently in force, on what base may the creditor claim default interest? Answer briefly and explicitly.",
+ "raw_response": "Under the Civil and Commercial Code of Thailand, when a debtor defaults on an instalment payment of a money debt, the creditor may claim default interest on **the amount of the instalment in default only** (not on the entire outstanding debt).\n\n**Applicable provision:** Section 654 of the Civil and Commercial Code\n\n**What it requires:** Default interest accrues only on the overdue instalment amount from the date of default until payment is made. The creditor cannot accelerate the entire debt or claim default interest on future instalments that are not yet due, unless there is a specific contractual provision allowing acceleration of the entire debt upon default of one instalment.\n\nThe default interest rate, if not agreed upon, is 7.5% per annum from the date the debtor is in default.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C04",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a mother punishes her child by repeated severe verbal abuse and threats, causing the child to become fearful, without any physical harm. Under Section 1567(2) as currently in force, does this fall within scope? Answer only \"within scope\" or \"outside scope\", with a one-sentence reason.",
+ "raw_response": "Within scope. Section 1567(2) requires parents to care for and properly educate their children, and severe verbal abuse and threats causing fear can be considered a failure to fulfill this duty.",
+ "timestamp": "2026-08-26"
+}

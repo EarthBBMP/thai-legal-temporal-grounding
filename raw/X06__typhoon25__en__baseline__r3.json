@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X06",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employee who has worked continuously for twenty years or more is entitled to severance of at least how many days of their final wage rate? Answer briefly, stating the number.",
+ "raw_response": "150 days",
+ "timestamp": "2026-08-26"
+}

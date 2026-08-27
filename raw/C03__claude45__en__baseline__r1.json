@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "Under Section 1567(2) of the Thai Civil and Commercial Code, a child may be punished for the purposes of:\n\n1. **Education**\n2. **Discipline**\n\nThese are the only two purposes explicitly stated in the provision for which punishment of a child is permitted.",
+ "timestamp": "2026-08-26"
+}

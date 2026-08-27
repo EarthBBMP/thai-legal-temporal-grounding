@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B01",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what is the minimum number of promoters required to form a private limited company in Thailand? Answer briefly, stating the number.",
+ "raw_response": "**Minimum number of promoters: 2**\n\n**Applicable provision:** Section 1097 of the Thai Civil and Commercial Code (CCC), as amended by the Civil and Commercial Code Amendment Act (No. 23) B.E. 2565 (2022).\n\n**Details:** Prior to this amendment, Section 1097 required a minimum of three promoters to register a private limited company. The amendment, which came into force on 7 February 2023, reduced this requirement to a minimum of two promoters. As of August 2026, this remains the current legal requirement — meaning at least two natural persons must act as promoters and subscribe to shares in order to lawfully establish and register a private limited company under Thai law.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "Yes. As of August 2026, under the current law, a female employee may take further continuous leave to care for her child.\n\nThe applicable provision is **Section 41, paragraph two of the Labour Protection Act B.E. 2541 (1998), as amended.**\n\nIt requires the following:\n\n*   **Duration:** The employee may take leave for a period of **not more than 90 days**.\n*   **Circumstances:** The leave must be taken **continuously** after her 98-day paid maternity leave has ended. This additional 90-day leave is **unpaid**.\n*   **Document:** The employee must produce a **medical certificate**.",
+ "timestamp": "2026-08-26"
+}

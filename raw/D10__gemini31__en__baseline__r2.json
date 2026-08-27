@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D10",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where a Thai government agency or state enterprise engages an individual under a service-hire arrangement, what holiday and leave rights must it provide, and which court has jurisdiction over disputes? Answer briefly, covering both points.",
+ "raw_response": "Based on Thai law as of August 2026, here is the legal standing for an individual engaged under a service-hire arrangement (commonly known as *Jang Mao Borikan*) by a government agency or state enterprise:\n\n**1. Holiday and Leave Rights**\n*   **Applicable Provision:** **Section 587 of the Civil and Commercial Code (CCC)**, which governs \"Hire of Work\" contracts. \n*   **What it requires:** Under a service-hire arrangement, the individual is legally classified as an independent contractor, not an employee. Because it is not an employment relationship (\"Hire of Service\"), the Thai Labor Protection Act does not apply. Therefore, the agency is **not legally required to provide any statutory paid holidays, sick leave, or annual leave**. Any time off or leave rights are dictated strictly by what is explicitly written in the individual contract. \n\n**2. Court Jurisdiction**\n*   **Applicable Court:** The **Civil Court** (under the Courts of Justice). \n*   **Reasoning:** Because a service-hire arrangement does not create an employer-employee relationship, disputes cannot be brought to the Labor Court. Furthermore, Thai Supreme Administrative Court precedents have established that routine service-hire contracts by state agencies (e.g., hiring drivers, cleaners, or administrative support) are standard civil contracts, not administrative contracts, meaning disputes fall outside the jurisdiction of the Administrative Court and must be filed in the Civil Court.",
+ "timestamp": "2026-08-27"
+}

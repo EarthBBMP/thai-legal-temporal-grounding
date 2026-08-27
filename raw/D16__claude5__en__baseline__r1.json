@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D16",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Kanokwan gave birth on 1 October 2025 and Kwanruethai gave birth on 1 May 2026. Both are private-sector employees who took the full maternity leave available under the law in force at the time of their birth. How many days of leave was each entitled to, and for how many days must the employer pay each of them? Answer briefly, stating the numbers for both.",
+ "raw_response": "## Applicable Law\n\n**Labour Protection Act B.E. 2541 (1998), as amended**\n\n- **Section 41** – sets the total maternity leave entitlement.\n- **Section 59** – sets the number of days the employer must pay wages during that leave, capped at **45 days** (unchanged by either amendment discussed below).\n\n**Key amendment:** The Labour Protection Act (No. 8) B.E. 2568 (2025) raised the maternity‑leave entitlement under Section 41 from 98 days to **120 days** (inclusive of prenatal check‑up leave). This amendment took effect on **1 May 2026**. Before that date, the entitlement under the earlier 2019 amendment (Labour Protection Act (No. 7) B.E. 2562) was **98 days**.\n\nSection 59's employer‑paid‑wage cap of **45 days** was not changed by either amendment.\n\n## Application to the Facts\n\n**Kanokwan** (gave birth 1 October 2025 – before the 2026 amendment took effect):\n- Entitled to **98 days** of maternity leave (Section 41, as amended in 2019).\n- Employer must pay wages for **45 days** of that leave (Section 59).\n\n**Kwanruethai** (gave birth 1 May 2026 – on/after the effective date of the 2025 amendment):\n- Entitled to **120 days** of maternity leave (Section 41, as amended by Act No. 8 B.E. 2568).\n- Employer must still pay wages for only **45 days** of that leave (Section 59, unchanged).\n\n## Summary\n\n| Employee | Birth Date | Total Leave Entitled | Employer‑Paid Days |\n|---|---|---|---|\n| Kanokwan | 1 Oct 2025 | 98 days | 45 days |\n| Kwanruethai | 1 May 2026 | 120 days | 45 days |",
+ "timestamp": "2026-08-27"
+}

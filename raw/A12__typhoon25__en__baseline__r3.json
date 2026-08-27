@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "Yes, under Section 538 of the Thai Civil and Commercial Code, a clause allowing default interest on the entire outstanding balance upon a single missed installment may be considered void if it is deemed excessively punitive or contrary to public policy, particularly if it results in disproportionate penalties. However, the clause remains enforceable if it is reasonable and proportionate to the actual loss suffered by the creditor.",
+ "timestamp": "2026-08-26"
+}

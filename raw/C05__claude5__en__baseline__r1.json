@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "Section 1567(2) of the Thai Civil and Commercial Code, as it stood in June 2024 (before the 2024 amendment removing corporal punishment language), empowered a parent to:\n\n**\"punish the child in a reasonable manner for disciplinary purposes\"** (ทำโทษบุตรตามสมควรเพื่อว่ากล่าวสั่งสอน)\n\nThis was the operative wording limiting parental disciplinary power to what was \"reasonable\" (ตามสมควร) and tied to the purpose of admonition/correction (เพื่อว่ากล่าวสั่งสอน), before Thailand's later reform explicitly banning violent or degrading punishment of children.",
+ "timestamp": "2026-08-27"
+}

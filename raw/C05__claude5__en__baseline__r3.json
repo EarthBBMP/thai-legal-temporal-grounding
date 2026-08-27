@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "**Applicable provision:** Section 1567(2) of the Thai Civil and Commercial Code (as in force before the 2024 amendment that added Section 1567/1 restricting corporal punishment).\n\n**Thai text (as then in force):**\n\n> \"(2) ทำโทษบุตรตามสมควรเพื่อว่ากล่าวสั่งสอน\"\n\n**Standard English translation:**\n\n> \"(2) to punish the child in a reasonable manner for the purpose of disciplinary correction (reprimand and instruction).\"\n\n**Context/requirement:** Under this clause, a person exercising parental power (ผู้ใช้อำนาจปกครอง) was authorized to discipline the child, but the punishment had to be \"ตามสมควร\" — i.e., reasonable/appropriate in nature and degree — and undertaken specifically \"เพื่อว่ากล่าวสั่งสอน,\" meaning for the purpose of admonition, correction, or instruction, not punishment for its own sake or excessive/abusive treatment. The provision did not itself define specific methods or a numerical/severity threshold; \"reasonableness\" was the operative limiting standard, to be assessed contextually (e.g., proportionality to the child's age, the nature of the misconduct, and the absence of cruelty or harm).\n\nThis provision was later supplemented (in the 2024 reform) by an added Section 1567/1, which explicitly prohibited the parent from punishing the child by torturing or treating them cruelly, or in a manner constituting an assault under the Criminal Code, aiming to clarify and narrow the \"reasonable manner\" standard so as to exclude violent or abusive punishment.",
+ "timestamp": "2026-08-27"
+}

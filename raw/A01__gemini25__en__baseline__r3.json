@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A01",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 7 of the Thai Civil and Commercial Code, where interest is payable but no rate has been fixed by juristic act or by an express provision of law, what annual percentage rate applies? Answer briefly, stating the number explicitly.",
+ "raw_response": "Under Section 7 of the Thai Civil and Commercial Code, as amended in 2021, the applicable annual percentage rate is **3%**.\n\nThis provision requires a rate of 3% per annum where interest is payable but no rate has been fixed. However, the law also allows the Ministry of Finance to review and adjust this rate every three years.",
+ "timestamp": "2026-08-26"
+}

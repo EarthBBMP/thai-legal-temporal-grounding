@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B12",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a notice convening a general meeting of shareholders to pass a special resolution must be sent at least how many days before the meeting? Answer briefly, stating the number.",
+ "raw_response": "Under Thai law, specifically the Public Limited Companies Act B.E. 2535 (1992), a notice convening a general meeting of shareholders to pass a special resolution must be sent at least **14 days** before the meeting.\n\nThis requirement is set forth in Section 100 of the Act, which mandates that the notice must be sent to shareholders and published in a newspaper at least 14 days prior to the meeting date.",
+ "timestamp": "2026-08-26"
+}

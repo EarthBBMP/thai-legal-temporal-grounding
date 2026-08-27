@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D13",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employer's work rules state: \"Female employees are entitled to maternity leave of no more than 98 days.\" Is this lawful? Answer only \"lawful\" or \"unlawful\", with a one-sentence reason.",
+ "raw_response": "Unlawful, because Thai labor law (Labour Protection Act, as amended in 2019, Section 41) entitles pregnant employees to maternity leave of up to 98 days, but a work rule stating \"no more than 98 days\" improperly caps the entitlement as a maximum limit rather than affirming it as the guaranteed minimum benefit, which could be interpreted to restrict rights beyond what the law provides (e.g., by disallowing additional leave that may be granted through other lawful means such as sick leave or agreement).",
+ "timestamp": "2026-08-27"
+}

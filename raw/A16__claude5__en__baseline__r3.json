@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "**Not permitted.**\n\nUnder the Civil and Commercial Code as amended by the Act Amending the Civil and Commercial Code (No. 21), B.E. 2564 (2021), which inserted **Section 224/1**, a creditor is expressly prohibited from charging compound interest (ดอกเบี้ยทบต้น) — i.e., interest on the interest that has accrued — during the period the debtor is in default on a money debt.\n\nSection 224 (as amended) governs the default interest rate itself (the statutory rate, currently set at the average commercial bank MLR plus 3%, unless a lawful contractual rate applies), while the newly added Section 224/1 specifically bars capitalizing or compounding that default interest. Therefore, as of March 2026, the creditor cannot lawfully demand interest on the accrued default interest; only interest on the principal debt at the applicable default rate may be charged.",
+ "timestamp": "2026-08-26"
+}

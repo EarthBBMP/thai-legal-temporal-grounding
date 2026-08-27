@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "No.\n\nUnder the law in force in October 2021, a private limited company could not be registered by only two people.\n\nThe applicable provision was **Section 1097 of the Thai Civil and Commercial Code**, which at that time required that **\"three or more persons\"** act as promoters to form a limited company. The law was later amended in 2022 (effective February 2023) to reduce this number to two, but that change was not yet in effect.",
+ "timestamp": "2026-08-26"
+}

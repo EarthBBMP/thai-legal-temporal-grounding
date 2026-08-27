@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "Section 1567(2) of the Thai Civil and Commercial Code applies. It permits punishment of a child only as reasonable/appropriate for:\n\n- admonition or reprimand; and\n- instruction or teaching.",
+ "timestamp": "2026-08-26"
+}

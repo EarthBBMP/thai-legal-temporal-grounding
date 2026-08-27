@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A13",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may the rate under Section 7 of the Thai Civil and Commercial Code be adjusted? If so, by what legal instrument, which agency is responsible for reviewing it, and how often? Answer briefly, covering all three points.",
+ "raw_response": "As of August 2026, the rate under Section 7 of the Thai Civil and Commercial Code may be adjusted. This adjustment can be made by a **Royal Decree**. The agency responsible for reviewing the rate is the **Ministry of Finance**, and the review must occur **at least once every three years**.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B11",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a general meeting of shareholders of a Thai private limited company to pass a resolution, how many shareholders or proxies must attend, and what minimum proportion of the company's capital must they hold? Answer briefly, covering both points.",
+ "raw_response": "As of August 2026, for a general meeting of shareholders of a Thai private limited company to be valid, at least one-quarter (25%) of the total number of shareholders, or their proxies, must attend. Additionally, these attending shareholders must hold no less than one-third (33.3%) of the company’s total registered capital. This requirement is set forth under Section 117 of the Thai Civil and Commercial Code.",
+ "timestamp": "2026-08-26"
+}

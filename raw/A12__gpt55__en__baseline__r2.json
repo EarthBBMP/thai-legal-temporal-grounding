@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "No. The relevant rule is now Civil and Commercial Code section 224/1, which provides that for an instalment debt, default interest may be charged only on the principal amount of the overdue instalment, and any contrary agreement is void.\n\nBut section 224/1 was not in force in June 2019, so at that time the clause was not void under that CCC provision.",
+ "timestamp": "2026-08-26"
+}

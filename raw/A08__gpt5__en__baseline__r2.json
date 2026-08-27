@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A08",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Benjawan is a creditor for a 300,000 baht loan. The debtor has been in default since 1 January 2021 and had still not paid as of 31 December 2021. No interest rate was agreed. How should default interest be calculated for that period? Answer briefly, stating the rates and the date ranges explicitly.",
+ "raw_response": "Applicable provision: Civil and Commercial Code, Section 224 (as amended by the Act Amending the CCC (No. 20) B.E. 2564 (2021), effective 11 April 2021). It requires a debtor in default of a monetary obligation to pay default interest at the statutory rate (where no rate is agreed): 7.5% per annum before the amendment, and 5% per annum from the amendment’s effective date.\n\nCalculation for 1 Jan 2021–31 Dec 2021:\n- 1 January 2021–10 April 2021: 7.5% per annum on 300,000 baht\n- 11 April 2021–31 December 2021: 5% per annum on 300,000 baht\n\n(Prorate by days: 300,000 × 7.5% × 100/365 + 300,000 × 5% × 265/365.)",
+ "timestamp": "2026-08-26"
+}

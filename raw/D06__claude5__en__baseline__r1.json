@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D06",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2025, did the Thai Labour Protection Act as then in force give employees the right to leave to assist a spouse who had given birth? Answer briefly.",
+ "raw_response": "**Short answer: No.**\n\nAs of June 2025, the Labour Protection Act B.E. 2541 (1998), as amended (including by the 2023 amendment, Labour Protection Act (No. 8) B.E. 2566), did **not** grant private-sector employees a statutory right to paid or unpaid leave to assist a spouse who had given birth.\n\n**Relevant provisions:**\n- **Section 41** of the Labour Protection Act grants **female employees** the right to maternity leave of up to **98 days** per pregnancy (including antenatal check-up days), with the employer required to pay wages for the first 45 days under **Section 59**.\n- There is **no corresponding provision** in the Labour Protection Act granting male employees (or the non-birthing spouse generally) leave to care for or assist a spouse during or after childbirth.\n\n**Note on the public sector:** Male **civil servants** (not covered by the Labour Protection Act, but by separate civil service regulations, e.g., the Regulation of the Office of the Prime Minister on Government Officials' Leave B.E. 2555) are entitled to up to **15 working days of paid leave** to assist a wife who has given birth. This benefit does not extend to private-sector employees under the Labour Protection Act.\n\n**Conclusion:** Under the Labour Protection Act as in force in June 2025, private-sector employees had no statutory right to leave to assist a spouse's childbirth; only the birthing employee herself was entitled to maternity leave under Section 41.",
+ "timestamp": "2026-08-27"
+}

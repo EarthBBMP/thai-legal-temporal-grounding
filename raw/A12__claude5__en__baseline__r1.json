@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "# Applicable Provision and Analysis\n\n**Provision:** Under Thai law as it stood in June 2019, there was **no specific provision** in the Civil and Commercial Code (CCC) that rendered such a clause void. The relevant amendment addressing this issue — **Section 224/1** of the CCC — was only introduced later by the **Act Amending the Civil and Commercial Code (No. 21), B.E. 2562 (2019)**, which came into force on **11 February 2020** (published in the Royal Gazette on 10 August 2019, but with a delayed effective date for certain default-interest provisions).\n\n**What Section 224/1 requires (once in force):**\nSection 224/1 provides that where a debtor defaults on an instalment payment, the creditor may charge default interest **only on the overdue instalment amount**, not on the entire outstanding principal balance — even if the contract stipulates otherwise. Any clause purporting to allow default interest on the full remaining balance is **void** to that extent.\n\n**Conclusion for June 2019:**\nSince Sunee's default occurred in **June 2019**, before Section 224/1 took effect, the clause allowing default interest on the entire outstanding balance was **not yet void** under this specific provision. At that time, the general freedom-of-contract principles under the CCC applied (subject only to general controls such as Section 379 on penalty clauses, or the Unfair Contract Terms Act B.E. 2540, if applicable), rather than the specific instalment-default-interest restriction now found in Section 224/1.",
+ "timestamp": "2026-08-26"
+}

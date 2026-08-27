@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "As of August 2026, Section 1567(2) of the Thai Civil and Commercial Code states:\n\n> \"The father and mother shall have the right to punish the child in a reasonable manner according to the circumstances, provided that it does not affect the child’s health or physical or mental well-being.\"\n\nThis provision outlines that parental authority includes the right to discipline a child, but only in a reasonable way and without causing harm to the child’s health or overall well-being. The use of corporal punishment or any form of discipline that causes injury or psychological harm is not permitted under this interpretation, in line with evolving child protection standards in Thailand.",
+ "timestamp": "2026-08-26"
+}

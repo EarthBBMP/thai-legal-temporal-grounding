@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X01",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where an employer fails to pay statutory severance within the prescribed time, at what annual percentage rate must the employer pay default interest to the employee under the Thai Labour Protection Act? Answer briefly, stating the number.",
+ "raw_response": "As of August 2026, under the Thai Labour Protection Act (Section 9), if an employer fails to pay statutory severance within the prescribed time, the employer must pay default interest at an annual rate of **15%**.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B05",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, once a general meeting or the directors of a Thai private limited company resolve to pay a dividend, within what period from the resolution must payment be completed? Answer briefly.",
+ "raw_response": "Under Thai law, this is governed by **Section 1201 paragraph 3 of the Civil and Commercial Code (CCC)**, which applies to private limited companies.\n\nThis provision requires that once a dividend is declared (whether by resolution of the general meeting or, if authorized, by the directors through an interim dividend), **payment must be made within one month from the date of the resolution declaring the dividend**.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B11",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for a general meeting of shareholders of a Thai private limited company to pass a resolution, how many shareholders or proxies must attend, and what minimum proportion of the company's capital must they hold? Answer briefly, covering both points.",
+ "raw_response": "Thai Civil and Commercial Code, Section 1172/1 (as amended in 2022): To pass a resolution, at least two shareholders (or proxies) must attend, and they must collectively hold not less than one‑fourth (25%) of the company’s issued shares (shares sold), unless the articles provide otherwise.",
+ "timestamp": "2026-08-26"
+}

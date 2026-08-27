@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D16",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Kanokwan gave birth on 1 October 2025 and Kwanruethai gave birth on 1 May 2026. Both are private-sector employees who took the full maternity leave available under the law in force at the time of their birth. How many days of leave was each entitled to, and for how many days must the employer pay each of them? Answer briefly, stating the numbers for both.",
+ "raw_response": "Under Thai law in effect at the relevant times:\n\n- **Kanokwan (gave birth on 1 October 2025)**: Entitled to **98 days** of maternity leave, with **45 days paid by the employer**.  \n- **Kwanruethai (gave birth on 1 May 2026)**: Entitled to **98 days** of maternity leave, with **98 days paid by the employer**.\n\nThis change is due to the amendment in the Labour Protection Act, effective from 1 April 2026, which increased employer-paid maternity leave from 45 to 98 days.",
+ "timestamp": "2026-08-26"
+}

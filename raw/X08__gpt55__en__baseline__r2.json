@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X08",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employer intending to relocate its place of business must post notice to employees continuously for at least how many days before the move? Answer briefly, stating the number.",
+ "raw_response": "30 days — Thai Labour Protection Act, Section 120 requires continuous posted notice for at least 30 days before relocation.",
+ "timestamp": "2026-08-26"
+}

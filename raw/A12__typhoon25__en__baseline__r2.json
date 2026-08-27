@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A12",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2019, Sunee defaulted on one instalment. The contract provided that on any default the creditor could charge default interest on the entire outstanding balance. At that time, was such a clause void under a specific provision of the Civil and Commercial Code? Answer briefly.",
+ "raw_response": "Yes, such a clause may be void under Section 538 of the Thai Civil and Commercial Code. This provision prohibits clauses that impose excessive or unconscionable penalties, including default interest that is disproportionately high compared to the actual loss suffered by the creditor. If the default interest on the entire outstanding balance is deemed excessive or punitive rather than compensatory, it can be challenged and declared void by a court.",
+ "timestamp": "2026-08-26"
+}

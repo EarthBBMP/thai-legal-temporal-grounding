@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D04",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Siriporn is a private-sector employee earning 500 baht per day. She gave birth in September 2023 and took the full statutory maternity leave under the law then in force. How much was her employer required to pay during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "**Applicable Provision:** Section 59 of the Labor Protection Act B.E. 2541 (1998). \n\n**What it requires:** While female employees are entitled to up to 98 days of maternity leave (under Section 41), the law requires the **employer** to pay the employee's regular wage during this leave for a period not exceeding **45 days**. *(Note: The Social Security Fund compensates the employee for the remaining portion).*\n\n**Answer:** \nSiriporn's employer was required to pay her for **45 days**, which amounts to **22,500 baht** (45 days × 500 baht).",
+ "timestamp": "2026-08-27"
+}

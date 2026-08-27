@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "**No.**\n\n**Applicable law:** Section 1097 of the Thai Civil and Commercial Code (as it stood in October 2021, prior to its amendment by the Civil and Commercial Code Amendment Act (No. 23), B.E. 2565 (2022), which took effect on 7 February 2023).\n\n**Requirement:** At that time, the law required a **minimum of three promoters (persons)** to jointly register the formation of a private limited company (บริษัทจำกัด). The reduction of this minimum to two persons only came into force in February 2023.\n\n**Conclusion:** Since Piyada and her friend numbered only two people in October 2021, they did not meet the statutory minimum of three promoters and therefore could not register a private limited company at that time.",
+ "timestamp": "2026-08-26"
+}

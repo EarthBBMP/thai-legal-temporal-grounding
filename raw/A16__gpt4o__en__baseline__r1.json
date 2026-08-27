@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "No, this is not permitted. Under Section 224 paragraph 2 of the Thai Civil and Commercial Code, interest cannot be charged on accrued interest unless there is a special agreement to that effect or it is otherwise provided by law.",
+ "timestamp": "2026-08-26"
+}

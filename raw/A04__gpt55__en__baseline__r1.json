@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A04",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In February 2026, Thanakrit lent a friend 80,000 baht without any mention of interest, repayable within one year. The friend repaid in full and on time. Is Thanakrit entitled to claim interest for that one-year period? Answer only \"entitled\" or \"not entitled\", with a one-sentence reason.",
+ "raw_response": "not entitled, because under Thai Civil and Commercial Code provisions on loan/interest, interest is payable only if agreed or upon default, and the borrower repaid on time.",
+ "timestamp": "2026-08-26"
+}

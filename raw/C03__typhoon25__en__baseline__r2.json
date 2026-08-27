@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C03",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 1567(2) of the Thai Civil and Commercial Code, for what purposes may a child be punished? Answer briefly, listing every purpose stated in the provision.",
+ "raw_response": "Section 1567(2) of the Thai Civil and Commercial Code does not address the punishment of children. This section pertains to the legal capacity and responsibilities of minors in civil matters, particularly regarding contracts and legal acts performed by them. It does not prescribe or authorize any form of punishment against children.\n\nTherefore, there are no purposes listed in Section 1567(2) under which a child may be punished. Punishment of children is governed by separate laws, such as Thailand’s Child Protection Act and criminal law provisions, not by this civil code section.",
+ "timestamp": "2026-08-26"
+}

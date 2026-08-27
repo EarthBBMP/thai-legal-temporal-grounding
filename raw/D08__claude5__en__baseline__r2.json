@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "**Applicable provision:** Regulation of the Office of the Prime Minister on Government Officials' Leave B.E. 2555 (2012), Clause 21 (ระเบียบสำนักนายกรัฐมนตรีว่าด้วยการลาของข้าราชการ พ.ศ. 2555 ข้อ 21) — this is the rule governing \"leave to nurse a child\" (ลาเพื่อเลี้ยงดูบุตร), which applies after the statutory maternity leave under the Labor Protection Act/Civil Service rules has been fully used.\n\n**Answer:**\n\nYes. A female official (or employee under a personnel system that adopts this regulation) who has used up her full maternity leave entitlement may take further, continuous leave immediately following the maternity leave in order to nurse/care for her newborn child.\n\n- **Duration:** Not exceeding **150 days** (continuous with the end of the maternity leave).\n- **Circumstances:** The leave must be taken **immediately following** the maternity leave, without a break, and is granted **without pay** (it does not carry the salary entitlement that applies during the ordinary maternity leave period).\n- **Document required:** She must submit the **child's birth certificate** as evidence supporting the application for this leave.\n\nThis is distinct from, and additional to, the 98-day maternity leave under the Labor Protection Act (as amended in 2023), which itself already includes prenatal check-up days and is separately paid for up to 45 days by the employer and (where applicable) supplemented by Social Security Fund benefits.",
+ "timestamp": "2026-08-27"
+}

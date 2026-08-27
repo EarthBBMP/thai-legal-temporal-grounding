@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, an employer intending to relocate its place of business must post notice to employees continuously for at least how many days before the move? Answer briefly, stating the number.",
+ "raw_response": "**Applicable provision:** Section 120 of the Thai Labor Protection Act B.E. 2541 (1998), as amended.\n\n**Requirement:** An employer that intends to relocate its place of business to another location must post a notice informing employees of the relocation at least **30 days** before the actual moving date. This notice must be posted continuously in a conspicuous place at the employer's workplace for that entire 30-day period. If the employer fails to give this advance notice, it must instead pay the affected employee a special payment in lieu of notice (in addition to any other severance entitlements) equal to the employee's average wage for 30 days.",
+ "timestamp": "2026-08-27"
+}

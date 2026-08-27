@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A01",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, under Section 7 of the Thai Civil and Commercial Code, where interest is payable but no rate has been fixed by juristic act or by an express provision of law, what annual percentage rate applies? Answer briefly, stating the number explicitly.",
+ "raw_response": "Under Section 7 of the Thai Civil and Commercial Code, where interest is payable but no rate has been fixed by a juristic act or an express provision of law, the law requires the application of a standard statutory interest rate. \n\nAs amended in 2021, the applicable rate is **3%** per year. \n\n*(Note: The law requires the Ministry of Finance to review this 3% base rate every three years to reflect economic conditions, but 3% remains the explicit baseline written into Section 7).*",
+ "timestamp": "2026-08-26"
+}

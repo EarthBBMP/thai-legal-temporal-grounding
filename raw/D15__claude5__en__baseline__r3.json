@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D15",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, which statute most recently set the number of maternity leave days and the number of paid days, and when did it take effect? If you are not certain whether it has since been amended, say so. Answer briefly.",
+ "raw_response": "**Applicable statute:** The Labour Protection Act (No. 7), B.E. 2562 (2019) (พระราชบัญญัติคุ้มครองแรงงาน (ฉบับที่ 7) พ.ศ. 2562), which amended the original Labour Protection Act, B.E. 2541 (1998).\n\n**Key provisions:**\n- **Section 41 (as amended):** Increased maternity leave entitlement from 90 days to **98 days** (inclusive of holidays), covering both pre- and post-natal leave, and explicitly allowing leave for prenatal medical check-ups to count within this period.\n- **Section 59 (as amended):** The employer must pay the employee's wages during maternity leave for **45 days** (down from the previous employer-paid period, with the remaining days potentially covered by Social Security Fund benefits, subject to eligibility).\n\n**Effective date:** The Act was published in the Royal Gazette on 5 April 2019 and took effect 30 days later, i.e., on **5 May 2019**.\n\n**Caveat:** I do not have reliable information confirming whether these provisions have been further amended between 2019 and August 2026. You should verify with the current text of the Labour Protection Act or a recent official source to confirm no subsequent amendments (e.g., further legislative changes to maternity leave duration or wage-payment periods) have been enacted.",
+ "timestamp": "2026-08-27"
+}

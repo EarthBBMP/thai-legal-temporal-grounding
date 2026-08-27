@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "As of August 2026, under Thailand’s Labor Protection Act (as amended), a female employee who has completed her full maternity leave may request additional continuous leave to care for the child, but only under specific conditions.\n\nShe may take up to **30 days** of additional unpaid leave, provided that:\n\n- The leave is taken within **one year from the date of childbirth**;\n- It is due to the need to care for the child;\n- She submits a **certificate from a medical officer or hospital** confirming the necessity of such leave.\n\nThis additional leave is not guaranteed and must be approved by the employer. It is unpaid and subject to mutual agreement.",
+ "timestamp": "2026-08-26"
+}

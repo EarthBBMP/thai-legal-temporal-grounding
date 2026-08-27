@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A11",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2026, an instalment contract contains the clause: \"If the borrower defaults on any instalment, the entire debt shall be treated as in default and the lender may charge default interest on the whole outstanding balance.\" What is the legal effect of this clause? Answer only \"valid\" or \"void\", with a one-sentence reason.",
+ "raw_response": "valid: The clause is valid under Thai law as it complies with the Civil and Commercial Code, which allows acceleration clauses and default interest provided they are not unconscionable.",
+ "timestamp": "2026-08-26"
+}

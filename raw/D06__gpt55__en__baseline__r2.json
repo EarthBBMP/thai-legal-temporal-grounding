@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D06",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2025, did the Thai Labour Protection Act as then in force give employees the right to leave to assist a spouse who had given birth? Answer briefly.",
+ "raw_response": "No. As of June 2025, the Thai Labour Protection Act did **not** provide a specific paternity or “leave to assist a spouse who gave birth” entitlement.\n\nThe relevant provisions were:\n\n- **Section 41**: gives maternity leave only to the employee who is pregnant/giving birth.\n- **Section 34**: gives employees “necessary business leave” under work rules, at least **3 working days per year**; this could potentially be used, but it is not a specific spouse-birth leave right.",
+ "timestamp": "2026-08-26"
+}

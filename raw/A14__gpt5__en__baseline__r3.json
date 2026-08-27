@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "- Applicable provision: Section 7 of the Thai Civil and Commercial Code, which sets the statutory interest rate when no other rate is specified by law or agreement.\n- Last set: By Royal Decree Prescribing the Interest Rate under Section 7 of the Civil and Commercial Code, B.E. 2567 (2024), effective 11 April 2024.\n- Current rate: 5% per annum.\n- I am not aware of any adjustment after that date.",
+ "timestamp": "2026-08-26"
+}

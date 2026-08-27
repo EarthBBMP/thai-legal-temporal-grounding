@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C01",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a father punishes his 8-year-old child by striking the child, leaving bruises on the leg, claiming it was for discipline. Under Section 1567(2) of the Thai Civil and Commercial Code as currently in force, does this fall within the scope of parental authority? Answer only \"within scope\" or \"outside scope\", quoting one phrase from the provision.",
+ "raw_response": "outside scope; \"a parent shall not use violence against a child\"",
+ "timestamp": "2026-08-26"
+}

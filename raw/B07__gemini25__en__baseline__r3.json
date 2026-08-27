@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B07",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a board meeting of a Thai private limited company be held by electronic communication without directors being physically present, and do directors participating that way count toward the quorum? Answer briefly, covering both points.",
+ "raw_response": "Yes, as of August 2026, a board meeting of a Thai private limited company may be held entirely by electronic communication, and directors participating electronically do count toward the quorum.\n\nThis is governed by the **Royal Act on Electronic Meetings, B.E. 2563 (2020)**.\n\n1.  **Electronic Meetings:** The Act permits meetings required by law, including company board meetings, to be conducted via electronic media without any attendees being physically present in the same location.\n\n2.  **Quorum:** The Act explicitly states that attendees of an electronic meeting are considered to have attended the meeting and are counted as part of the quorum.\n\nFor the meeting to be valid, it must meet certain requirements, such as verifying attendees' identities, enabling real-time two-way communication, and keeping an audio or audio-visual recording of the entire meeting.",
+ "timestamp": "2026-08-26"
+}

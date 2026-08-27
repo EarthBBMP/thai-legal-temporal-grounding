@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "## Applicable Provision\n\n**Section 224, paragraph two of the Civil and Commercial Code** governs this situation.\n\n## Answer\n\n**No, this is not permitted.**\n\nSection 224 of the CCC deals with default interest on money debts. Paragraph one sets the default interest rate (currently the rate under Section 7 plus 2% per annum, i.e., 5% per annum as a general default rate, unless the parties have validly agreed to a higher contractual rate or a specific statute prescribes otherwise).\n\n**Paragraph two of Section 224 expressly prohibits compounding of default interest** — that is, the creditor may not charge interest on the default interest that has accrued during the period of default (\"ห้ามมิให้คิดดอกเบี้ยซ้อนดอกเบี้ยในระหว่างเวลาผิดนัด\"). This prohibition applies regardless of any contrary agreement between the parties, because it is treated as a mandatory rule of law protecting the debtor from compounding default charges.\n\n## Exception\n\nThe only recognized exception is under **Section 655**, which permits compound interest in a **loan of money (กู้ยืมเงิน)** contract, but only where:\n1. The interest that has accrued for **at least one year** is, by written agreement between the parties, added to the principal; and\n2. Both parties agree in writing to convert that accrued interest into new principal on which further interest may then run.\n\nThis is a narrow, specific exception limited to loan contracts and does not apply generally to default interest arising from mere delay in payment of a money debt.\n\n## Conclusion\n\nFor an ordinary money debt in default (not falling within the Section 655 loan exception), the creditor **cannot** charge interest on the interest that has accrued during the default period. Section 224, paragraph two, bars such compounding as a matter of law.",
+ "timestamp": "2026-08-26"
+}

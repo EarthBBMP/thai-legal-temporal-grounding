@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D03",
+ "model": "gpt55",
+ "model_version": "gpt-5.5-2026-04-23",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Kamonchanok is a private-sector employee earning 600 baht per day. She gave birth in May 2026 and took the full statutory maternity leave. How much must her employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "Under Thailand’s Labour Protection Act, Sections 41 and 59, maternity leave is up to 98 days, but the employer must pay wages for only up to 45 days of that leave.\n\nAt 600 baht/day:\n\n45 days × 600 baht = 27,000 baht\n\nSo the employer must pay 27,000 baht for 45 days of maternity leave wages.",
+ "timestamp": "2026-08-26"
+}

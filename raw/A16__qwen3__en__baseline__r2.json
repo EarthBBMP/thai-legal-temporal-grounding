@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A16",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In March 2026, a debtor is in default on a money debt. The creditor wishes to charge interest on the accrued interest during the default period. Under the Civil and Commercial Code as currently in force, is this permitted? Answer briefly.",
+ "raw_response": "No, under the Thai Civil and Commercial Code as currently in force, a creditor is not permitted to charge interest on accrued interest (i.e., compound interest) during the default period unless there is an express agreement between the parties and the court approves it. According to Section 224, interest may be charged on the principal debt during default, but interest on interest is generally not allowed unless specifically authorized by the court.",
+ "timestamp": "2026-08-26"
+}

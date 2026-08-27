@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A03",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Section 7 of the Thai Interest and Usury Act, where a loan agreement does not specify an interest rate, the legal interest rate is 7.5% per annum.\n\nKitti lent Ornanong 150,000 baht in January 2026, with no rate specified. If repaid one year later, the interest due is:\n\n150,000 × 7.5% = 11,250 baht.\n\nRate: 7.5% per annum.  \nAmount: 11,250 baht.",
+ "timestamp": "2026-08-26"
+}

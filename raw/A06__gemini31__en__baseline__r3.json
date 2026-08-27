@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A06",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable Provisions:** \nSections 7 and 224 of the Thai Civil and Commercial Code (as amended in 2021).\n\n**What it requires:** \nSection 7 states that if no interest rate is agreed upon, the statutory rate is 3% per year. Section 224 requires that in the event of a default, a surcharge of 2% per year is added to the statutory rate. Therefore, the legally mandated default interest rate is **5% per year** (3% + 2%). \n\n**Rate:** \n5% per year.\n\n**Amount Owed:** \n**105,000 Baht** (100,000 Baht principal + 5,000 Baht default interest for one year).",
+ "timestamp": "2026-08-26"
+}

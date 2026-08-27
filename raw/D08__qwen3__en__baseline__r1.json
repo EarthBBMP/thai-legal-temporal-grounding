@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D08",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may a female employee who has used her full maternity leave take further continuous leave to care for the child? If so, for how many days, in what circumstances, and what document must she produce? Answer briefly, covering all points.",
+ "raw_response": "As of August 2026, under Thailand’s Labour Protection Act, B.E. 2541 (1998), as amended, a female employee who has used her full maternity leave (currently 98 days) may take an additional unpaid leave of up to 60 days to care for the child, provided she has not received full maternity benefits from the Social Security Fund for that period.\n\nThis further continuous leave is allowed only if the child is under 6 years old and the employee has completed her statutory maternity leave. The employer must grant this leave upon request.\n\nThe employee must produce a copy of the child’s birth certificate and a written request for leave. Employers may also require a self-declaration form confirming she has not received overlapping benefits.",
+ "timestamp": "2026-08-26"
+}

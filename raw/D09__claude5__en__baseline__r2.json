@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable law:** Section 41/1 of the Labour Protection Act (as added by the Labour Protection Act (No. 8) B.E. 2566 (2023)), which grants an employee whose child has a disability the right to take additional, continuous leave immediately following the end of maternity leave, upon presenting a medical certificate, for a period not exceeding 30 days.\n\n**Payment obligation:** This special leave for caring for a disabled child is **unpaid leave** — the law does not require the employer to pay wages for these days (unlike the first 45 days of ordinary maternity leave under Section 41, which must be paid at the normal daily wage).\n\n**Conclusion:** For the days of continuous child-care leave taken because her child has a disability, Thanaporn's employer is **not obligated to pay any wages** — the leave is granted without pay (0 baht per day), since it falls outside the paid 45-day maternity leave period.",
+ "timestamp": "2026-08-27"
+}

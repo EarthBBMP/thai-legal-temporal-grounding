@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "**Applicable provision:** Section 7 of the Thai Civil and Commercial Code (CCC), which sets the default statutory interest rate to be applied when no other rate is fixed by juristic act or law.\n\n**Background:** Before 2021, Section 7 fixed this default rate at a flat 7.5% per annum. This was changed by the Civil and Commercial Code Amendment Act (No. 21), B.E. 2564 (2021), which took effect on 11 April 2021. Under the amended Section 7, the default rate is set at **3% per annum**, subject to adjustment every three years by a Ministerial Regulation (issued by the Ministry of Finance), which may adjust the rate up or down by no more than 2 percentage points based on the average interest rates paid by major commercial banks.\n\n**Current status (as of the amendment mechanism):**\n- The initial rate under the 2021 amendment was set at 3% per annum, effective from 11 April 2021.\n- Under the three-year review cycle, a new Ministerial Regulation would have been due around 2024. My understanding is that the Ministry of Finance reviewed the rate in 2024 and retained it at 3% per annum for the following three-year period (i.e., through roughly 2027), but I am **not fully certain** this is still current or whether any further adjustment has been made since then.\n\n**Recommendation:** Given the three-year review cycle, you should verify directly whether a Ministerial Regulation issued in 2024 (or later) has changed the rate, since my confidence on the exact 2024–2027 figure is limited. As of my knowledge, the rate most likely remains **3% per annum**, but this should be confirmed against the most recent Ministerial Regulation under Section 7 for accuracy as of August 2026.",
+ "timestamp": "2026-08-26"
+}

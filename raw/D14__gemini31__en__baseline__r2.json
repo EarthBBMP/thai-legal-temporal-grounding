@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D14",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, a male employee requests 15 days' leave to care for a newborn with a disability, submitting a medical certificate. Under the Labour Protection Act as currently in force, does the continuous child-care leave under Section 41 paragraph four apply to him? Answer briefly with a one-sentence reason.",
+ "raw_response": "No, it does not apply to him. \n\n**Reason:** Section 41 of the Labour Protection Act applies exclusively to pregnant female employees (granting them up to 98 days of maternity leave), and the Act as currently in force does not contain a \"paragraph four\" nor does it mandate any statutory paternity or child-care leave for male employees.",
+ "timestamp": "2026-08-27"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D07",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Phanu is a private-sector employee earning 700 baht per day. His wife gave birth on 1 April 2026 and he took the full statutory spousal leave. How much must his employer pay in wages during the leave? Answer briefly, stating the number of days and the amount.",
+ "raw_response": "**Applicable provision:** Section 34 of the Thai Labour Protection Act B.E. 2541 (as amended by the Labour Protection Act (No. 7) B.E. 2562 (2019)) — the \"leave for necessary personal business\" (ลากิจ) provision.\n\n**What it requires:** Employees are entitled to take leave for necessary personal affairs, and the law guarantees **at least 3 working days per year** of such leave **with full pay**. Thai law does not provide a separate \"paternity leave\" for private‑sector employees; the birth of a child (spouse's childbirth) is treated as a personal-business matter falling under this Section 34 entitlement.\n\n**Calculation for Phanu:**\n- Statutory entitlement: 3 days of paid personal-business leave\n- Daily wage: 700 baht\n- Total wage payable by employer: 3 × 700 = **2,100 baht**\n\nSo, the employer must pay Phanu **2,100 baht** for the **3 days** of statutory leave taken for his spouse's childbirth.",
+ "timestamp": "2026-08-27"
+}

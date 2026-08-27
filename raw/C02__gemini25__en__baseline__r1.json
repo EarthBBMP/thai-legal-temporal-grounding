@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C02",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, what wording does Section 1567(2) of the Thai Civil and Commercial Code use to define the limits of punishing a child? Quote the wording of the provision as currently in force, in full.",
+ "raw_response": "Based on the law as currently in force, the provision that defines the limits of punishing a child is **Section 1567(2) of the Thai Civil and Commercial Code**.\n\nThis provision grants a person with parental power the right:\n\n> \"(2) to punish the child in a reasonable manner for disciplinary purposes;\"\n\n**Explanation of Requirements:**\n\nThe law sets two key limits on the punishment of a child by a person exercising parental power:\n\n1.  **Reasonable Manner:** The punishment must not be excessive, cruel, or harmful. What is considered \"reasonable\" is determined on a case-by-case basis, taking into account the child's age, maturity, and the nature of their misbehavior.\n2.  **Disciplinary Purposes:** The punishment must be intended to correct the child's behavior and teach them, not to vent anger or cause injury.\n\n**Important Note on the \"August 2026\" Date:**\n\nThe answer above reflects the law as it stands today. It is not possible to state with certainty what the law will be in August 2026. There have been ongoing discussions and legislative proposals in Thailand aimed at amending this section to explicitly prohibit all forms of corporal punishment against children. Therefore, it is possible that this provision may be amended or repealed by that date.",
+ "timestamp": "2026-08-26"
+}

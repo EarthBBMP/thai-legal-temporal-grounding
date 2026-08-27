@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B03",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In October 2021, Piyada and one friend — two people in total — wished to register a private limited company. Under the law then in force, could they do so? Answer yes or no with a brief reason.",
+ "raw_response": "Yes. Under the Civil and Commercial Code of Thailand, as amended in 2008, a private limited company could be registered with a minimum of **two promoters**. Therefore, in October 2021, Piyada and her friend could legally register a private limited company.",
+ "timestamp": "2026-08-26"
+}

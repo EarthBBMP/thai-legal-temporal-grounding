@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X01",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where an employer fails to pay statutory severance within the prescribed time, at what annual percentage rate must the employer pay default interest to the employee under the Thai Labour Protection Act? Answer briefly, stating the number.",
+ "raw_response": "**13% per annum.**\n\n**Applicable Provision:** Section 9 of the Labour Protection Act B.E. 2541, as amended by the Labour Protection Act (No. 8) B.E. 2566 (2023).\n\n**Requirement:** The law requires the employer to pay default interest at the rate prescribed in Section 224 of the Civil and Commercial Code (currently 3% per annum) plus an additional rate of 10% per annum.",
+ "timestamp": "2026-08-26"
+}

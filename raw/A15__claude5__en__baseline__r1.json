@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A15",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In April 2026, a loan contract specifies a default interest rate of 12% per year, a rate the creditor may lawfully charge. The debtor defaults. What annual rate of default interest applies? Answer briefly, stating the number.",
+ "raw_response": "**Applicable provision:** Section 224 of the Thai Civil and Commercial Code (as amended by the 2021 amendment on interest rates), read together with Section 7 (default statutory interest) and Section 654 (maximum lawful interest rate for loans, capped at 15% per year).\n\n**Rule:** Section 224 provides that a debtor in default must pay default interest during the period of default. The default rate is the statutory rate under Section 7 (currently 3% per year) plus 2%, i.e. 5% per year — **unless** the creditor is entitled by law to charge a higher rate under an agreement, in which case that higher contractual rate applies instead, provided it does not exceed the lawful ceiling (15% per year for ordinary loans under Section 654).\n\n**Application to the facts:** Since the loan contract validly specifies a default interest rate of 12% per year — a rate the creditor may lawfully charge (i.e., within the 15% ceiling) — this agreed rate prevails over the default statutory rate of 5%.\n\n**Answer: 12% per year.**",
+ "timestamp": "2026-08-26"
+}

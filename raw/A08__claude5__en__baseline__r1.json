@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A08",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Benjawan is a creditor for a 300,000 baht loan. The debtor has been in default since 1 January 2021 and had still not paid as of 31 December 2021. No interest rate was agreed. How should default interest be calculated for that period? Answer briefly, stating the rates and the date ranges explicitly.",
+ "raw_response": "**Applicable law:** Sections 7 and 224 of the Civil and Commercial Code (CCC), as amended by the Act Amending the Civil and Commercial Code (No. 20) B.E. 2564, which came into force on **11 April 2021**.\n\n**Reasoning:**\n\nSince no interest rate was agreed between the parties, the case falls under the \"default interest\" rule of Section 224 CCC, which refers back to the statutory rate in Section 7 CCC. Because the amendment changed both provisions mid-way through the default period, the interest must be calculated in two segments:\n\n1. **1 January 2021 – 10 April 2021** (before the amendment took effect)\n - Under the old Section 7/224, the default statutory rate was **7.5% per annum**.\n - Interest = 300,000 × 7.5% × (100/365 days)\n\n2. **11 April 2021 – 31 December 2021** (after the amendment took effect)\n - Under the new Section 7, the base legal rate is **3% per annum** (subject to adjustment by Ministerial Notification every 3 years).\n - Under the new Section 224, default interest on a monetary debt = base rate + 2% = **5% per annum**.\n - Interest = 300,000 × 5% × (265/365 days)\n\n**Conclusion:** Benjawan is entitled to default interest at **7.5% per annum** for the period **1 January 2021 to 10 April 2021**, and at **5% per annum** for the period **11 April 2021 to 31 December 2021**, calculated on the 300,000 baht principal for each respective period.",
+ "timestamp": "2026-08-26"
+}

@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai law, the employer is not required to pay for this type of leave.\n\n*   **Applicable Provision:** The Labour Protection Act B.E. 2541 (1998), Section 41, as amended by the Labour Protection Act (No. 8) B.E. 2566 (2023).\n*   **Requirement:** This provision allows a female employee to take up to 90 days of leave per year to care for a child under two with a certified disability. However, it explicitly states that this is **leave without pay**.\n\nTherefore, the payment from the employer is:\n*   **Rate:** 0 baht per day\n*   **Amount:** 0 baht",
+ "timestamp": "2026-08-26"
+}

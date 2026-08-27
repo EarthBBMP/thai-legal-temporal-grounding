@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X03",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for how many working days per year must an employer pay wages for leave taken for necessary personal business? Answer briefly, stating the number.",
+ "raw_response": "Under Section 57/1 (in conjunction with Section 34) of the Labor Protection Act, an employer is required to pay wages to an employee for necessary personal business leave at the same rate as a normal working day. \n\nThe employer must pay for **3** working days per year.",
+ "timestamp": "2026-08-27"
+}

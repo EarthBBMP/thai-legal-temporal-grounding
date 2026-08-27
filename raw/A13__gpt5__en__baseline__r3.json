@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A13",
+ "model": "gpt5",
+ "model_version": "gpt-5-2025-08-07",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, may the rate under Section 7 of the Thai Civil and Commercial Code be adjusted? If so, by what legal instrument, which agency is responsible for reviewing it, and how often? Answer briefly, covering all three points.",
+ "raw_response": "Yes. Applicable provision: Section 7 paragraph 2 of the Civil and Commercial Code (as amended by the Act Amending the CCC (No. 20) B.E. 2564 (2021)).\n\n- Instrument to adjust the rate: Royal Decree.\n- Reviewing agency: Ministry of Finance (in consultation with the Bank of Thailand).\n- Review frequency: At least every three years.",
+ "timestamp": "2026-08-26"
+}

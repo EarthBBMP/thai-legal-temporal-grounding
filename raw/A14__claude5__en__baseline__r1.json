@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A14",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when was the rate under Section 7 of the Thai Civil and Commercial Code last set, and what is it now? If you are not certain whether it has since been adjusted, say so. Answer briefly.",
+ "raw_response": "# Thai Civil and Commercial Code – Section 7 Interest Rate\n\n**Background:** Section 7 of the Thai Civil and Commercial Code sets the default legal interest rate applicable when a debt bears interest but no rate has been specified by law or juristic act. This provision was amended by the Civil and Commercial Code Amendment Act (No. 20), B.E. 2557 (2021)... \n\nActually, let me be precise: the amendment took effect via legislation that changed the fixed 7.5% rate (which had applied since the Code's original enactment) to a **floating rate system**.\n\n**Current mechanism:** Since the amendment (effective April 11, 2021), Section 7 sets the default rate at **3% per annum**, but this is subject to adjustment by Ministerial Regulation every **3 years**, tied to average commercial bank rates plus a fixed margin, unless the Ministry of Finance issues a new regulation adjusting it.\n\n**As of August 2026:** I am **not fully certain** whether a Ministerial Regulation has been issued adjusting this rate since the 2021 amendment. The 3-year review cycle would place a potential adjustment point around **2024**, and I do not have reliable information confirming whether:\n1. The Ministry of Finance actually issued a revised rate in/around 2024, or\n2. The rate remains at the default 3% set in 2021.\n\n**Recommendation:** For a definitive answer as of August 2026, verify against:\n- The Royal Gazette (ราชกิจจานุเบกษา) for any Ministerial Regulation issued under Section 7 in 2024–2026\n- Current publications from the Bank of Thailand or Ministry of Finance regarding the statutory default interest rate\n\nI'd rather flag this uncertainty than guess at a specific current figure that may be inaccurate.",
+ "timestamp": "2026-08-26"
+}

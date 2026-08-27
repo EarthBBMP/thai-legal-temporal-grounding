@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D16",
+ "model": "gemini25",
+ "model_version": "google/gemini-2.5-pro",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Kanokwan gave birth on 1 October 2025 and Kwanruethai gave birth on 1 May 2026. Both are private-sector employees who took the full maternity leave available under the law in force at the time of their birth. How many days of leave was each entitled to, and for how many days must the employer pay each of them? Answer briefly, stating the numbers for both.",
+ "raw_response": "Based on the law in force at the time of the births, the same rule applies to both individuals.\n\nThe applicable provision is **Section 41 of the Labour Protection Act, B.E. 2541 (1998), as amended by the Labour Protection Act (No. 8) B.E. 2566 (2023)**, which came into force on 20 March 2023.\n\nThis provision requires that a pregnant female employee is entitled to 98 days of maternity leave, during which the employer must pay wages for a period of not more than 45 days.\n\nSince both births occurred after this law came into effect:\n\n*   **Kanokwan and Kwanruethai:** Each was entitled to **98 days** of leave, for which the employer must pay **45 days**.",
+ "timestamp": "2026-08-26"
+}

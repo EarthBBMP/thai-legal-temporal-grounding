@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B04",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 2,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Jirayu and one partner applied to register a private limited company with two promoters on 15 December 2022, and applied again with the same composition on 15 March 2023. Which application was permissible and which was not? Answer briefly with reasons.",
+ "raw_response": "**Applicable law:** Section 1097 of the Civil and Commercial Code (CCC), as amended by the *Act Amending the Civil and Commercial Code (No. 23) B.E. 2565 (2022)*.\n\n**Key change:** This amendment reduced the minimum number of promoters required to register a private limited company from **three persons** to **two persons**. The amendment was published in the Royal Gazette on 8 November 2022 and took effect **90 days later, on 7 February 2023**.\n\n**Application of the law to the facts:**\n\n- **15 December 2022 application:** At this date, the amendment had not yet come into force. The old law (requiring at least **three** promoters) still applied. Since Jirayu and only one partner (two promoters total) applied, this **did not meet the legal requirement** — the application was **not permissible**.\n\n- **15 March 2023 application:** By this date, the amended Section 1097 was already in effect (since 7 February 2023), allowing a private limited company to be formed with **only two promoters**. Therefore, the same composition (Jirayu and one partner) **satisfied the new minimum requirement**, making this application **permissible**.\n\n**Conclusion:** The December 2022 application was invalid because it was filed before the law reducing the minimum number of promoters took effect, whereas the March 2023 application was valid because it was filed after the amendment came into force on 7 February 2023.",
+ "timestamp": "2026-08-26"
+}

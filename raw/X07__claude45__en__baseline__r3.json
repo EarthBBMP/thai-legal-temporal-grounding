@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X07",
+ "model": "claude45",
+ "model_version": "anthropic/claude-sonnet-4.5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, where an employer terminates an employee, within how many days of termination must wages and other statutory payments be made? Answer briefly, stating the number.",
+ "raw_response": "Under Thai law, when an employer terminates an employee, **wages and other statutory payments must be made within 3 days** of termination.\n\nThis requirement is specified in Section 118 of the Labour Protection Act B.E. 2541 (1998), which states that when employment is terminated, the employer must pay wages and other amounts due to the employee within 3 days from the date of termination.",
+ "timestamp": "2026-08-26"
+}

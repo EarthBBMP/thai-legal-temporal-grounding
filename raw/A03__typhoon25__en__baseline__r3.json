@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A03",
+ "model": "typhoon25",
+ "model_version": "typhoon-v2.5-30b-a3b-instruct",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In January 2026, Kitti lent Ornanong 150,000 baht. They agreed that interest would be payable but did not state a rate in the contract. If Ornanong repays in full exactly one year later and on time, how much interest is due? Answer briefly, stating the rate and the amount.",
+ "raw_response": "Under Thai Civil and Commercial Code Section 547, if no interest rate is specified in a loan agreement, the法定 (statutory) interest rate is 7.5% per annum.\n\nInterest due = 150,000 × 7.5% = 11,250 baht.\n\nAnswer: 7.5% interest rate; 11,250 baht due.",
+ "timestamp": "2026-08-26"
+}

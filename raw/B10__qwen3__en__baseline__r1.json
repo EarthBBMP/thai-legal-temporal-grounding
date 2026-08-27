@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B10",
+ "model": "qwen3",
+ "model_version": "qwen/qwen3-235b-a22b-2507",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, when two Thai private limited companies merge, how many forms of merger are available and what are they? Answer briefly.",
+ "raw_response": "As of August 2026, under Thai law, there are two forms of merger available for private limited companies: (1) a merger by absorption (where one company absorbs another), and (2) a merger by consolidation (where two companies merge to form a new company). These are governed by the Civil and Commercial Code and the updated provisions of the Thai Companies Act.",
+ "timestamp": "2026-08-26"
+}

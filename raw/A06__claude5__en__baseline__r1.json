@@ -1,0 +1,12 @@
+{
+ "vignette_id": "A06",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Somchai borrowed 100,000 baht from Malee with no agreed interest rate, repayable on 1 March 2026. He failed to pay on the due date. If Malee claims default interest for one year, how much is owed? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable law:** Sections 224 and 7 of the Thai Civil and Commercial Code (as amended by the Act Amending the Civil and Commercial Code (No. 20), B.E. 2564 (2021), effective 11 April 2021).\n\n**Reasoning:**\n- Since the loan carried no agreed interest rate, Malee cannot claim interest for the period before default (a non-interest-bearing loan).\n- However, once Somchai fails to pay on the due date (1 March 2026), he is in default (ผิดนัด). Under Section 224 CCC, a debtor in monetary default must pay **default interest** during the period of default, even if no interest was originally agreed.\n- Section 224 (as amended) sets the default interest rate at the rate under Section 7 **plus 2% per annum**. Section 7 currently fixes the default statutory rate at **3% per annum** (adjustable by Ministerial Regulation every three years, currently still 3%).\n- Therefore, the default interest rate = 3% + 2% = **5% per annum**, since the parties did not stipulate a different default rate.\n\n**Calculation:**\n100,000 baht × 5% × 1 year = **5,000 baht**\n\n**Conclusion:** Malee is entitled to claim **5,000 baht** as default interest for one year, in addition to the principal of 100,000 baht — total **105,000 baht**.",
+ "timestamp": "2026-08-26"
+}

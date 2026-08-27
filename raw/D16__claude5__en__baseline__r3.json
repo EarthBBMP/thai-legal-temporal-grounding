@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D16",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Kanokwan gave birth on 1 October 2025 and Kwanruethai gave birth on 1 May 2026. Both are private-sector employees who took the full maternity leave available under the law in force at the time of their birth. How many days of leave was each entitled to, and for how many days must the employer pay each of them? Answer briefly, stating the numbers for both.",
+ "raw_response": "**Applicable provisions:** Labour Protection Act B.E. 2541 (1998), Section 41 (right to maternity leave) and Section 59 (employer's duty to pay wages during maternity leave).\n\n- Section 41 was amended by the Labour Protection Act (No. 7) B.E. 2562 (2019), raising the maximum maternity leave from 90 to **98 days**, effective from 5 May 2019.\n- Section 41 was further amended by the Labour Protection Act (No. 8) B.E. 2568 (2025), which raised the maximum maternity leave to **120 days**. This amendment came into force after Kanokwan's delivery but before Kwanruethai's.\n- Section 59 has not changed the employer's wage‑payment obligation: the employer must pay the employee's normal wage for maternity leave **up to 45 days**; any leave beyond that (covered under the Social Security Act) is compensated by the Social Security Office, not the employer.\n\n**Application to the facts:**\n\n- **Kanokwan** (gave birth 1 October 2025, before the 2025 amendment took effect): entitled to **98 days** of maternity leave; employer must pay wages for **45 days**.\n\n- **Kwanruethai** (gave birth 1 May 2026, after the amendment took effect): entitled to **120 days** of maternity leave; employer must still pay wages for only **45 days** (the additional leave days beyond 45 are not employer‑paid, though may be covered in part by Social Security benefits).",
+ "timestamp": "2026-08-27"
+}

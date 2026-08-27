@@ -1,0 +1,12 @@
+{
+ "vignette_id": "B08",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In May 2021, a company held a board meeting by video conference. At that time, did the Thai Civil and Commercial Code contain a specific provision authorising electronic board meetings? Answer briefly.",
+ "raw_response": "**No.** In May 2021, the Thai Civil and Commercial Code (CCC) did not contain a specific provision authorizing electronic board meetings. \n\nAt that time, the applicable law was the **Emergency Decree on Electronic Meetings B.E. 2563 (2020)**. This Decree authorized electronic board meetings and required that the electronic meeting system comply with the IT security standards set by the Ministry of Digital Economy and Society. It allowed directors to form a quorum and vote via video conference without requiring anyone to be physically present in the same location or within Thailand.\n\n*(Note: The CCC was later amended to specifically address this. **Section 1162/1 of the CCC**, which came into effect in February 2023, now explicitly authorizes electronic board meetings and requires that they be allowed unless the company's articles of association expressly prohibit them.)*",
+ "timestamp": "2026-08-26"
+}

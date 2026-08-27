@@ -1,0 +1,12 @@
+{
+ "vignette_id": "C05",
+ "model": "gpt4o",
+ "model_version": "gpt-4o-2024-11-20",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "In June 2024, what wording did Section 1567(2) of the Thai Civil and Commercial Code, as then in force, use to define the limits of punishing a child? Quote the wording.",
+ "raw_response": "I cannot provide the exact wording of Section 1567(2) of the Thai Civil and Commercial Code as it would be in force in June 2024, as my training only includes information up to October 2023. To obtain the most accurate and up-to-date legal text, you should consult the official Thai Civil and Commercial Code or seek advice from a qualified legal professional in Thailand.",
+ "timestamp": "2026-08-26"
+}

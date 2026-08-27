@@ -1,0 +1,12 @@
+{
+ "vignette_id": "D09",
+ "model": "gemini31",
+ "model_version": "google/gemini-3.1-pro-preview",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 1,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "Thanaporn is a private-sector employee earning 800 baht per day. She completed her maternity leave in May 2026 and her child has a disability, so she took the full continuous child-care leave with a medical certificate. How much must her employer pay for those leave days? Answer briefly, stating the rate and the amount.",
+ "raw_response": "**Applicable Provision:** Thai Labor Protection Act B.E. 2541 (1998).\n\n**What it requires:** Under Thai labor law, there is no statutory provision that grants private-sector employees the right to take \"child-care leave\" or parental leave after their maternity leave concludes, nor is there a mandate for employers to pay for such leave, regardless of a child's disability or the presentation of a medical certificate. (Statutory sick leave applies only to the employee's own illness, and maternity leave pay is strictly capped at 45 days during the actual maternity leave period). \n\n**Rate:** 0 baht per day.\n**Amount:** 0 baht (The employer is not legally required to pay any wages for this specific leave, unless a separate company policy or employment contract explicitly provides for it).",
+ "timestamp": "2026-08-27"
+}

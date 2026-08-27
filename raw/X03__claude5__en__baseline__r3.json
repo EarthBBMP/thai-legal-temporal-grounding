@@ -1,0 +1,12 @@
+{
+ "vignette_id": "X03",
+ "model": "claude5",
+ "model_version": "anthropic/claude-sonnet-5",
+ "language": "en",
+ "condition": "baseline",
+ "run_index": 3,
+ "system_prompt": "You are assisting with a factual question about Thai law. State which provision applies and what it requires. Answer in English.",
+ "prompt": "As of August 2026, for how many working days per year must an employer pay wages for leave taken for necessary personal business? Answer briefly, stating the number.",
+ "raw_response": "**Applicable provision:** Sections 34 and 57/1 of the Thai Labor Protection Act B.E. 2541 (1998), as amended by the Labor Protection Act (No. 7) B.E. 2562 (2019).\n\n**Requirement:** An employer must grant an employee leave for necessary personal business (\"kit lah pen tit tor jam pen\") of not less than **3 working days per year**, and under Section 57/1, the employer must pay wages to the employee for this leave for **at least 3 working days per year**.\n\nAs of August 2026, this remains the current legal requirement, as no subsequent amendment has changed this minimum entitlement.",
+ "timestamp": "2026-08-27"
+}
