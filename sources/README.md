@@ -1,31 +1,60 @@
-# แหล่งที่มาของตัวบท
+# Sources for the statutory text
 
-**ห้ามใช้ไฟล์ที่มี annotation** ไฟล์ที่โหลดมาจากบางแหล่งมีกล่องข้อความฝังอยู่ในหน้าแรก
-ซึ่งไม่ใช่ส่วนหนึ่งของราชกิจจานุเบกษา ต้องโหลดใหม่จาก ratchakitcha.soc.go.th โดยตรง
+**Do not use annotated copies.** Files downloaded from some mirrors carry a text
+box stamped into the first page that is not part of the Royal Gazette. Download
+again from ratchakitcha.soc.go.th directly.
 
-## ไฟล์ที่ต้องมี
+## Instruments
 
-| ไฟล์ | กฎหมาย | ราชกิจจานุเบกษา | โหลดเมื่อ |
-|---|---|---|---|
-| `A_interest_138-26A_2564.pdf` | พ.ร.ก.แก้ไขเพิ่มเติม ป.พ.พ. พ.ศ. 2564 | เล่ม 138 ตอนที่ 26 ก หน้า 1 (10 เม.ย. 2564) | |
-| `B_company_139-69A_2565.pdf` | พ.ร.บ.แก้ไขเพิ่มเติม ป.พ.พ. (ฉบับที่ 23) พ.ศ. 2565 | เล่ม 139 ตอนที่ 69 ก หน้า 1 (8 พ.ย. 2565) | |
-| `C_child_142-14A_2568.pdf` | พ.ร.บ.แก้ไขเพิ่มเติม ป.พ.พ. (ฉบับที่ 25) พ.ศ. 2568 | เล่ม 142 ตอนที่ 14 ก หน้า 1 (24 มี.ค. 2568) | |
-| `D_labour9_142-74A_2568.pdf` | พ.ร.บ.คุ้มครองแรงงาน (ฉบับที่ 9) พ.ศ. 2568 | เล่ม 142 ตอนที่ 74 ก หน้า 41 (7 พ.ย. 2568) | |
-| `D_labour7_136-43A_2562.pdf` | พ.ร.บ.คุ้มครองแรงงาน (ฉบับที่ 7) พ.ศ. 2562 | เล่ม 136 ตอนที่ 43 ก หน้า 21 (5 เม.ย. 2562) | |
+Six instruments fix the gold labels. Four supply the amended rule; two supply
+the rule that preceded it, which is needed to tell anchoring apart from any
+other kind of wrong answer. Citations here match the paper's Table 1 and
+bibliography exactly.
 
-**กรอกคอลัมน์ "โหลดเมื่อ" ให้ครบ** เปเปอร์ของคุณวัดความถูกต้อง ณ เวลาหนึ่ง
-การระบุว่าเฉลยยืนอยู่บนกฎหมาย ณ วันไหน เป็นส่วนหนึ่งของ methodology
+| File | Instrument | Gazette | Published | Retrieved |
+|---|---|---|---|---|
+| `A_interest_138-26A_2564.pdf` | Emergency Decree Amending the Civil and Commercial Code, B.E. 2564 | vol. 138, pt. 26a, p. 1 | 10 Apr 2021 | 2026-08-27 |
+| `B_company_139-69A_2565.pdf` | Act Amending the Civil and Commercial Code (No. 23), B.E. 2565 | vol. 139, pt. 69a, p. 1 | 8 Nov 2022 | 2026-08-27 |
+| `C_child_142-14A_2568.pdf` | Act Amending the Civil and Commercial Code (No. 25), B.E. 2568 | vol. 142, pt. 14a, p. 1 | 24 Mar 2025 | 2026-08-27 |
+| `D_labour9_142-74A_2568.pdf` | Labour Protection Act (No. 9), B.E. 2568 | vol. 142, pt. 74a, p. 41 | 7 Nov 2025 | 2026-08-27 |
+| `D_labour7_136-43A_2562.pdf` | Labour Protection Act (No. 7), B.E. 2562 | vol. 136, pt. 43a, p. 21 | 5 Apr 2019 | 2026-08-27 |
+| `D_labour_115-8A_2541.pdf` | Labour Protection Act, B.E. 2541 | vol. 115, pt. 8a, p. 1 | 20 Feb 1998 | 2026-08-27 |
+
+The last two matter for group D specifically. Maternity leave has been set three
+times — 90 days under the 2541 Act, 98 under No. 7, and 120 under No. 9 — so a
+model can be anchored one amendment back or two, and both prior instruments are
+needed to tell which.
+
+All six were retrieved on 27 August 2026, and every gold label in
+`data/law_facts.csv` was checked against them on that date. The paper measures
+correctness as of a point in time, so this date is part of the methodology, not
+housekeeping: it is the date on which the gold answers were fixed against the
+law.
 
 ## statute_texts/
 
-ตัวบท**ปัจจุบัน**รายมาตรา สำหรับเงื่อนไข mitigation ตัดจากตัวบทรวมของ
-สำนักกฎหมายและวิชาการศาลยุติธรรม (jla.coj.go.th) ฉบับแก้ไขถึงฉบับที่ 25 พ.ศ. 2568
+**This directory is empty, deliberately.** It was intended to hold the current
+text of each cited section, one file per section, for the retrieval-augmented
+condition. That condition is described in the paper as future work and was not
+run, so the section texts were never extracted. The convention below is recorded
+for whoever runs it next.
 
-ชื่อไฟล์ต้องตรงกับค่าในฟิลด์ `sections` ของ vignettes.json โดยแทนช่องว่างด้วย `_`
-และตัดจุดออก:
+Source the text from the consolidated Civil and Commercial Code published by the
+Office of Legal Affairs, Court of Justice (jla.coj.go.th), as amended through Act
+No. 25, B.E. 2568, and the consolidated Labour Protection Act as amended through
+Act No. 9, B.E. 2568.
+
+File names must match the values in the `sections` field of `vignettes.json`,
+with spaces replaced by `_`, dots dropped, and `/` replaced by `-`:
 
     "ปพพ ม.7"      -> ปพพ_ม7.txt
     "ปพพ ม.224/1"  -> ปพพ_ม224-1.txt
     "คร ม.41"      -> คร_ม41.txt
 
-ตรวจว่าครบด้วย `python src/check_statutes.py`
+Twenty-seven files are required. Check the set with:
+
+    python src/check_statutes.py
+
+If a file is missing, `collect.py` falls back to the unaugmented prompt for that
+vignette and prints a warning. Running the mitigation condition against an
+incomplete set silently measures the baseline instead, so check before running.
