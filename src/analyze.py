@@ -1,14 +1,13 @@
-"""Analysis — metrics, Wilson intervals, and the one figure for the poster.
+"""Analysis: metrics, Wilson intervals and the poster figure.
 
     python src/analyze.py
 
 Writes out/metrics.csv, out/summary.txt and out/figure_rscr.png.
 
-Headline metric: RSCR (Repealed-Statute Citation Rate) — the share of scorable
-post-frame responses labelled `repealed`. Reported per model per language,
-never as a bare percentage: every proportion carries a Wilson 95% interval,
-which behaves properly at small n and near 0 or 1 where the normal
-approximation does not.
+Headline metric is RSCR (repealed-statute citation rate): the share of scorable
+post-frame responses labelled `repealed`, per model per language. Every
+proportion carries a Wilson 95% interval, which holds up at small n and near
+0 or 1 where the normal approximation does not.
 """
 
 import csv
@@ -29,8 +28,8 @@ def wilson(k, n, z=1.96):
     d = 1 + z * z / n
     centre = (p + z * z / (2 * n)) / d
     half = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
-    # Clamp so the interval contains the point estimate — at k=0 the arithmetic
-    # lands on 6.9e-18, and matplotlib rejects the negative error bar.
+    # Clamp so the interval contains the point estimate; at k=0 it lands on
+    # 6.9e-18 and matplotlib rejects the negative error bar.
     return (p,
             min(p, max(0.0, centre - half)),
             max(p, min(1.0, centre + half)))
@@ -54,9 +53,7 @@ def load():
 def excluded_vignettes():
     """Vignettes flagged `excluded_from_analysis`, as {id: reason}.
 
-    An item answerable without knowing the Thai provision measures general
-    knowledge rather than temporal grounding. Dropped from every metric, kept
-    in labelled.csv.
+    Dropped from every metric, still kept in labelled.csv.
     """
     out = {}
     with (ROOT / "data" / "vignettes.json").open(encoding="utf-8") as fh:
@@ -86,8 +83,7 @@ def main():
         print(s)
         lines.append(s)
 
-    # Single choke point: every metric below, the hygiene block and the figure
-    # all read `rows`, so dropping excluded vignettes here covers all of them.
+    # Everything below reads `rows`, so dropping them here covers every metric.
     dropped = excluded_vignettes()
     excluded_rows = [r for r in rows if r["vignette_id"] in dropped]
     rows = [r for r in rows if r["vignette_id"] not in dropped]
@@ -225,8 +221,7 @@ def main():
     say(f"         empty (no text returned, excluded from SCORABLE): "
         f"{sum(1 for r in rows if r['label'] == 'empty')}")
     if any("denies_provision" in r for r in rows):
-        # Split by frame: denying a provision is the right answer on a
-        # pre-frame item and a factual error on a post-frame one.
+        # Denying a provision is right pre-frame, a factual error post-frame.
         post = [r for r in rows if r.get("denies_provision") == "1"
                 and r["frame"] == "post"]
         pre = [r for r in rows if r.get("denies_provision") == "1"

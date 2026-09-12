@@ -1,12 +1,10 @@
 """Reduce the collection timestamps in raw/*.json to a UTC date.
 
-collect.py stamps each response with local wall-clock time and a UTC offset,
-e.g. "2026-08-27T02:51:17+0700". Published as-is that pins the collector to a
-timezone and to the hour they were working. The date is all the reproduction
-record needs, so this converts to UTC and keeps the date.
+collect.py stamps local wall-clock time with an offset, which pins the collector
+to a timezone and an hour of day. The date is all the record needs.
 
-Only the `timestamp` field changes. Every other field, `raw_response` included,
-is checked for equality before the file is written back.
+Only `timestamp` changes; every other field is checked before the file is
+written back.
 
     python src/anonymise_timestamps.py --dry-run
     python src/anonymise_timestamps.py

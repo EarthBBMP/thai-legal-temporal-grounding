@@ -1,7 +1,7 @@
-"""Script B — parsing. Applies the rubric to saved raw responses.
+"""Script B: applies the rubric to saved raw responses.
 
-Reads raw/*.json, writes out/labelled.csv. Free to re-run, so fix the rubric and
-run it again rather than re-collecting.
+Reads raw/*.json, writes out/labelled.csv. Cheap to re-run, so fix the rubric
+and run it again rather than re-collecting.
 
 Labels, tested in this order:
 
@@ -13,20 +13,13 @@ Labels, tested in this order:
     wrong_other   some third answer
     ambiguous     nothing matched
 
-`empty` and `over_applied` are deliberately not folded into their neighbours. An
-empty completion is a collection failure, not a wrong answer, and applying a new
-rule retroactively is a different mistake from being stuck on an old one.
-
-Some provisions were amended twice — LPA s.41 ran 90 → 98 → 120 days — so a model
-can be one amendment behind or two. Both label `repealed`; `anchor_depth` (1 or 2)
-says which, which keeps RSCR comparable with earlier runs.
+Some provisions were amended twice, so `anchor_depth` (1 or 2) says how many
+amendments behind a `repealed` answer is.
 
 Per-response flags:
 
     hedged                 any expression of uncertainty
-    denies_provision       claims the provision does not exist or was repealed.
-                           Read it with `frame`: correct on a pre-frame item, a
-                           factual error on a post-frame one.
+    denies_provision       claims the provision does not exist or was repealed
     echo_repealed_wording  contains wording deleted from the statute
 """
 
@@ -53,24 +46,20 @@ HEDGE = re.compile(
     r"|not (?:entirely )?(?:certain|sure)|may have (?:since )?(?:changed|been amended)|please (?:verify|check)"
     r"|to my knowledge|as of my|might be outdated|I believe", re.I)
 
-# Wording deleted from the statute — quoting it is direct evidence of the old
-# text. Models paraphrase the qualifier as often as they quote it.
+# Wording deleted from the statute. Quoting it points at the old text.
 DELETED_WORDING = {"C": [re.compile("(?:ตาม|เท่าที่)สมควร")]}
 
-# A flag, not a label: denying the provision is the right answer on a pre-frame
-# item and a factual error on a post-frame one.
+# A flag, not a label: right answer pre-frame, factual error post-frame.
 DENIES_PROVISION = re.compile(
     r"ไม่มีบทบัญญัติ|ยังไม่มีบทบัญญัติ|ไม่ได้บัญญัติ|ไม่มีกฎหมาย(?:ใด)?(?:กำหนด|บัญญัติ)"
     r"|ถูกยกเลิก|ได้ถูกยกเลิก|ไม่ได้กล่าวถึง|มิได้บัญญัติ"
     r"|no (?:such )?provision|no provision(?:s)? (?:in|of|under)"
-    # No "specify"/"provide" — "the parties do not specify a rate" is the fact
-    # pattern of half of group A, not a denial that the section exists.
+    # No "specify"/"provide": that phrasing is a fact pattern, not a denial.
     r"|does not (?:address|authori[sz]e|prescribe|permit|contain|exist)"
     r"|no longer (?:specif|provid|exist|in force|permit)"
     r"|(?:was|has been|were) repealed|there (?:are|is) no (?:purpose|provision)", re.I)
 
-# Models bold the operative words, which is where the rubric is looking:
-# "could **not** register" does not contain the string "could not".
+# Strip bold so "could **not** register" still matches "could not".
 MARKDOWN = re.compile(r"\*+|__")
 
 
@@ -105,8 +94,7 @@ def bucket_hit(v, text, prefix, lang):
     """True if the response matches the named bucket.
 
     Number and regex rules are alternatives by default; `{prefix}_require_all`
-    makes every rule the vignette defines mandatory, which items asking for
-    several things at once need.
+    makes every rule the vignette defines mandatory.
     """
     nums = v.get(f"{prefix}_numbers")
     absent_n = v.get(f"{prefix}_absent_numbers")
@@ -123,7 +111,7 @@ def bucket_hit(v, text, prefix, lang):
 
 
 def classify_with_depth(v, text, lang):
-    """(label, anchor_depth). See the anchor_depth note in the module docstring."""
+    """(label, anchor_depth) for one response."""
     if not text or not text.strip():
         return "empty", 0
     text = strip_markdown(text)
@@ -154,8 +142,7 @@ def main():
     for v in json.load(
             open(ROOT / "data" / "vignettes.json", encoding="utf-8"))["vignettes"]:
         vignettes[v["id"]] = v
-        # A renamed vignette still answers to its old id — that id is baked
-        # into every raw record collected under it. D17 was X06.
+        # Raw files saved under an old id still have to resolve. D17 was X06.
         for old in v.get("legacy_ids", []):
             vignettes[old] = v
 

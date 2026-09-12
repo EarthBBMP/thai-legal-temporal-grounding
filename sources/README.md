@@ -21,7 +21,7 @@ bibliography exactly.
 | `D_labour_115-8A_2541.pdf` | Labour Protection Act, B.E. 2541 | vol. 115, pt. 8a, p. 1 | 20 Feb 1998 | 2026-08-27 |
 
 The last two matter for group D specifically. Maternity leave has been set three
-times — 90 days under the 2541 Act, 98 under No. 7, and 120 under No. 9 — so a
+times (90 days under the 2541 Act, 98 under No. 7, and 120 under No. 9), so a
 model can be anchored one amendment back or two, and both prior instruments are
 needed to tell which.
 

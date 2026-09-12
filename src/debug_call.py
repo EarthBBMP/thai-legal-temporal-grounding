@@ -1,10 +1,9 @@
-"""Dump the complete API response for one model, to diagnose empty answers.
+"""Dump the full API response for one model, to diagnose empty answers.
 
     python src/debug_call.py gpt5
 
-Prints the whole JSON the provider returned. When a model returns an empty
-string the reason is almost always visible in `finish_reason` or in the token
-usage breakdown, and guessing at it wastes more time than looking.
+The reason for an empty completion is usually visible in `finish_reason` or in
+the token usage.
 """
 
 import json

@@ -1,7 +1,7 @@
 """Generate synthetic responses to smoke-test parse.py and analyze.py.
 
-NOT DATA. Random noise with a plausible shape, so you can verify the pipeline
-runs before spending money on API calls. Delete raw/ afterwards.
+NOT DATA: random noise with a plausible shape, so you can check the pipeline
+runs before paying for API calls. Delete raw/ afterwards.
 
     python src/make_mock_data.py && python src/parse.py && python src/analyze.py
     rm -rf raw/*.json

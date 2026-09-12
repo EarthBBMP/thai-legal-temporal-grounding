@@ -1,11 +1,8 @@
-"""Script A — collection. Calls models and writes raw responses to disk.
+"""Script A: calls the models and writes raw responses to disk.
 
-This script never parses, classifies or scores anything. That separation is
-deliberate: when you find a bug in the grading rubric (and you will), you re-run
-the parser over saved JSON in seconds instead of paying for 2,880 calls again.
-
-Resumable by design — one file per call, existing files are skipped. Interrupt
-it freely.
+Collection only, no parsing or scoring, so a rubric bug costs a re-run of the
+parser instead of 2,880 API calls. Resumable: one file per call, existing files
+are skipped, so interrupt it freely.
 
     python src/collect.py --models gpt,claude --condition baseline --limit 20
     python src/collect.py --all
@@ -41,7 +38,7 @@ SYSTEM_PROMPTS = {
 #     "qwen":       {"api": "openai",    "model": "qwen/qwen-2.5-72b-instruct", "base": "https://openrouter.ai/api/v1",  "key_env": "OPENROUTER_API_KEY"},
 # }
 MODELS = {
-    # ── OpenAI โดยตรง ──────────────────────────────────────────────
+    # --- OpenAI โดยตรง ---
     "gpt4o":    {"api": "openai", "model": "gpt-4o-2024-11-20",
                  "base": "https://api.openai.com/v1", "key_env": "OPENAI_API_KEY",
                  "params": {"temperature": 0, "max_tokens": 1000}},
@@ -52,7 +49,7 @@ MODELS = {
           "base": "https://api.openai.com/v1", "key_env": "OPENAI_API_KEY",
           "params": {"max_completion_tokens": 8000}},
 
-    # ── ผ่าน OpenRouter · คู่เก่า-ใหม่ คร่อม ธ.ค. 2568 ────────────────
+    # --- ผ่าน OpenRouter, คู่เก่า-ใหม่ คร่อม ธ.ค. 2568 ---
     "claude45": {"api": "openai", "model": "anthropic/claude-sonnet-4.5",
                  "base": "https://openrouter.ai/api/v1", "key_env": "OPENROUTER_API_KEY",
                  "params": {"temperature": 0, "max_tokens": 1000}},
@@ -97,8 +94,7 @@ def _post(url, payload, headers, timeout=300):
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return json.loads(r.read().decode())
     except urllib.error.HTTPError as e:
-        # Without this the provider's explanation is thrown away and every
-        # problem looks like an unhelpful "400 Bad Request".
+        # Keep the body, or every failure just reads "400 Bad Request".
         raise ApiError(e.code, e.read().decode("utf-8", "replace")) from None
 
 
@@ -121,8 +117,7 @@ def call_model(spec, system, user):
     payload = {"model": spec["model"], "messages": msgs,
            **spec.get("params", {"temperature": 0, "max_tokens": 1000})}
 
-    # Newer OpenAI reasoning models reject max_tokens and/or temperature. Retry
-    # once with the offending parameter dropped rather than losing the run.
+    # Newer reasoning models reject max_tokens/temperature, so drop and retry.
     for _ in range(3):
         try:
             body = _post(f"{spec['base']}/chat/completions", payload,
@@ -218,7 +213,7 @@ def main():
                     user = build_prompt(v, lang, args.condition)
                     try:
                         text, version = call_model(spec, system, user)
-                    except Exception as e:  # noqa: BLE001 — log and continue
+                    except Exception as e:  # noqa: BLE001 - log and continue
                         failed += 1
                         print(f"  FAIL {out.stem}: {type(e).__name__}: {e}", file=sys.stderr)
                         time.sleep(2)

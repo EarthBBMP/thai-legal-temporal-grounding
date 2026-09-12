@@ -1,20 +1,7 @@
-"""Normalise Thai numerals and Thai number words into comparable values.
+"""Turn Thai numerals and Thai/English number words into plain numbers.
 
-Why this module exists
-----------------------
-Thai statutes and Thai model output express the same quantity three ways:
-
-    ๙๘        Thai digits
-    98        Arabic digits
-    เก้าสิบแปด  Thai number words
-
-The gazette text itself uses words. A model quoting the repealed rate will very
-often write "เจ็ดครึ่ง" (seven-and-a-half), never "7.5". A parser that only
-matches digits will silently score every one of those as wrong_other instead of
-repealed, which destroys the headline metric.
-
-English answers have the same problem one language over — "at least three
-promoters", not "at least 3" — so English cardinals are read here too.
+The same quantity shows up three ways (๙๘, 98, เก้าสิบแปด) and the statutes
+use words, so matching digits alone would miss most of them.
 """
 
 import re
@@ -41,13 +28,12 @@ _EN_UNITS = {
 }
 _EN_SCALES = {"hundred": 100, "thousand": 1000, "million": 1000000}
 
-# Longest first for the same reason as the Thai pattern: "sixty" must not be
-# read as "six" with a stray "ty" left over.
+# Longest first too, so "sixty" is not read as "six" plus a stray "ty".
 _EN_TOKEN = re.compile(r"\b(?:" + "|".join(sorted(
     list(_EN_UNITS) + list(_EN_SCALES) + ["half"], key=len, reverse=True)) + r")\b", re.I)
 
-# Whitespace and hyphens always join ("ninety-eight"); "and" joins only after a
-# scale word, so "one hundred and twenty" is 120 but "five and ten" is not 15.
+# Whitespace and hyphens always join; "and" joins only after a scale word, so
+# "one hundred and twenty" is 120 but "five and ten" is not 15.
 _EN_JOIN_PLAIN = re.compile(r"^[\s\-]+$")
 _EN_JOIN_AND = re.compile(r"^[\s\-]+and[\s\-]+$", re.I)
 _EN_JOIN_HALF = re.compile(r"^[\s\-]*(?:and[\s\-]+)?a[\s\-]+$", re.I)
@@ -100,11 +86,9 @@ def thai_digits_to_arabic(text: str) -> str:
 
 
 def _parse_word_number(s: str):
-    """Parse one run of Thai number words. Returns float or None.
+    """Value of one run of Thai number words. Returns float or None.
 
-    Handles the ordinary Thai construction (สิบ/ร้อย/พัน multipliers, ยี่สิบ,
-    trailing เอ็ด) plus the statutory half-unit 'ครึ่ง' as used in
-    'ร้อยละเจ็ดครึ่งต่อปี' = 7.5 per cent per year.
+    Handles สิบ/ร้อย/พัน multipliers, ยี่สิบ, trailing เอ็ด, and ครึ่ง (+0.5).
     """
     total, current, half = 0, 0, False
     i = 0
@@ -134,13 +118,7 @@ def _parse_word_number(s: str):
 
 
 def extract_numbers(text: str) -> set:
-    """Every numeric value expressed in the text, however written.
-
-    Thai-word numbers are only accepted when the run is at least two characters
-    and parses cleanly, so ordinary prose words that happen to contain a numeral
-    syllable do not become spurious matches. English words are matched on word
-    boundaries for the same reason — "one" in "money" is not a one.
-    """
+    """Every number in the text, written as digits or as words."""
     if not text:
         return set()
     found = set()
@@ -154,6 +132,7 @@ def extract_numbers(text: str) -> set:
 
     for m in _WORD_RE.finditer(text):
         run = m.group(0)
+        # Short runs are usually ordinary prose, not numbers.
         if len(run) < 3:
             continue
         v = _parse_word_number(run)
@@ -188,7 +167,7 @@ if __name__ == "__main__":
         ("๙๘ วัน", 98),
         ("120 days", 120),
         ("5,000 บาท", 5000),
-        # English cardinals — the same quantities the vignettes grade on.
+        # English cardinals: the same quantities the vignettes grade on.
         ("at least three promoters", 3),
         ("Two.", 2),
         ("the minimum number was three", 3),
@@ -205,8 +184,7 @@ if __name__ == "__main__":
         ("twelve per cent per year", 12),
         ("a fine not exceeding twenty thousand baht", 20000),
     ]
-    # Prose that must NOT produce these values. A bare "half" is not 0.5, and
-    # "and" outside a hundreds construction does not fuse two separate numbers.
+    # Prose that must NOT produce these values.
     not_cases = [
         ("half the outstanding debt", 0.5),
         ("paragraphs five and ten", 15),

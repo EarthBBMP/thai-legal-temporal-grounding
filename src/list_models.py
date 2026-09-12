@@ -1,10 +1,9 @@
 """Check which models your keys can actually reach, before spending anything.
 
     python src/list_models.py            # list what each key can see
-    python src/list_models.py --test     # also make one real call per configured model
+    python src/list_models.py --test     # also make one real call per model
 
-Run this before collect.py. A wrong model string is the most common reason for
-a 400, and the error text that comes back is usually explicit about it.
+Run this before collect.py. A wrong model string is the usual cause of a 400.
 """
 
 import argparse
